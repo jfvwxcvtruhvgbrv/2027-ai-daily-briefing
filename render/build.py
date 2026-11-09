@@ -1,4 +1,4 @@
-"""issues/*.json → site/(날짜별 보고서, index.html) + out/email-<date>.html
+"""issues/*.json → site/(날짜별 보고서, index.html, latest.html) [+ 선택: out/email-<date>.html]
 
 사용:
   python -m render.build                       # 전체 사이트 빌드
@@ -64,6 +64,11 @@ def main(argv=None):
         (site / f"{i['date']}.html").write_text(templates.report_page(i, url), encoding="utf-8")
     (site / "index.html").write_text(templates.index_page(issues, url), encoding="utf-8")
     (site / ".nojekyll").write_text("", encoding="utf-8")
+    # 항상 최신 호로 가는 고정 주소 (북마크용)
+    target = f"{issues[0]['date']}.html" if issues else "index.html"
+    (site / "latest.html").write_text(
+        f'<!DOCTYPE html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url={target}">'
+        f'<title>AI 데일리 최신 호</title><a href="{target}">최신 호로 이동</a>', encoding="utf-8")
     print(f"[INFO] 보고서 {len(issues)}호 생성 → {site}/  (사이트 {url})")
 
     if a.email:

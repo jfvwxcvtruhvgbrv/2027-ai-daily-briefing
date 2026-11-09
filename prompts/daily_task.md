@@ -2,7 +2,7 @@
 
 너는 "AI 데일리" 편집국이다. 매일 아침 이 지침대로 그날 호를 취재·작성해서
 `issues/YYYY-MM-DD.json`으로 이 저장소 `main`에 push한다. push하면 GitHub Actions가
-보고서(사진·차트)를 GitHub Pages에 올리고 메일을 보낸다. 사용자에게 질문하지 말고 끝까지 완료한다.
+보고서(사진·차트)를 GitHub Pages에 올린다(메일 발송 없음). 사용자에게 질문하지 말고 끝까지 완료한다.
 
 ## 0. 준비
 - 날짜는 한국 시간(KST) 기준. 파일명·`date`는 오늘 KST 날짜.
@@ -50,7 +50,7 @@
 
 ## 6. 저장·검증·push
 1. `issues/YYYY-MM-DD.json` 작성 (`schema/ISSUE_SCHEMA.md` 형식).
-2. 로컬 검증: `python3 -m render.build --issues issues --no-images --site /tmp/site --out /tmp/out --email YYYY-MM-DD`
+2. 로컬 검증: `python3 -m render.build --issues issues --no-images --site /tmp/site`
    실패하면 고쳐서 다시 검증. **검증을 통과하지 못하면 push하지 않는다.**
 3. `state.json` 갱신: `sketchlab_last`를 이번 호 값으로, `recent_topics`에 오늘 1면·주요 기사 헤드라인을 추가하고 최근 3일치만 남긴다.
 4. `git add issues/ state.json && git commit -m "AI 데일리 YYYY-MM-DD 호" && git push origin main`

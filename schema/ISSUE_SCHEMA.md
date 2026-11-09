@@ -1,8 +1,8 @@
 # 이슈 JSON 스키마 (`issues/YYYY-MM-DD.json`)
 
 매일 아침 Claude 예약 작업이 이 형식으로 파일 1개를 만들어 push합니다.
-GitHub Actions(`render/build.py`)가 이 파일을 읽어 보고서(Pages)와 메일을 만듭니다.
-필수 항목이 빠지면 빌드가 실패하고 메일이 나가지 않습니다(조용한 실패 방지).
+GitHub Actions(`render/build.py`)가 이 파일을 읽어 보고서(Pages)를 만듭니다.
+필수 항목이 빠지면 빌드가 실패합니다(조용한 실패 방지, 이전 사이트는 유지).
 
 ## 최상위
 
@@ -11,7 +11,7 @@ GitHub Actions(`render/build.py`)가 이 파일을 읽어 보고서(Pages)와 �
 | `date` | ✅ | `YYYY-MM-DD` (KST 발행일, 파일명과 같아야 함) |
 | `weekday` | ✅ | `월`~`일` |
 | `period` | ✅ | 대상 기간 표기, 예 `11/8 ~ 11/9` |
-| `tagline` | ✅ | 메일 제목에 붙는 오늘의 핵심 한 줄 |
+| `tagline` | ✅ | 오늘의 핵심 한 줄 (지난 호 목록에 표시) |
 | `key_points` | ✅ | 핵심 3줄 (문자열 3개) |
 | `top_story` | ✅ | 1면 톱 기사 (article) |
 | `sketchlab` | ✅ | SketchLab 심층 리포트 목록 (sketchlab_item, 새 항목 없으면 빈 배열) |
