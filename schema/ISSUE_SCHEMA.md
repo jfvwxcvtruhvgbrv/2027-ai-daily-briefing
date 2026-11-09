@@ -14,7 +14,7 @@ GitHub Actions(`render/build.py`)가 이 파일을 읽어 보고서(Pages)를 �
 | `tagline` | ✅ | 오늘의 핵심 한 줄 (지난 호 목록에 표시) |
 | `key_points` | ✅ | 핵심 3줄 (문자열 3개) |
 | `top_story` | ✅ | 1면 톱 기사 (article) |
-| `sketchlab` | ✅ | SketchLab 심층 리포트 목록 (sketchlab_item, 새 항목 없으면 빈 배열) |
+| `key_sources` | ✅ | 주요소스 심층 리포트 목록 (key_source_item, 새 항목 없으면 빈 배열) |
 | `sections` | ✅ | `[{ "name": "모델·제품 출시", "articles": [article, ...] }, ...]` |
 | `korea` | ✅ | 한국 AI 기사 목록 (article) |
 | `briefs` | ✅ | 단신 `[{ "text", "grade", "sources": [source] }]` |
@@ -22,7 +22,7 @@ GitHub Actions(`render/build.py`)가 이 파일을 읽어 보고서(Pages)를 �
 | `editorial` | ✅ | 해설 `{ "title", "body" }` |
 | `calendar` | ✅ | 일정 `[{ "when", "what", "grade" }]` (`grade` 생략 가능) |
 | `coverage` | ✅ | 이번 호 취재 범위 한 줄 |
-| `sketchlab_last` | ✅ | 이번에 처리한 SketchLab 최대 번호(새 항목 없으면 이전 값) |
+| `key_sources_checked` | ✅ | 이번에 확인한 주요소스 수 (정수) |
 | `notes` | | 편집 한계·미확인 사항 메모 (문자열 배열) |
 
 ## article
@@ -40,12 +40,13 @@ GitHub Actions(`render/build.py`)가 이 파일을 읽어 보고서(Pages)를 �
 | `chart` | | `{ "title", "unit", "source", "bars": [{ "label", "value", "highlight": true/false }] }` 공개 수치만 |
 | `sources` | ✅ | `[{ "name", "url", "date" }]` 1개 이상, 원문·공식 출처 우선 |
 
-## sketchlab_item = article + 아래 키
+## key_source_item = article + 아래 키
 
 | 키 | 필수 | 설명 |
 |---|---|---|
-| `no` | ✅ | SketchLab 번호 (정수) |
-| `tags` | ✅ | SketchLab 태그 문자열 |
+| `source_id` | ✅ | `key_sources.json`의 소스 id (예 `ks1`) |
+| `ref` | | 소스 안에서의 항목 번호·식별자 (문자열) |
+| `tags` | | 소스가 붙인 태그 |
 | `what` / `numbers` / `competition` / `reaction` / `availability` | | 심층 소제목별 단락 (무엇인가 / 핵심 수치 / 경쟁 구도 / X·업계 반응 / 써볼 수 있나) |
 
 ## 원칙

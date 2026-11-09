@@ -2,8 +2,8 @@
 import re
 
 GRADES = {"primary", "multi", "single"}
-TOP_KEYS = ["date", "weekday", "period", "tagline", "key_points", "top_story", "sketchlab",
-            "sections", "korea", "briefs", "social", "editorial", "calendar", "coverage", "sketchlab_last"]
+TOP_KEYS = ["date", "weekday", "period", "tagline", "key_points", "top_story", "key_sources",
+            "sections", "korea", "briefs", "social", "editorial", "calendar", "coverage", "key_sources_checked"]
 ARTICLE_KEYS = ["category", "grade", "headline", "lead", "why", "sources"]
 
 
@@ -57,10 +57,12 @@ def validate(issue, filename=None):
     if len(issue["key_points"]) != 3:
         _err("issue", "key_points는 3개")
     check_article("top_story", issue["top_story"])
-    for i, s in enumerate(issue["sketchlab"]):
-        check_article(f"sketchlab[{i}]", s)
-        if not isinstance(s.get("no"), int):
-            _err(f"sketchlab[{i}]", "no(정수) 필요")
+    for i, s in enumerate(issue["key_sources"]):
+        check_article(f"key_sources[{i}]", s)
+        if not s.get("source_id"):
+            _err(f"key_sources[{i}]", "source_id 필요 (key_sources.json의 id)")
+    if not isinstance(issue["key_sources_checked"], int):
+        _err("issue", "key_sources_checked는 정수(확인한 주요소스 수)")
     if not issue["sections"]:
         _err("issue", "sections가 비어 있음")
     total = 0

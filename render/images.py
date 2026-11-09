@@ -84,7 +84,7 @@ def resolve_issue_images(issue):
     """이슈 안 모든 article의 image_page → image_url 채우기. 찾은 개수를 반환."""
     s = requests.Session()
     found = 0
-    arts = [issue["top_story"], *issue["sketchlab"], *issue["korea"]]
+    arts = [issue["top_story"], *issue["key_sources"], *issue["korea"]]
     for sec in issue["sections"]:
         arts.extend(sec.get("articles", []))
     cache = {}

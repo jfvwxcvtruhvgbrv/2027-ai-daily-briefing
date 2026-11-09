@@ -1,0 +1,12 @@
+{
+  "_설명": "주요소스 목록. 사용자가 수시로 알려주는 소스를 여기에 추가한다. 보고서 화면에는 '주요소스'로만 표시한다.",
+  "sources": [
+    {
+      "id": "ks1",
+      "url": "https://like-worker.sketchlabkaist.workers.dev/",
+      "kind": "numbered_list",
+      "how": "목록 페이지만 WebFetch로 읽고, 번호가 last_seen보다 큰 항목의 번호·날짜코드·헤드라인·태그만 질문한다. 항목 링크(/go/...)는 좋아요 집계 링크이므로 절대 열지 않는다.",
+      "added": "2026-11-07"
+    }
+  ]
+}

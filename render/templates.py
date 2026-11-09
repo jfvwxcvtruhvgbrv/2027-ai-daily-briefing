@@ -17,7 +17,7 @@ GRADE_STEPS = {"primary": 4, "multi": 3, "single": 1}
 
 # 오늘의 AI 보드 컬럼 (GNI '오늘의 세계' 보드와 같은 구조)
 BOARD_COLORS = {
-    "핵심": "#12151C", "sketchlab": "#A6790F", "korea": "#2C5C87", "social": "#5A6270", "calendar": "#B43B2E",
+    "핵심": "#12151C", "key": "#A6790F", "korea": "#2C5C87", "social": "#5A6270", "calendar": "#B43B2E",
 }
 DISCLAIMER = "AI 데일리 · Claude 자동 취재·분석 브리핑 · 판단 전 원문 확인 요망 · 투자 판단의 근거가 아님"
 
@@ -221,8 +221,8 @@ def fields_html(pairs, body=None):
     return f'<div class="fields">{"".join(cells)}</div>' if cells else ""
 
 
-def case_html(a, case_id, top=False, sketch=False):
-    if sketch:
+def case_html(a, case_id, top=False, deep=False):
+    if deep:
         pairs = [("무엇인가", a.get("what")), ("핵심 수치", a.get("numbers")),
                  ("경쟁 구도", a.get("competition")), ("반응", a.get("reaction")),
                  ("써볼 수 있나", a.get("availability")), ("왜 중요한가", a.get("why"))]
@@ -245,8 +245,8 @@ def board_html(issue):
                 f'<ul>{lis}</ul></div>')
     cols = [
         col("오늘의 핵심", BOARD_COLORS["핵심"], [e(p) for p in issue["key_points"]]),
-        col("SketchLab 새 항목", BOARD_COLORS["sketchlab"],
-            [f'#{s["no"]} {e(s["headline"])}' for s in issue["sketchlab"]]),
+        col("주요소스 새 항목", BOARD_COLORS["key"],
+            [e(s["headline"]) for s in issue["key_sources"]]),
         col("한국 AI", BOARD_COLORS["korea"], [e(a["headline"]) for a in issue["korea"]]),
         col("X · LinkedIn에서", BOARD_COLORS["social"],
             [f'<b>{e(s["who"])}</b> {e(s["text"])}<small>{e(s.get("date", ""))} · '
@@ -258,7 +258,7 @@ def board_html(issue):
 
 
 def all_articles(issue):
-    arts = [issue["top_story"], *issue["sketchlab"], *issue["korea"]]
+    arts = [issue["top_story"], *issue["key_sources"], *issue["korea"]]
     for s in issue["sections"]:
         arts += s.get("articles", [])
     return arts
@@ -272,7 +272,7 @@ def report_page(issue, site_url):
     arts = all_articles(issue)
     primary_n = sum(1 for a in arts if a["grade"] == "primary")
     meta = (f'<div class="m"><span class="dot" style="background:{GRADE_COLOR["primary"]}"></span>1차 출처 확인 {primary_n}건</div>'
-            f'<div class="m"><span class="dot" style="background:{BOARD_COLORS["sketchlab"]}"></span>SketchLab 새 항목 {len(issue["sketchlab"])}건</div>'
+            f'<div class="m"><span class="dot" style="background:{BOARD_COLORS["key"]}"></span>주요소스 새 항목 {len(issue["key_sources"])}건</div>'
             f'<div class="m">기사 {len(arts)}건 · 단신 {len(issue["briefs"])}건 수록</div>'
             f'<div class="m">{pretty_date(d)} · 대상 {e(issue["period"])}</div>')
     out = [f'<a class="back" href="index.html">&larr; 전체 아카이브로</a>',
@@ -281,9 +281,9 @@ def report_page(issue, site_url):
            board_html(issue),
            '<div class="section-title">1면 톱</div>',
            case_html(issue["top_story"], f"{cid}·TOP", top=True)]
-    if issue["sketchlab"]:
-        out.append('<div class="section-title">SketchLab 심층 리포트<small>KAIST SketchLab Daily AI 새 항목에서 출발해 원문 추적</small></div>')
-        out += [case_html(s, f'{cid}·SL{s["no"]}', sketch=True) for s in issue["sketchlab"]]
+    if issue["key_sources"]:
+        out.append('<div class="section-title">주요소스 심층 리포트<small>주요소스 새 항목에서 출발해 원문 추적</small></div>')
+        out += [case_html(s, f'{cid}·KS{i + 1:02d}', deep=True) for i, s in enumerate(issue["key_sources"])]
     n = 0
     for sec in issue["sections"]:
         if not sec.get("articles"):
@@ -307,7 +307,7 @@ def report_page(issue, site_url):
                f'<h3>{e(ed["title"])}</h3><p>{e(ed["body"])}</p></div>')
     notes = "".join(f"<br>· {e(x)}" for x in issue.get("notes") or [])
     out.append(f'<div class="foot">검증 등급 — ✅ 1차 출처(공식 발표·공시·문서) · ☑️ 복수 매체 교차 확인 · ⚠️ 단일 출처·협상 중 보도<br>'
-               f'취재 범위 — {e(issue["coverage"])} · SketchLab 마지막 처리 번호 #{e(issue["sketchlab_last"])}{notes}<br>'
+               f'취재 범위 — {e(issue["coverage"])} · 주요소스 {e(issue["key_sources_checked"])}곳 확인{notes}<br>'
                f'이미지는 기업 공식 페이지의 대표 이미지만 원본 주소로 싣고 출처를 표기합니다. 차트는 공개 수치로 직접 작성했습니다.<br>'
                f'{DISCLAIMER}</div>')
     return page(f"{d} — AI 데일리", "\n".join(out))
