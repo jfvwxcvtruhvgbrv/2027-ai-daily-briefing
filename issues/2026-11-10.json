@@ -1,0 +1,399 @@
+{
+  "date": "2026-11-10",
+  "weekday": "화",
+  "period": "11/9 ~ 11/10",
+  "tagline": "엔비디아 CEO 리스크, 실적 발표 일주일 앞으로",
+  "key_points": [
+    "엔비디아 이사회, '젠슨 황 표적' 의혹 독립 조사 — 기밀 유출 근거는 없다고",
+    "구글, TPU 8i Max·8tx 추가… Anthropic은 1.7GW 자체 발전 확보 보도",
+    "서울선 엔비디아 AI 데이 개막 — 삼성·SK·LG, AI 공장·로봇 청사진"
+  ],
+  "top_story": {
+    "category": "빅테크·지배구조",
+    "grade": "multi",
+    "headline": "엔비디아 이사회, '젠슨 황 표적' 의혹 독립 조사 착수",
+    "lead": "엔비디아 이사회가 젠슨 황 CEO가 외국 정보기관의 표적이 됐다는 보도를 들여다보기로 했다. 이사회는 기밀 유출 근거는 현재 없다고 밝혔고, 황 CEO는 직을 유지한다.",
+    "body": [
+      "사외이사 위원회가 외부 법률자문을 두고 조사한다. 발단은 싱가포르 데이터센터 기업 메가스피드의 한 간부가 중국 정보 자산이었다는 미 정보당국 평가를 담은 10월 보도였다. 당국은 황 CEO가 이를 알았다고 보지 않으며 그에 대한 혐의도 없다고 전해졌다. 황 CEO는 개인적 관계를 인정한 것으로 보도됐다.",
+      "중국 외교부는 스파이 공작설을 근거 없다고 일축했다. 미 하원 위원장 3명은 11월 18일 비공개 브리핑을 요구했고 답변 기한은 11일이다. 3분기 실적 발표는 17일로 잡혀 있다.",
+      "파장은 일정에도 번졌다. 황 CEO는 11일 예정된 일레븐랩스 행사 연설을 취소하고 Anthropic 포럼에도 불참하기로 했다는 보도가 나왔다. 엔비디아 주가는 최근 2주간 약 18% 내렸다는 집계도 나왔다."
+    ],
+    "why": "AI 칩 1위 기업의 CEO 리스크가 실적 발표 직전 수출통제·안보 논쟁과 겹쳤다.",
+    "sources": [
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
+        "date": "11/8"
+      },
+      {
+        "name": "Tech Times",
+        "url": "https://www.techtimes.com/articles/330274/20261109/nvidia-ai-day-seoul-opens-isaac-sim-samsung-board-probe-lands.htm",
+        "date": "11/9"
+      },
+      {
+        "name": "ABC News(AP)",
+        "url": "https://abcnews.com/Technology/wireStory/china-dismisses-spy-plot-claim-involving-nvidia-ceo-137967355",
+        "date": "11/9"
+      },
+      {
+        "name": "Axios",
+        "url": "https://www.axios.com/2026/11/07/jensen-huang-nvidia-congress-china-spy",
+        "date": "11/7"
+      },
+      {
+        "name": "토큰포스트",
+        "url": "https://www.tokenpost.kr/news/ai/435419",
+        "date": "11/10"
+      }
+    ]
+  },
+  "key_sources": [],
+  "sections": [
+    {
+      "name": "모델·제품 출시",
+      "articles": [
+        {
+          "category": "DeepSeek",
+          "grade": "single",
+          "headline": "딥시크 에이전트 앱 'Harness', 하루 이용자 154만 명",
+          "lead": "오픈소스 에이전트 플랫폼 Harness가 11월 4일 기준 일일 활성 사용자 154만 명을 기록했다고 딥시크가 밝혔다. 하루 처리량은 약 92조 토큰이라고 했다.",
+          "why": "중국 오픈소스 진영이 모델에 이어 에이전트 앱으로 이용자 기반을 넓히고 있다.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-11-08/deepseek-s-ai-agent-platform-hits-1-54-million-daily-users",
+              "date": "11/8"
+            }
+          ]
+        },
+        {
+          "category": "Nous Research",
+          "grade": "primary",
+          "headline": "Nous Research, 'Arete-27B' 공개",
+          "lead": "알리바바 Qwen3.8-27B를 바탕으로 서구적 가치관을 강화하도록 추가 학습한 모델이다.",
+          "why": "중국산 오픈 가중치 모델을 가져다 '가치 정렬'만 바꿔 쓰는 흐름이 뚜렷해졌다.",
+          "sources": [
+            {
+              "name": "Nous Research",
+              "url": "https://nousresearch.com/arete",
+              "date": "11/8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "빅테크·랩 동향",
+      "articles": [
+        {
+          "category": "Apple",
+          "grade": "single",
+          "headline": "애플, Siri를 '에이전트'로… 터너스 CEO가 개편 압박",
+          "lead": "존 터너스 CEO가 소프트웨어 책임자 크레이그 페더리기에게 Siri를 단순 개선이 아닌 에이전트형 비서로 키우라고 주문했다는 보도다. iOS 28 개편과 맞물린다.",
+          "why": "음성비서 경쟁의 기준이 '답하기'에서 '대신 해 주기'로 옮겨 갔다.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up",
+              "date": "11/8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "산업·투자·인프라",
+      "articles": [
+        {
+          "category": "Google",
+          "grade": "primary",
+          "headline": "구글, 8세대 TPU 4종으로 확대 — '8i Max'·'8tx' 추가",
+          "lead": "TPU 8i 칩 2개를 한 패키지에 묶은 8i Max는 연산·SRAM·HBM 대역폭이 8i의 2배다. 8tx는 8t와 같은 실리콘에 AMD EPYC 호스트를 붙인 기밀 추론용이다.",
+          "why": "긴 맥락의 에이전트 작업과 규제 산업용 '보안 추론'을 겨냥해 자체 칩 라인업을 세분화했다.",
+          "sources": [
+            {
+              "name": "Google 공식 블로그",
+              "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+              "date": "11/9"
+            }
+          ],
+          "image_page": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+          "image_caption": "구글 TPU 8i Max·8tx 발표 (Google 공식 블로그)",
+          "chart": {
+            "title": "TPU 8i Max, 8i 대비 성능 배수(구글 발표)",
+            "unit": "배",
+            "source": "Google 공식 블로그",
+            "bars": [
+              {
+                "label": "TPU 8i",
+                "value": 1
+              },
+              {
+                "label": "8i Max 연산",
+                "value": 2,
+                "highlight": true
+              },
+              {
+                "label": "8i Max HBM 대역폭",
+                "value": 2,
+                "highlight": true
+              }
+            ]
+          }
+        },
+        {
+          "category": "Anthropic",
+          "grade": "single",
+          "headline": "Anthropic, 1.7GW 가스발전기 확보… 34억 달러 규모 보도",
+          "lead": "Anthropic이 장비 공급사 OnePWR과 1.7GW 분량 가스발전기 계약을 맺었다는 보도다. 계약 규모는 34억 달러로 전해졌고, AI 연구소 단일 계약으로는 최대급이다.",
+          "why": "전력망 연결을 기다리지 않고 자체 발전으로 데이터센터를 돌리려는 경쟁이 커지고 있다.",
+          "sources": [
+            {
+              "name": "Financial Times",
+              "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
+              "date": "11/8"
+            }
+          ]
+        },
+        {
+          "category": "자본시장",
+          "grade": "single",
+          "headline": "AI 기업 주식 공급 3,000억 달러 넘어… '시장이 소화할까'",
+          "lead": "Anthropic 상장을 빼고도 올해 AI 기업이 매각했거나 가격을 정한 주식이 3,000억 달러를 넘었다는 분석이다. 약 1,000억 달러가 더 대기 중이라고 한다.",
+          "why": "Anthropic 공모를 앞두고 수급 부담이 AI주 약세의 한 요인으로 거론된다.",
+          "sources": [
+            {
+              "name": "The Information",
+              "url": "https://www.theinformation.com/articles/ai-stock-can-market-absorb",
+              "date": "11/8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "정책·규제·소송",
+      "articles": [
+        {
+          "category": "미국 정부",
+          "grade": "single",
+          "headline": "미 AI 안전센터 직원, 백악관에 비공식 보고 요청받아",
+          "lead": "상무부 산하 AI 표준·혁신센터(CAISI) 직원들이 백악관 사무실에 비공식적으로 보고하라는 요청을 받았다는 보도다. 기관 독립성 우려가 나온다.",
+          "why": "프런티어 모델 평가를 맡은 기관의 중립성이 흔들리면 안전 평가 결과의 신뢰도도 흔들린다.",
+          "sources": [
+            {
+              "name": "AP",
+              "url": "https://apnews.com/article/ai-safety-trump-white-house-d3318eb2cf011df53e9ddb3e03d25f13",
+              "date": "11/8"
+            }
+          ]
+        },
+        {
+          "category": "미국 선거",
+          "grade": "multi",
+          "headline": "중간선거 'AI 돈 싸움', 안전 진영이 판정승",
+          "lead": "Anthropic이 후원한 AI 안전 슈퍼팩 Public First는 6,300만 달러 이상을 썼고 지원 후보 17명 중 10명이 당선됐다. 1억 달러 규모 업계 측 슈퍼팩을 눌렀다는 분석이 나왔다.",
+          "why": "내년 의회의 AI 입법 지형에 안전 규제 찬성파의 목소리가 커질 수 있다.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-11-07/ai-safety-advocates-make-gains-after-110-million-midterm-fight",
+              "date": "11/7"
+            },
+            {
+              "name": "Politico",
+              "url": "https://www.politico.com/news/magazine/2026/11/06/ai-big-tech-2026-midterms-anthropic-openai-01152312",
+              "date": "11/6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "적용·발전 사례",
+      "articles": [
+        {
+          "category": "일자리",
+          "grade": "single",
+          "headline": "AI로 해고된 미국 근로자 5명 중 1명, '돌아와 달라' 요청받아",
+          "lead": "SHL 설문에서 AI 때문에 일자리를 잃은 미국 근로자의 19.1%가 옛 회사로부터 복귀 제안을 받았다. 복귀자 절반 이상은 임금 인상을, 42%는 고용 보장을 요구했다.",
+          "why": "AI 대체가 계획만큼 매끄럽지 않다는 신호다. 10월 미국 전문서비스업 고용은 오히려 7만 명 늘었다.",
+          "sources": [
+            {
+              "name": "Fortune",
+              "url": "https://fortune.com/2026/11/09/ai-rebounding-20-us-workers-replaced-higher-pay-job-security/",
+              "date": "11/9"
+            },
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/economy/jobs/is-ai-taking-white-collar-jobs-what-the-latest-numbers-tell-us-dd31b115",
+              "date": "11/8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "korea": [
+    {
+      "category": "엔비디아 AI 데이 서울",
+      "grade": "multi",
+      "headline": "'엔비디아 AI 데이 서울' 개막… 삼성·SK·LG가 꺼낸 AI 공장 청사진",
+      "lead": "코엑스에서 이틀 일정으로 열린 행사에 20개 파트너가 참여했다. 반도체 설계 가속, 로봇 학습, GPU 인프라 사례가 쏟아졌다.",
+      "why": "한국 제조 대기업이 엔비디아 시뮬레이션 도구를 공정·로봇에 본격 적용하는 단계에 들어섰다.",
+      "sources": [
+        {
+          "name": "Tech Times",
+          "url": "https://www.techtimes.com/articles/330274/20261109/nvidia-ai-day-seoul-opens-isaac-sim-samsung-board-probe-lands.htm",
+          "date": "11/9"
+        },
+        {
+          "name": "코리안센터",
+          "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1433316",
+          "date": "11/2"
+        }
+      ],
+      "body": [
+        "삼성전자는 PhysicsNeMo로 반도체 소자 모델링 주기를 줄이는 방법을, SK하이닉스는 메모리 공정 시뮬레이션 단축 사례를 소개했다. LG전자는 Isaac GR00T 기반 로봇 학습 파이프라인을, 두산로보틱스는 2028년 산업용 휴머노이드 목표를 내놨다.",
+        "SK텔레콤은 첫 AI 팩토리를 2027년 가동한다고 밝혔고, 쿠팡은 GB300 NVL72 기반 랙 구성을 공개했다. 10일 둘째 날엔 'AI 포 사이언스 포럼'이 열린다."
+      ]
+    },
+    {
+      "category": "엔비디아",
+      "grade": "single",
+      "headline": "젠슨 황 딸 마들렌 황, AI 데이 서울 방한 취소",
+      "lead": "엔비디아 마들렌 황 시니어 디렉터가 행사 개막 전날 가정 사정을 이유로 방한을 취소했다. 행사는 황 부녀 없이 진행됐다.",
+      "why": "본사 지배구조 논란이 한국 파트너 행사에도 그림자를 드리웠다.",
+      "sources": [
+        {
+          "name": "코리아중앙데일리",
+          "url": "https://www.koreajoongangdaily.com/business/nvidia-ceo-jensen-huangs-daughter-cancels-planned-korea-visit/12961037",
+          "date": "11/9"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "text": "하드웨어 테스트 스타트업 Nominal, 2억4,000만 달러 유치 — 기업가치 30억 달러, 8개월 새 약 3배",
+      "grade": "multi",
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-09/hardware-testing-startup-nominal-valued-at-3-billion-in-round",
+          "date": "11/9"
+        },
+        {
+          "name": "토큰포스트",
+          "url": "https://www.tokenpost.kr/news/ai/435400",
+          "date": "11/10"
+        }
+      ]
+    },
+    {
+      "text": "마이크로소프트, Copilot 라이선스 없는 사용자의 Copilot Chat에 '공정 사용' 한도 적용 시작(2,000석 이상 테넌트, 상한 비공개)",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "BERI",
+          "url": "https://www.beri.net/article/microsoft-copilot-chat-fair-use-limits-unlicensed-users-november-9-no-admin-controls-license-planning",
+          "date": "11/9"
+        }
+      ]
+    },
+    {
+      "text": "이스라엘 AI 출판 스타트업 Spines, 6,400만 달러 조달 — ARR 2년 새 350만→5,000만 달러",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Globes",
+          "url": "https://en.globes.co.il/en/article-israeli-ai-publishing-co-spines-raises-64m-1001562574",
+          "date": "11/9"
+        }
+      ]
+    },
+    {
+      "text": "EU 평가 \"러시아 연계 네트워크, 프랑스 폭동 틈타 AI 음성복제 영상 유포\" — 상위 10개 게시물 3일간 280만 회 조회",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/europe/covert-russian-network-exploited-french-riots-social-media-eu-report-says-2026-11-09/",
+          "date": "11/9"
+        }
+      ]
+    },
+    {
+      "text": "Grok 앱 이용자 약 9,340만 명, 전체 이용자 약 1억1,840만 명으로 추정",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "토큰포스트",
+          "url": "https://www.tokenpost.kr/news/ai/435389",
+          "date": "11/10"
+        }
+      ]
+    },
+    {
+      "text": "애플, Logic Pro에서 49.99달러짜리 AI 팩 판매(국내 제외)",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "토큰포스트",
+          "url": "https://www.tokenpost.kr/news/ai/435410",
+          "date": "11/10"
+        }
+      ]
+    },
+    {
+      "text": "2026년 AI 지출 1조 달러 전망… 미국 데이터센터 제안 용량 400GW",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "토큰포스트",
+          "url": "https://www.tokenpost.kr/news/ai/435394",
+          "date": "11/10"
+        }
+      ]
+    }
+  ],
+  "social": [],
+  "editorial": {
+    "title": "칩보다 사람이 변수가 될 때",
+    "body": "엔비디아의 다음 주 실적보다 CEO를 둘러싼 조사가 더 큰 관심을 끌고 있다. 이사회는 유출 근거가 없다고 했지만 의회와 시장은 답을 기다린다. 같은 날 구글은 자체 칩을 늘렸고 Anthropic은 전력을 직접 챙겼다. 한 회사에 쏠린 AI 공급망의 무게를 다시 생각하게 하는 한 주다."
+  },
+  "calendar": [
+    {
+      "when": "11/10",
+      "what": "엔비디아 AI 데이 서울 둘째 날 — AI 포 사이언스 포럼"
+    },
+    {
+      "when": "11/11",
+      "what": "미 하원 위원장들의 엔비디아 브리핑 요청 답변 기한",
+      "grade": "single"
+    },
+    {
+      "when": "11/17",
+      "what": "엔비디아 3분기 실적 발표",
+      "grade": "single"
+    },
+    {
+      "when": "11/18",
+      "what": "엔비디아 대상 하원 비공개 브리핑(요청)",
+      "grade": "single"
+    },
+    {
+      "when": "11/20",
+      "what": "Anthropic 나스닥 거래 개시 목표(IFR)",
+      "grade": "single"
+    }
+  ],
+  "coverage": "기업 공식 발표(Google, Nous Research), 글로벌 IT·경제 매체(Bloomberg, FT, AP, Reuters, The Information, Fortune, WSJ, Politico, Axios), AI 뉴스 데일리 정리, 국내 매체(토큰포스트, 코리아중앙데일리), 주요소스 1곳(접근 실패)",
+  "key_sources_checked": 0,
+  "notes": [
+    "주요소스 목록 페이지를 이번 실행에서 열지 못했습니다(접근 허가 응답 없음). last_seen(217)은 그대로 두었고, 다음 호에서 다시 확인합니다.",
+    "'엔비디아·리벨리온·SK텔레콤 NVLink Fusion 협약' 보도는 인용된 기사 본문에서 확인되지 않아 싣지 않았습니다.",
+    "Anthropic 가스발전기 계약 금액(34억 달러)은 단일 매체 보도입니다.",
+    "단일 출처(⚠️) 기사는 후속 보도로 교차 확인이 필요합니다."
+  ]
+}
