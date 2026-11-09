@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-07",
+  "weekday": "토",
+  "period": "10/26 ~ 11/7 (샘플)",
+  "tagline": "Anthropic 상장 카운트다운, '싸게 일하는 AI' 경쟁",
+  "key_points": [
+    "Anthropic, 다음 주 IPO 로드쇼 돌입 전망 — 상반기 매출 163억 달러, 1년 새 13배",
+    "\"화면 보고 직접 조작하는 AI\"가 싸졌다 — OpenAI GPT-6.1 Terra, 경쟁 모델의 9분의 1 비용",
+    "카카오, 카톡 AI 에이전트 일정 공개하며 \"2028년 AI 손익분기\" 첫 제시"
+  ],
+  "top_story": {
+    "category": "빅테크",
+    "grade": "primary",
+    "headline": "Anthropic, 추수감사절 전 상장 '카운트다운'… 역대 최대 IPO 시험대",
+    "lead": "Claude 개발사 Anthropic이 이르면 11월 9일 주부터 기관투자자 대상 로드쇼에 들어간다. 나스닥 티커는 'ANT'. 공모 규모가 SpaceX(750억 달러)를 넘어설 수 있다는 관측이 나온다.",
+    "body": [
+      "10월 26일 공개된 증권신고서에 따르면 Anthropic의 2026년 상반기 매출은 163억 달러로, 전년 같은 기간 12억 달러에서 약 13배 늘었다. Renaissance Capital은 11월 9일 주 로드쇼, 16일 주 공모가 확정 일정을 예상했다.",
+      "투자자들 사이에서는 1조 8,000억~2조 달러 기업가치가 거론된다. 5월 시리즈 H(사후 9,650억 달러)의 약 2배다. 신고서에는 93쪽에 달하는 위험 요인이 담겼다."
+    ],
+    "why": "가을 AI 상장 행렬이 줄줄이 미뤄진 가운데 나온 첫 초대형 딜이다. 흥행 여부가 OpenAI 상장 일정과 AI 반도체주 투자심리의 바로미터가 된다.",
+    "image_page": "https://www.anthropic.com/news",
+    "image_caption": "Anthropic 공식 뉴스룸 대표 이미지",
+    "chart": {
+      "title": "Anthropic 상반기 매출",
+      "unit": "10억 달러",
+      "source": "Anthropic SEC 증권신고서(TechCrunch 보도, 10/26)",
+      "bars": [
+        {"label": "2025 상반기", "value": 1.2, "highlight": false},
+        {"label": "2026 상반기", "value": 16.3, "highlight": true}
+      ]
+    },
+    "sources": [
+      {"name": "TechCrunch", "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/", "date": "10/26"},
+      {"name": "Renaissance Capital", "url": "https://www.renaissancecapital.com/IPO-Center/News/122417/ai-model-developer-anthropic-pbc-files-for-an-estimated-75-billion-ipo", "date": "10/26"}
+    ]
+  },
+  "sketchlab": [
+    {
+      "no": 216,
+      "tags": "3D, 비디오",
+      "category": "월드모델",
+      "grade": "primary",
+      "headline": "Google DeepMind Genie 4 — 소리까지 실시간으로 만드는 '월드 모델'",
+      "lead": "10월 27일 발표된 실시간 상호작용 시뮬레이션 모델. 말로 날씨·인물을 바꾸면 장면과 소리가 바로 따라온다.",
+      "what": "DeepMind가 처음으로 환경음·음악·대화를 영상과 함께 네이티브로 생성하는 월드 모델이다.",
+      "numbers": "해상도·프레임률·지속 시간 수치는 공개하지 않아 Genie 3 대비 정량 비교는 아직 불가하다.",
+      "competition": "Gemini 3.8 Flash가 루프 안에서 장면을 관찰·계획하고, Gemini 4 Argon과 묶어 로봇 훈련장으로 실험 중이다.",
+      "availability": "신뢰 테스터 대상 연구 프리뷰. Google AI Ultra(Project Genie)와 Gemini API 조기 파트너에게 '곧' 공개 예정.",
+      "why": "월드 모델이 로봇·에이전트의 가상 훈련장으로 쓰이기 시작했다.",
+      "image_page": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
+      "image_caption": "Google 공식 블로그 Genie 4 발표 페이지 대표 이미지",
+      "sources": [
+        {"name": "Google 공식 블로그", "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/", "date": "10/27"}
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "주요 기사",
+      "articles": [
+        {
+          "category": "투자",
+          "grade": "single",
+          "headline": "Thinking Machines, '400억 달러 이상' 몸값 협상",
+          "lead": "Accel 주도 50억~60억 달러 조달 협상 보도. 아직 종결 발표는 없다.",
+          "why": "프런티어 랩 밸류에이션의 하한선 시험.",
+          "chart": {
+            "title": "기업가치", "unit": "10억 달러", "source": "TNW(The Information 인용)",
+            "bars": [{"label": "2025.7 시드", "value": 12}, {"label": "2026 협상", "value": 40, "highlight": true}]
+          },
+          "sources": [{"name": "TNW", "url": "https://thenextweb.com/news/thinking-machines-lab-6bn-round-nvidia-accel", "date": "11월"}]
+        }
+      ]
+    }
+  ],
+  "korea": [
+    {
+      "category": "플랫폼",
+      "grade": "single",
+      "headline": "카카오 \"카톡 에이전트로 2028년 AI 손익분기\"",
+      "lead": "11월 5일 실적 컨퍼런스콜에서 카나나 스페이스 파일럿(12월)과 광고주용 'AI 크루' 베타 일정을 공개했다.",
+      "why": "국내 최대 메신저가 수익화 시점을 숫자로 처음 제시했다.",
+      "sources": [{"name": "뉴스핌", "url": "https://www.newspim.com/news/view/20261105000523", "date": "11/5"}]
+    }
+  ],
+  "briefs": [
+    {"text": "OpenAI, ChatGPT Images 2.6 — 애니메이션 GIF 생성", "grade": "single", "sources": [{"name": "AI Weekly", "url": "https://aiweekly.co/ai-news-today/edition/2026-11-05", "date": "11/5"}]}
+  ],
+  "social": [
+    {"who": "@sama · @gdb", "text": "GPT-6.1 Terra 공개 당일 둘 다 '컴퓨터 사용'을 전면에 내세움", "date": "10/26", "grade": "multi", "url": "https://aimagazine.com/news/how-openais-gpt-6-1-terra-is-much-faster-and-50-cheaper"}
+  ],
+  "editorial": {
+    "title": "'더 똑똑한 AI'에서 '더 싸게 일하는 AI'로",
+    "body": "이번 주 뉴스를 꿰는 실은 단가다. OpenAI는 비슷한 컴퓨터 조작 성능을 9분의 1 비용에 내놨고, 기업들은 직원 AI 사용 한도를 깎기 시작했다. 그 한가운데 Anthropic 상장이 있다."
+  },
+  "calendar": [
+    {"when": "11/9 주", "what": "Anthropic IPO 로드쇼 시작(예상)"},
+    {"when": "11/12", "what": "OpenAI, Cursor 대상 모델 공급 종료", "grade": "single"}
+  ],
+  "coverage": "기업 공식 발표, SEC 공시 보도, 글로벌·국내 IT 매체, KAIST SketchLab Daily AI(목록 페이지만 열람)",
+  "sketchlab_last": 217,
+  "notes": ["샘플 데이터입니다."]
+}
