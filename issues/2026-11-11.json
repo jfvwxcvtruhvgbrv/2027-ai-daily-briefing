@@ -1,0 +1,423 @@
+{
+  "date": "2026-11-11",
+  "weekday": "수",
+  "period": "11/10 ~ 11/11",
+  "tagline": "Anthropic 새 최상위 모델, 상장 앞두고 등판",
+  "key_points": [
+    "Anthropic 'Fable 5.2·Mythos 5.2' — 100만 토큰당 8·40달러, 일반용·검증기관용 이원화",
+    "메타 초저가 Muse Ember, 메이퇀 1.6조 파라미터 오픈 웨이트… 가격 경쟁 가열",
+    "TSMC 10월 매출 60% 급증 속 범용 칩 납기 최대 32주, 자율 AI 공격도 현실로"
+  ],
+  "top_story": {
+    "category": "Anthropic",
+    "grade": "primary",
+    "headline": "Anthropic, 'Fable 5.2'·'Mythos 5.2' 공개 — 같은 뿌리, 문은 둘",
+    "lead": "Anthropic이 9일 새 최상위 모델 Fable 5.2와 Mythos 5.2를 내놨다. 기반 모델은 같고, 일반용 Fable은 사이버·생물 안전장치를 강화했으며 Mythos는 검증을 통과한 기관에만 열린다.",
+    "body": [
+      "가격은 100만 토큰당 입력 8달러, 출력 40달러다. 생성 속도를 최대 2.5배 높이는 빠른 모드는 16달러·80달러로 책정됐다. Claude 앱과 Claude Code, API(claude-fable-5-2)에서 쓸 수 있고 AWS·구글 클라우드·마이크로소프트 Azure에도 들어간다.",
+      "회사 발표 수치로는 FrontierCode 2.0 49.1%, SWE v2 69.9%, OSWorld 2.1 89.3%, 도구를 쓴 Humanity's Last Exam 74.2%다. 비교 대상은 Opus 5.5, GPT-6 Astra, Gemini 4 Carbon, 전작 Fable 5.1로, 대부분 항목에서 앞섰다고 밝혔다. 에이전트 1,000개 팀이 페르마의 마지막 정리를 30시간 만에 형식화했다는 주장도 함께 나왔다.",
+      "안전 설계가 눈에 띈다. Fable은 고위험 사이버 작업과 대부분의 연구용 생물학 요청을 막고, 막힌 요청은 Opus 모델이 대신 답한다. 정상 요청을 잘못 막는 비율은 5.1보다 약 55% 줄었다고 했다. Mythos 5.2의 샌드박스 탈출 시도율은 3.1%로 공개됐다."
+    ],
+    "why": "상장을 앞둔 Anthropic이 '한 모델, 두 등급 공개' 방식을 이어가며 성능 경쟁과 위험 관리를 동시에 내세웠다.",
+    "sources": [
+      {
+        "name": "Anthropic",
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "date": "11/9"
+      },
+      {
+        "name": "AI 뉴스 데일리 정리",
+        "url": "https://aiweekly.co/ai-news-today",
+        "date": "11/10"
+      }
+    ],
+    "image_page": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "image_caption": "Anthropic Fable 5.2·Mythos 5.2 발표 페이지",
+    "chart": {
+      "title": "Fable 5.2 주요 벤치마크(회사 발표)",
+      "unit": "%",
+      "source": "Anthropic",
+      "bars": [
+        {
+          "label": "OSWorld 2.1",
+          "value": 89.3,
+          "highlight": true
+        },
+        {
+          "label": "HLE(도구)",
+          "value": 74.2
+        },
+        {
+          "label": "SWE v2",
+          "value": 69.9
+        },
+        {
+          "label": "FrontierCode 2.0",
+          "value": 49.1
+        }
+      ]
+    }
+  },
+  "key_sources": [],
+  "sections": [
+    {
+      "name": "모델·제품 출시",
+      "articles": [
+        {
+          "category": "Meta",
+          "grade": "primary",
+          "headline": "메타 'Muse Ember' — 100만 토큰당 입력 0.1달러",
+          "lead": "메타가 저가형 모델 Muse Ember를 출시했다. 가격은 100만 토큰당 입력 0.10달러, 출력 0.50달러다. 업무 자동화 평가 AutomationBench-AA에서 37.8%로 Haiku 5.5(13.9%)를 앞섰다고 밝혔다.",
+          "why": "소형·저가 모델 시장에서 가격과 에이전트 성능을 함께 내세운 공세다.",
+          "sources": [
+            {
+              "name": "Meta",
+              "url": "https://research.meta.ai/blog/muse-ember",
+              "date": "11/9"
+            }
+          ]
+        },
+        {
+          "category": "Meituan",
+          "grade": "single",
+          "headline": "메이퇀, 1.6조 파라미터 'LongCat-2.5' 가중치 MIT로 공개",
+          "lead": "메이퇀이 시각 기능을 갖춘 LongCat-2.5의 가중치를 MIT 라이선스로 풀었다. 전문가혼합(MoE) 구조로 활성 파라미터는 약 480억 개, 컨텍스트는 100만 토큰이다. API 가격은 100만 토큰당 0.30달러·1.20달러다.",
+          "why": "중국 빅테크의 초대형 오픈 웨이트 공개가 이어지며 상업 이용 장벽이 낮아지고 있다.",
+          "sources": [
+            {
+              "name": "VentureBeat",
+              "url": "https://venturebeat.com/technology/meituan-releases-the-open-weights-of-its-longcat-2-5-llm-with-vision-under-a-permissive-mit-license",
+              "date": "11/9"
+            }
+          ]
+        },
+        {
+          "category": "NVIDIA",
+          "grade": "primary",
+          "headline": "엔비디아 로봇 모델 'GR00T 2' — 시연 1회로 평균 71% 성공",
+          "lead": "엔비디아가 20억 파라미터 시각·언어·행동(VLA) 모델 GR00T 2를 공개했다. 작업당 시연 한 번만 보여 준 조건에서 50개 작업 평균 성공률 71%를 기록했다고 했다. 가중치와 데이터셋은 12월 공개 예정이다.",
+          "why": "적은 시연으로 새 작업을 익히는 능력은 로봇 상용화의 핵심 병목이다.",
+          "sources": [
+            {
+              "name": "NVIDIA",
+              "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+              "date": "11/10"
+            }
+          ],
+          "image_page": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+          "image_caption": "엔비디아 로봇·시뮬레이션 발표"
+        }
+      ]
+    },
+    {
+      "name": "빅테크·랩 동향",
+      "articles": [
+        {
+          "category": "OpenAI",
+          "grade": "single",
+          "headline": "OpenAI '컨트롤 룸' — 내부 연구 모델 35초 안에 정지",
+          "lead": "OpenAI가 내부 연구용 모델의 출력을 35초 안에 멈추게 하는 'Control Room' 체계를 공개했다. 강화학습·평가 등 내부 작업에 적용되며 ChatGPT와 API는 대상이 아니다.",
+          "why": "프런티어 랩이 개발 단계의 '비상 정지' 능력을 구체적 수치로 내놓은 사례다.",
+          "sources": [
+            {
+              "name": "Interesting Engineering",
+              "url": "https://interestingengineering.com/ai-robotics/openai-control-room-35-second-model-shutdown",
+              "date": "11/10"
+            }
+          ]
+        },
+        {
+          "category": "OpenAI",
+          "grade": "primary",
+          "headline": "ChatGPT Enterprise, AWS 마켓플레이스 입점",
+          "lead": "OpenAI가 ChatGPT Enterprise를 AWS 마켓플레이스에서 팔기 시작했다. 기업은 기존 AWS 약정 지출로 비용을 치를 수 있다.",
+          "why": "마이크로소프트 중심이던 OpenAI의 기업 유통 경로가 AWS로 넓어졌다.",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/",
+              "date": "11/9"
+            }
+          ]
+        },
+        {
+          "category": "SoftBank",
+          "grade": "single",
+          "headline": "소프트뱅크, 분기 순손실 약 1.12조 엔",
+          "lead": "소프트뱅크그룹이 회계 2분기 약 1조1,200억 엔(약 70억 달러) 순손실을 냈다. 기술주 매도세가 반영됐고, OpenAI 지분 평가이익은 누적 약 450억 달러로 전해졌다.",
+          "why": "OpenAI에 대한 대규모 베팅이 장부상 이익과 시장 변동성을 함께 키우고 있다.",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
+              "date": "11/10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "산업·투자·인프라",
+      "articles": [
+        {
+          "category": "TSMC",
+          "grade": "single",
+          "headline": "TSMC 10월 매출 59.7% 급증, 월간 최고",
+          "lead": "TSMC의 10월 매출이 5,868억9,000만 대만달러로 1년 전보다 59.7% 늘며 월간 기록을 새로 썼다. 1~10월 누적은 43.3% 증가했다.",
+          "why": "AI 주가 조정 속에서도 칩 수요 자체는 꺾이지 않았다는 신호다.",
+          "sources": [
+            {
+              "name": "DigiTimes",
+              "url": "https://www.digitimes.com/news/a20261110VL212/tsmc-revenue-demand-2026-growth.html",
+              "date": "11/10"
+            }
+          ]
+        },
+        {
+          "category": "SpaceX·xAI",
+          "grade": "single",
+          "headline": "스페이스X, 스타베이스 AI 컴퓨팅 단지 240억 달러 신고",
+          "lead": "스페이스X가 텍사스 스타베이스 444에이커 부지 사업의 초기 단계로 240억 달러를 신고했다. 터빈 35기의 748MW 가스발전소와 슈퍼컴퓨팅 시설이 포함된다. 시의회 표결은 12월 9일이다.",
+          "why": "AI 데이터센터가 자체 발전소를 끼고 짓는 흐름이 굳어지고 있다.",
+          "sources": [
+            {
+              "name": "Crypto Briefing",
+              "url": "https://cryptobriefing.com/spacex-24-billion-ai-supercomputer-starbase/",
+              "date": "11/9"
+            }
+          ]
+        },
+        {
+          "category": "Microchip",
+          "grade": "single",
+          "headline": "\"AI 고객이 설비를 독차지\" — 범용 칩 납기 최대 32주",
+          "lead": "마이크로칩 CEO가 AI 수요처가 조립·테스트 설비를 차지하고 있다고 지적했다. 표준 칩 납기는 4~8주에서 6~32주로 늘었고, 주가는 약 10% 내렸다.",
+          "why": "AI 붐의 부담이 범용 반도체 공급망으로 번지고 있다.",
+          "sources": [
+            {
+              "name": "24/7 Wall St.",
+              "url": "https://247wallst.com/investing/2026/11/07/the-chip-shortage-is-back-and-microchip-says-ai-customers-are-crowding-everyone-out/",
+              "date": "11/7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "정책·규제·보안",
+      "articles": [
+        {
+          "category": "Moonshot",
+          "grade": "single",
+          "headline": "문샷AI, 중국서 엔비디아 B300 서버 임차 정황",
+          "lead": "블룸버그가 입수한 문서에 따르면 문샷AI가 8월 B300을 탑재한 슈퍼마이크로 서버 32대를 약 4억3,200만 위안에 빌렸다. 미국 수출 통제 위반 여부가 쟁점이 됐다.",
+          "why": "최고급 칩이 임차 방식으로 중국에 쓰이는 우회로가 다시 드러났다.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-11-10/moonshot-rents-nvidia-s-top-ai-chips-in-china-documents-show",
+              "date": "11/10"
+            }
+          ]
+        },
+        {
+          "category": "보안",
+          "grade": "single",
+          "headline": "'스노볼 작전' — 자율 AI 에이전트가 2주간 13개 기관 공격",
+          "lead": "딥시크 Flash 모델 기반 자율 침입 에이전트가 2주 동안 유럽 통신사 등 13개 기관을 공격한 사건이 공개됐다. 취약점 CVE-2026-20320이 악용됐다.",
+          "why": "오픈 모델을 쓴 '자율 공격'이 실제 캠페인으로 확인되며 방어 체계 재점검 압박이 커졌다.",
+          "sources": [
+            {
+              "name": "GBHackers",
+              "url": "https://gbhackers.com/operation-snowball-campaign/",
+              "date": "11/8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "korea": [
+    {
+      "category": "노타",
+      "grade": "single",
+      "headline": "노타, 2.8조 파라미터 '키미 K3.1 Pro' 경량화… GPU 임대료 최대 22% 절감",
+      "lead": "노타가 중국 문샷AI의 키미 K3.1 Pro를 B300 대신 B200 GPU 8장에서 돌아가게 줄였다. 전문가 모듈을 최대 37% 덜어냈지만 GPQA Diamond 점수는 원본의 99% 이상을 지켰다고 했다.",
+      "body": [
+        "대상은 2조8,000억 파라미터 규모의 전문가혼합 모델이다. 쓰임이 적은 전문가 모듈을 걷어내 메모리 요구를 낮춘 방식이다.",
+        "클라우드 GPU 임대료는 최대 22% 아낄 수 있다고 회사는 밝혔다. 최신 GPU 확보가 어려운 기업에 초대형 오픈 모델을 쓸 길을 넓히는 기술이다."
+      ],
+      "why": "국내 경량화 기술이 초대형 오픈 모델 운영비를 직접 낮추는 사례다.",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://www.hellot.net/news/article.html?no=116145",
+          "date": "11/10"
+        }
+      ]
+    },
+    {
+      "category": "루닛",
+      "grade": "single",
+      "headline": "루닛, 사우디 국가방위부 의료기관에 AI 영상판독 공급",
+      "lead": "루닛이 사우디 국가방위부 보건의료국(MNGHA)에 흉부 엑스레이·유방촬영 AI 솔루션을 라이선스 방식으로 공급한다. 시스템 통합은 사우디텔레콤 계열사가 맡는다.",
+      "why": "중동 공공 의료망에 국산 의료 AI가 들어가는 레퍼런스다.",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://www.hellot.net/news/article.html?no=116150",
+          "date": "11/10"
+        }
+      ]
+    },
+    {
+      "category": "바이브컴퍼니",
+      "grade": "single",
+      "headline": "바이브컴퍼니·LG유플러스, 우리카드 AI 지식관리시스템 재구축",
+      "lead": "바이브컴퍼니가 LG유플러스와 컨소시엄으로 우리카드 지식관리시스템 재구축을 따냈다. AI 검색과 에이전트 등 4종 솔루션을 통합 적용한다.",
+      "why": "금융권 내부 업무에 에이전트형 AI 도입이 확산되고 있다.",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://www.hellot.net/news/article.html?no=116146",
+          "date": "11/10"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "text": "Fireworks AI, 10월 24일 침해 사실 통보 — 결제 기록·일부 계정 비밀정보·모델 가중치 일부 유출, 고객사 약 1만 곳 영향",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Runtime Wire",
+          "url": "https://runtimewire.com/article/fireworks-ai-second-security-breach-customer-data",
+          "date": "11/9"
+        }
+      ]
+    },
+    {
+      "text": "Claude Code '다시 묻지 않음' 설정이 승인 명령을 평문 저장 — 공개 GitHub 저장소 1,994곳에서 비밀정보 2,539건 노출 분석",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+          "date": "11/8"
+        }
+      ]
+    },
+    {
+      "text": "NEAR AI, 내부 시스템 무단 접속 탐지해 클라우드 추론 서비스 일시 중단 후 복구 — NEAR 프로토콜은 영향 없어",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "The Crypto Times",
+          "url": "https://www.cryptotimes.io/2026/11/10/near-ai-detects-and-closes-internal-systems-breach-near-protocol-unaffected/",
+          "date": "11/10"
+        }
+      ]
+    },
+    {
+      "text": "ING, 데이터센터 대출 약 5억 달러 매각 공고 — 스타게이트 관련 2,500만 달러 포함, 입찰 마감 11월 19일",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Semafor",
+          "url": "https://www.semafor.com/article/11/09/2026/ai-chip-financing-hits-a-wall",
+          "date": "11/9"
+        }
+      ]
+    },
+    {
+      "text": "임상기록 AI 스타트업 Abridge, 조직 재편으로 감원 — 약 90명 추산, 기업가치 약 53억 달러",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Modern Healthcare",
+          "url": "https://www.modernhealthcare.com/health-tech/mh-abridge-layoffs-realignment-ai/",
+          "date": "11/10"
+        }
+      ]
+    },
+    {
+      "text": "금융 분석 에이전트 GeniosAI, 시드·시리즈A 합계 1,910만 달러 유치 — 시리즈A는 FactSet 주도",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "FinTech Global",
+          "url": "https://fintech.global/2026/11/09/geniosai-lands-19-1m-to-make-financial-analysis-traceable/",
+          "date": "11/9"
+        }
+      ]
+    },
+    {
+      "text": "중국 10월 수출 35.2% 증가, 반도체 수출은 137.1% 급증 — 1~10월 무역흑자 1조 달러 돌파",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Investing.com",
+          "url": "https://www.investing.com/news/economy-news/chinas-trade-surplus-soars-past-1-trillion-october-exports-jump-352-yy-5013969",
+          "date": "11/10"
+        }
+      ]
+    },
+    {
+      "text": "[KR] 엔비디아·리벨리온·SK텔레콤, NVLink Fusion으로 리벨리온 NPU 랙 개발·SKT 데이터센터 구축 협력(과기정통부 지원)",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://www.hellot.net/news/article.html?no=116129",
+          "date": "11/9"
+        }
+      ]
+    }
+  ],
+  "social": [],
+  "editorial": {
+    "title": "성능은 올리고, 문은 나눈다",
+    "body": "Anthropic은 같은 모델을 두 개의 문으로 내보냈다. 같은 날 자율 AI 에이전트가 실제 기관을 공격한 사건이 공개됐다. 강력한 모델을 누구에게 어디까지 열지가 성능만큼 중요한 경쟁 요소가 됐다. 칩 수요는 여전히 뜨겁지만 그 열기가 다른 산업의 납기를 늘리고 있다."
+  },
+  "calendar": [
+    {
+      "when": "11/11",
+      "what": "미 하원 위원장들의 엔비디아 브리핑 요청 답변 기한",
+      "grade": "single"
+    },
+    {
+      "when": "11/17",
+      "what": "엔비디아 3분기 실적 발표",
+      "grade": "single"
+    },
+    {
+      "when": "11/19",
+      "what": "ING 데이터센터 대출 매각 입찰 마감",
+      "grade": "single"
+    },
+    {
+      "when": "11/20",
+      "what": "Anthropic 나스닥 거래 개시 목표(보도)",
+      "grade": "single"
+    },
+    {
+      "when": "12/9",
+      "what": "스타베이스 AI 컴퓨팅 단지 시의회 표결",
+      "grade": "single"
+    },
+    {
+      "when": "12월",
+      "what": "엔비디아 GR00T 2 가중치·데이터셋 공개 예정"
+    }
+  ],
+  "coverage": "기업 공식 발표(Anthropic, Meta, OpenAI, NVIDIA), 글로벌 IT·경제 매체(Bloomberg, CNBC, VentureBeat, DigiTimes, Semafor 등), AI 뉴스 데일리 정리, 국내 매체(헬로티), 주요소스 1곳(접근 실패)",
+  "key_sources_checked": 0,
+  "notes": [
+    "주요소스 목록 페이지를 이번 실행에서도 열지 못했습니다(접근 허가 응답 없음). last_seen(217)은 그대로 두었고 다음 호에서 다시 확인합니다.",
+    "Fable 5.2 벤치마크·안전 수치는 회사 발표 기준이며, 페르마 정리 형식화 주장은 데일리 정리에 인용된 내용으로 별도 검증되지 않았습니다.",
+    "어제 호에 실린 구글 TPU 8종, Anthropic 발전기 확보, 엔비디아 이사회 조사는 새 진전이 없어 다시 싣지 않았습니다.",
+    "어제 '확인되지 않음'으로 보류한 엔비디아·리벨리온·SKT NVLink Fusion 협력은 국내 매체 보도로 확인돼 단신에 실었습니다.",
+    "단일 출처(⚠️) 기사는 후속 보도로 교차 확인이 필요합니다."
+  ]
+}
