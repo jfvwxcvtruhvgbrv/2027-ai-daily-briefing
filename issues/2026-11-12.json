@@ -1,0 +1,448 @@
+{
+  "date": "2026-11-12",
+  "weekday": "목",
+  "period": "11/11 ~ 11/12",
+  "tagline": "구글 '제미나이 4 카본' 정식 출시, 가격으로 맞불",
+  "key_points": [
+    "구글 제미나이 4 카본 정식 출시 — 11월 말까지 100만 토큰당 2·10달러, Fable 5.2의 약 4분의 1",
+    "Anthropic 업무 도구 3종·호주 개인 공모 개시, OpenAI 3분기 영업손실 109억 달러 보도",
+    "뉴욕주 프런티어 AI 등록제 가동, 중국 H200 구매 기록에 미 의회 수출통제 법안 추진"
+  ],
+  "top_story": {
+    "category": "Google",
+    "grade": "multi",
+    "headline": "구글 '제미나이 4 카본' 정식 출시 — 도입가는 Fable 5.2의 4분의 1",
+    "lead": "구글이 10일(현지시간) 최상위 모델 제미나이 4 카본을 유료 API와 AI 울트라 구독자에게 정식으로 열었다. 11월 30일까지 100만 토큰당 입력 2달러, 출력 10달러이고 12월 1일부터 4달러·20달러로 오른다.",
+    "body": [
+      "10월 말 공개 뒤 일부 보안 전문가에게만 제공되던 모델이다. 개발자는 AI 스튜디오·안드로이드 스튜디오 유료 API로, 기업은 제미나이 포 비즈니스로 쓸 수 있다. 일반 이용자는 AI 울트라 요금제에서 제미나이 앱과 검색 AI 모드로 순차 이용한다.",
+      "가격이 승부수다. 도입가는 이틀 전 나온 Anthropic Fable 5.2(8·40달러)의 약 4분의 1, 인상 뒤에도 절반 수준이다. 독립 평가 지수에서는 Fable 5.2(65점)에 이어 60점으로 2위로 전해졌다. 구글은 코딩·정보 조사·업무 자동화 평가에서 작업당 비용을 경쟁 모델의 절반 이하로 낮추며 1위를 했다고 밝혔다.",
+      "업무 자동화 평가에서 카본은 성공률 53.88%, 작업당 2.12달러로 Fable 5.2(51.45%, 4.64달러)를 앞섰다는 수치도 나왔다. 보안 특화판 '카본 포 사이버'는 여전히 승인된 전문가에게만 제공된다."
+    ],
+    "why": "최상위 모델 경쟁의 축이 점수에서 '작업당 비용'으로 옮겨 가고 있다.",
+    "sources": [
+      {
+        "name": "Google",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+        "date": "11/10"
+      },
+      {
+        "name": "AI타임스",
+        "url": "https://www.aitimes.com/news/articleView.html?idxno=217249",
+        "date": "11/11"
+      },
+      {
+        "name": "AI 뉴스 데일리 정리",
+        "url": "https://aiweekly.co/ai-news-today",
+        "date": "11/11"
+      }
+    ],
+    "image_page": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+    "image_caption": "구글 제미나이 4 카본 출시 공식 블로그",
+    "chart": {
+      "title": "독립 평가 지능 지수(보도 기준)",
+      "unit": "점",
+      "source": "Artificial Analysis(AI타임스 인용)",
+      "bars": [
+        {
+          "label": "Fable 5.2",
+          "value": 65
+        },
+        {
+          "label": "Gemini 4 Carbon",
+          "value": 60,
+          "highlight": true
+        },
+        {
+          "label": "Opus 5.5",
+          "value": 59
+        },
+        {
+          "label": "GPT-6 Astra",
+          "value": 57
+        }
+      ]
+    }
+  },
+  "key_sources": [],
+  "sections": [
+    {
+      "name": "모델·제품 출시",
+      "articles": [
+        {
+          "category": "Anthropic",
+          "grade": "single",
+          "headline": "Anthropic, 'Claude Sheets·Meetings·Whiteboards' 공개",
+          "lead": "Anthropic이 10일 행사에서 업무 도구 3종을 내놨다. 스프레드시트 Claude Sheets는 베타, 회의 도구 Claude Meetings는 Team·Enterprise 요금제용이며 화이트보드 도구도 함께 선보였다.",
+          "why": "모델 회사가 구글·마이크로소프트의 사무용 소프트웨어 영역에 직접 들어섰다.",
+          "sources": [
+            {
+              "name": "Engadget",
+              "url": "https://www.engadget.com/2312177/anthropic-takes-on-google-and-microsoft-with-claude-sheets/",
+              "date": "11/10"
+            }
+          ]
+        },
+        {
+          "category": "Google DeepMind",
+          "grade": "multi",
+          "headline": "'제미나이 로보틱스 2.5' — 자동차 공장 부품 정리 성공률 96%",
+          "lead": "구글 딥마인드가 로봇 제어 모델 제미나이 로보틱스 2.5를 공개했다. 앱트로닉·메르세데스-벤츠와 함께 휴머노이드 '아폴로 2'를 헝가리·독일 공장에 투입해 부품 키팅 작업 성공률 96%를 기록했다. 200여 개 작업에서 성공률은 기존보다 30~100% 높아졌다고 회사는 밝혔다.",
+          "why": "실제 생산 라인 시험이지만 아직 개념 증명 단계이며, 파트너사에만 순차 제공된다.",
+          "sources": [
+            {
+              "name": "AI타임스",
+              "url": "https://www.aitimes.com/news/articleView.html?idxno=217274",
+              "date": "11/11"
+            },
+            {
+              "name": "헬로티",
+              "url": "https://www.hellot.net/news/article.html?no=116168",
+              "date": "11/11"
+            },
+            {
+              "name": "AI Weekly",
+              "url": "https://aiweekly.co/alerts/deepminds-gemini-robotics-25-hits-96-on-mercedes-benz-line",
+              "date": "11/10"
+            }
+          ]
+        },
+        {
+          "category": "Google DeepMind",
+          "grade": "primary",
+          "headline": "AlphaProof Code, Signal 암호 보장 일부를 4주 만에 형식 검증",
+          "lead": "딥마인드의 AlphaProof Code가 메신저 Signal 프로토콜의 일부 암호학적 보장을 약 4주 만에 형식 검증했다. 생성된 Lean 증명은 600만 줄이 넘는다.",
+          "why": "AI가 보안 소프트웨어의 '수학적 증명' 작업까지 맡기 시작했다.",
+          "sources": [
+            {
+              "name": "Google DeepMind",
+              "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+              "date": "11/10"
+            },
+            {
+              "name": "The Neuron",
+              "url": "https://www.theneuron.ai/news/google-ai-math-signal-security-verification/",
+              "date": "11/11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "빅테크·랩 동향",
+      "articles": [
+        {
+          "category": "OpenAI",
+          "grade": "single",
+          "headline": "OpenAI 3분기 영업손실 109억 달러, 매출 약 100억 달러",
+          "lead": "월스트리트저널이 입수한 투자자 자료에 따르면 OpenAI의 3분기 영업손실은 109억 달러로 2분기보다 커졌다. 분기 매출은 약 100억 달러로 전해졌다.",
+          "why": "매출이 빠르게 늘어도 컴퓨팅 비용이 손실을 키우는 구조가 이어지고 있다.",
+          "sources": [
+            {
+              "name": "WSJ",
+              "url": "https://www.wsj.com/business/earnings/openai-continues-to-suffer-heavy-losses-as-revenue-rises-to-10-billion-d2a96bbb",
+              "date": "11/11"
+            }
+          ]
+        },
+        {
+          "category": "Anthropic",
+          "grade": "single",
+          "headline": "[업데이트] Anthropic, 호주 개인투자자 공모 개시 — 주당 70~78달러",
+          "lead": "Anthropic의 호주 개인투자자 대상 공모가 시작됐다. 희망가는 주당 70~78달러, 청약 마감은 11월 17일이며 나스닥 종목 코드는 ANT다.",
+          "why": "상장 일정이 실제 청약 단계로 들어서며 '11월 상장' 계획이 구체화됐다.",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html",
+              "date": "11/11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "산업·투자·인프라",
+      "articles": [
+        {
+          "category": "Fractile",
+          "grade": "single",
+          "headline": "AI 칩 스타트업 Fractile, 기업가치 70억 달러에 7억2,000만 달러 유치",
+          "lead": "영국 AI 추론 칩 스타트업 Fractile이 7억2,000만 달러를 조달했다. 기업가치는 70억 달러로, 5월의 11억 달러에서 6배 넘게 뛰었다.",
+          "why": "추론 전용 칩에 대한 투자 열기가 엔비디아 대안 찾기와 맞물려 커지고 있다.",
+          "sources": [
+            {
+              "name": "AI Weekly",
+              "url": "https://aiweekly.co/alerts/fractile-raises-720m-at-7b-valuation-up-from-11b-in-may",
+              "date": "11/11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "정책·규제·소송",
+      "articles": [
+        {
+          "category": "뉴욕주",
+          "grade": "single",
+          "headline": "뉴욕주 AI 안전법 시행 — 프런티어 개발사 등록 포털 개설",
+          "lead": "뉴욕주가 프런티어 AI 개발사 등록 포털을 열었다. 매출 5억 달러 이상 개발사는 2027년 1월 1일까지 등록해야 하며, 위반 시 벌금은 초범 최대 100만 달러, 재범 300만 달러다.",
+          "why": "OpenAI·Anthropic 등 대형 랩이 미국 주 단위의 첫 상시 감독 체계 아래 놓인다.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+              "date": "11/10"
+            }
+          ]
+        },
+        {
+          "category": "NVIDIA·미 의회",
+          "grade": "single",
+          "headline": "중국 군 연계 대학 H200 구매 기록… 미 의회, 수출통제 법안 NDAA 편입 추진",
+          "lead": "인민해방군과 연계된 서북공업대가 재판매상을 통해 엔비디아 H200 2장을 87만4,700위안(약 12만3,000달러)에 산 기록이 드러났다. 미 의회에서는 칩 수출통제 법안 3건을 국방수권법(NDAA)에 넣으려는 움직임이 나왔다.",
+          "why": "수출 금지 칩의 우회 유입 정황이 이어지며 통제 강화 입법 압력이 커지고 있다.",
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/11/chinese-university-buys-nvidia-ai-h200-chips-despite-us-ban-records-show",
+              "date": "11/11"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/economy/2026/11/10/nvidia-spy-scandal-fuels-debate-over-chip-exports-to-china",
+              "date": "11/10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "연구·오픈소스·보안",
+      "articles": [
+        {
+          "category": "Anthropic",
+          "grade": "single",
+          "headline": "Glasswing 프로젝트 CVE 442건, 실제 악용 확인은 2건",
+          "lead": "보안업체 VulnCheck 분석에 따르면 Anthropic의 Glasswing 프로젝트에 귀속된 취약점(CVE)은 442건이다. 이 가운데 실제 악용이 확인된 것은 2건(0.45%)이었다.",
+          "why": "AI가 찾아낸 취약점의 '양'과 실제 위험도 사이의 간극을 보여 준다.",
+          "sources": [
+            {
+              "name": "VulnCheck",
+              "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+              "date": "11/11"
+            }
+          ]
+        },
+        {
+          "category": "Microsoft",
+          "grade": "primary",
+          "headline": "MS 연구진 'Lazarus' — 뉴런 10개 미만 조작으로 에이전트에 백도어",
+          "lead": "마이크로소프트 리서치가 쓰이지 않는 뉴런 10개 미만을 다시 프로그래밍해, 재학습 없이 AI 에이전트에 백도어를 심을 수 있다는 연구를 공개했다.",
+          "why": "공개 모델 가중치를 그대로 받아 쓰는 공급망의 새 위험 요인이다.",
+          "sources": [
+            {
+              "name": "Microsoft Research",
+              "url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/",
+              "date": "11/11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "korea": [
+    {
+      "category": "중소벤처기업부",
+      "grade": "single",
+      "headline": "중기부, 2030년까지 '기업가치 1조' AI 스타트업 20곳 키운다",
+      "lead": "중소벤처기업부가 국가AI전략위원회와 'AI 스타트업 Beyond유니콘 육성 전략'을 내놨다. 2030년까지 기업가치 1조 원 규모 AI 스타트업 20곳을 길러 내는 것이 목표다.",
+      "body": [
+        "발표는 10~12일 열리는 딥테크 스타트업 포럼 'DEEP DIVE INTO 2026'에서 나왔다. 기조연설·특별세션·기술포럼 등 36개 프로그램으로 꾸려졌다.",
+        "미국 human&, 일본 사카나AI, 국내 뤼튼테크놀로지스 대표가 참여한 대화 자리도 마련됐다. 다만 예산과 지원 규모는 공개되지 않았다."
+      ],
+      "why": "정부가 AI 스타트업 정책 목표를 '기업가치' 숫자로 처음 제시했다.",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://www.hellot.net/news/article.html?no=116210",
+          "date": "11/11"
+        }
+      ]
+    },
+    {
+      "category": "IITP",
+      "grade": "single",
+      "headline": "IITP '2027 AI·ICT 10대 이슈' — 에이전틱 경제·피지컬 AI·토큰 효율",
+      "lead": "정보통신기획평가원이 11일 내년 10대 이슈를 발표했다. 에이전트 간 자율 거래, 범용 피지컬 AI, 작업 단위 비용을 낮추는 토큰 효율화, 풀스택 소버린 AI 등이 꼽혔다.",
+      "why": "'AI 가능성을 생산성으로 입증하라'는 메시지가 내년 국내 정책·투자의 기준이 될 전망이다.",
+      "sources": [
+        {
+          "name": "ZDNet Korea",
+          "url": "https://zdnet.co.kr/view/?no=20261111120847",
+          "date": "11/11"
+        }
+      ]
+    },
+    {
+      "category": "패스트캠퍼스·엔비디아",
+      "grade": "single",
+      "headline": "엔비디아 공동 에이전틱 AI 해커톤, 신약 안전성 워크플로 팀 우승",
+      "lead": "패스트캠퍼스와 엔비디아가 연 에이전틱 AI 해커톤 결과가 10일 'AI 데이 서울'에서 공개됐다. 우승팀 FlyGate는 신약 개발부터 시판 후 이상 사례 검토까지 하나로 잇는 에이전트 워크플로를 내놨다.",
+      "why": "국내 개발자 생태계에서 바이오·의료 분야 에이전트 적용 시도가 늘고 있다.",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://www.hellot.net/news/article.html?no=116215",
+          "date": "11/11"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "text": "라피더스, 2nm SRAM 셀 구현에 아직 실패 보도 — 양산 1년 연기 방안 검토",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Electronics Weekly",
+          "url": "https://www.electronicsweekly.com/news/business/delays-reported-at-rapidus-2026-11/",
+          "date": "11/11"
+        }
+      ]
+    },
+    {
+      "text": "CISA, GPUStack 인증 우회 취약점(CVSS 9.8)을 악용 취약점 목록에 추가 — 연방기관 조치 기한 11월 12일",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Cloud Security Alliance",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-gpustack-cve-2026-102895-kev-20261110-csa/",
+          "date": "11/10"
+        }
+      ]
+    },
+    {
+      "text": "xAI Grok Build로 만든 공개 앱 3만5,578개 중 약 650~800개에 사적 데이터 노출 추정",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Tesla North",
+          "url": "https://teslanorth.com/2026/11/10/grok-build-apps-private-data-claroc/",
+          "date": "11/10"
+        }
+      ]
+    },
+    {
+      "text": "Val Town, 신규 가입 중단·2027년 1월 10일 서비스 종료 예고 — 클라우드 컴퓨팅 경쟁력 한계",
+      "grade": "primary",
+      "sources": [
+        {
+          "name": "Val Town",
+          "url": "https://blog.val.town/winding-down",
+          "date": "11/11"
+        }
+      ]
+    },
+    {
+      "text": "퀄컴, 인도에서 감원 시작 — 약 1,000명(현지 인력 5~6%) 영향 전망",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Business Today",
+          "url": "https://www.businesstoday.in/technology/news/story/1000-qualcomm-jobs-at-risk-in-india-as-chipmaker-begins-layoffs-severance-details-emerge-566795-2026-11-11",
+          "date": "11/11"
+        }
+      ]
+    },
+    {
+      "text": "Payscale 조사, 고용주 61%가 AI로 직무 기술서 재작성 — AI 역량 키운 근로자 중 임금 인상은 16%",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/11/10/3399638/0/en/payscale-s-ai-workforce-impact-report-ai-is-boosting-productivity-but-employers-struggle-to-put-a-price-on-it.html",
+          "date": "11/10"
+        }
+      ]
+    },
+    {
+      "text": "9개국 조사, 주간 AI 정보 이용률 38%로 늘었지만 뉴스 목적 이용은 9%",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Nieman Lab",
+          "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
+          "date": "11/11"
+        }
+      ]
+    },
+    {
+      "text": "Plurai, 기업용 AI 에이전트 시뮬레이션으로 시드 1,300만 달러 유치",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/plurai-lands-13m-seed-to-simulate-enterprise-ai-agents",
+          "date": "11/11"
+        }
+      ]
+    }
+  ],
+  "social": [],
+  "editorial": {
+    "title": "점수 다음은 계산서",
+    "body": "구글은 성능 2위 모델을 4분의 1 가격에 내놓으며 승부처를 바꿨다. 같은 날 OpenAI의 분기 영업손실이 100억 달러를 넘었다는 보도가 나왔다. 모델 경쟁이 비용 경쟁으로 번질수록 랩들의 수익 구조는 더 큰 시험대에 오른다. 상장을 앞둔 Anthropic에게도 남의 일이 아니다."
+  },
+  "calendar": [
+    {
+      "when": "11/12",
+      "what": "CISA GPUStack 취약점 연방기관 조치 기한",
+      "grade": "single"
+    },
+    {
+      "when": "11/17",
+      "what": "Anthropic 호주 개인투자자 청약 마감",
+      "grade": "single"
+    },
+    {
+      "when": "11/17",
+      "what": "엔비디아 3분기 실적 발표",
+      "grade": "single"
+    },
+    {
+      "when": "11/19",
+      "what": "ING 데이터센터 대출 매각 입찰 마감",
+      "grade": "single"
+    },
+    {
+      "when": "11/20",
+      "what": "Anthropic 나스닥 거래 개시 목표(보도)",
+      "grade": "single"
+    },
+    {
+      "when": "12/1",
+      "what": "제미나이 4 카본 가격 인상(100만 토큰당 4·20달러)",
+      "grade": "multi"
+    },
+    {
+      "when": "12/9",
+      "what": "스타베이스 AI 컴퓨팅 단지 시의회 표결",
+      "grade": "single"
+    },
+    {
+      "when": "2027/1/1",
+      "what": "뉴욕주 프런티어 AI 개발사 등록 기한",
+      "grade": "single"
+    }
+  ],
+  "coverage": "기업 공식 발표(Google, Google DeepMind, Microsoft Research, Val Town), 글로벌 IT·경제 매체(WSJ, CNBC, TechCrunch, Engadget, Al Jazeera 등), AI 뉴스 데일리 정리, 국내 매체(AI타임스, 헬로티, ZDNet Korea), 주요소스 1곳(접근 실패)",
+  "key_sources_checked": 0,
+  "notes": [
+    "주요소스 목록 페이지를 이번 실행에서도 열지 못했습니다(접근 허가 응답 없음, 3일째). last_seen(217)은 그대로 두었습니다.",
+    "제미나이 4 카본 벤치마크·작업당 비용 수치는 구글 발표와 국내 보도 기준이며 독립 검증 전입니다. 지능 지수 점수는 국내 매체가 인용한 값입니다.",
+    "OpenAI 3분기 실적과 Anthropic 호주 공모 조건은 단일 매체 보도입니다.",
+    "또 다른 날짜별 정리 페이지는 사이트 오류로 읽지 못해, 정리 페이지 1곳과 국내 매체로 보완했습니다.",
+    "단일 출처(⚠️) 기사는 후속 보도로 교차 확인이 필요합니다."
+  ]
+}
