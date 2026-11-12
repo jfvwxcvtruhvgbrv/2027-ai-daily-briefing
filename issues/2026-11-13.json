@@ -1,0 +1,386 @@
+{
+  "date": "2026-11-13",
+  "weekday": "금",
+  "period": "11/12 ~ 11/13",
+  "tagline": "젠슨 황, 엔비디아를 떠나다",
+  "key_points": [
+    "젠슨 황 엔비디아 CEO·이사직 즉시 사임 — 크레스 CFO가 임시 CEO, 사유는 미공개",
+    "알리바바 칩 자회사 티헤드 홍콩 상장 추진, 네비우스·폭스콘 실적에 AI 인프라 명암",
+    "정부 'AI 안전 지킴이' 80명 출범, 미·중 AI 사고 직통 채널 논의"
+  ],
+  "top_story": {
+    "category": "NVIDIA",
+    "grade": "primary",
+    "headline": "젠슨 황, 엔비디아 CEO·이사직 즉시 사임 — 크레스 CFO가 임시 CEO 겸임",
+    "lead": "엔비디아가 12일(현지시간) 공시를 통해 창업자 젠슨 황이 사장 겸 최고경영자와 이사직에서 즉시 물러났다고 밝혔다. 콜레트 크레스 최고재무책임자(CFO)가 후임이 정해질 때까지 임시 CEO를 맡고 CFO 업무도 계속한다.",
+    "why": "33년간 회사를 이끈 창업자가 AI 반도체 1위 기업을 떠났다. 실적 발표 닷새 전에 리더십 공백이 생겼다.",
+    "sources": [
+      {
+        "name": "NVIDIA 8-K (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+        "date": "11/12"
+      },
+      {
+        "name": "NVIDIA 8-K (SEC)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm",
+        "date": "11/12"
+      },
+      {
+        "name": "AI Industry Today",
+        "url": "https://aiindustrytoday.com/news/nvidia-huang-resignation-kress-interim-ceo/",
+        "date": "11/12"
+      }
+    ],
+    "body": [
+      "발표문에는 사임 사유가 적혀 있지 않다. 이사회가 '젠슨 황 표적' 의혹을 두고 독립 조사에 착수했다는 보도가 나온 지 사흘 만이다. 다만 공시는 조사와의 관련성을 언급하지 않았다.",
+      "이사회는 내부와 외부 후보를 모두 놓고 차기 CEO 물색에 들어갔다. 일정은 제시하지 않았다. 시높시스 최고경영자 출신 인사를 이사회 의장으로 새로 선임했다. 크레스는 2013년 9월 합류했고, 이전 약 25년간 시스코·마이크로소프트 등에서 재무를 맡았다.",
+      "2027 회계연도 3분기 실적은 예정대로 11월 17일(태평양시간) 발표하고 콘퍼런스콜을 연다. 가이던스 변경 언급은 없었다."
+    ]
+  },
+  "key_sources": [],
+  "sections": [
+    {
+      "name": "모델·제품 출시",
+      "articles": [
+        {
+          "category": "Google",
+          "grade": "single",
+          "headline": "제미나이 라이브, 애플 카플레이에 전 세계 출시",
+          "lead": "구글이 음성 대화 기능 제미나이 라이브를 애플 카플레이에서 전 세계에 열었다. 일일 브리핑 같은 개인화 기능은 나이와 지역에 따라 제한된다.",
+          "why": "아이폰 차량 화면까지 구글 AI 비서가 들어가며 애플 시리와 정면으로 맞선다.",
+          "sources": [
+            {
+              "name": "AI Industry Today",
+              "url": "https://aiindustrytoday.com/news/gemini-live-carplay-personalization-restrictions/",
+              "date": "11/12"
+            }
+          ]
+        },
+        {
+          "category": "Google",
+          "grade": "single",
+          "headline": "구글 'Gemini Decision API' — 공통 입력은 요청당 한 번만 과금",
+          "lead": "구글이 여러 선택지를 한 요청에서 판단하는 Gemini Decision API를 내놨다. 공유 입력은 요청당 한 번만 요금을 매긴다. 배치 API와 컨텍스트 캐싱은 아직 쓸 수 없다.",
+          "why": "카본 가격 인하에 이어 과금 구조로도 개발자 비용을 낮추려는 시도다.",
+          "sources": [
+            {
+              "name": "AI Industry Today",
+              "url": "https://aiindustrytoday.com/news/google-gemini-decision-api-shared-input-billing-limits/",
+              "date": "11/11"
+            }
+          ]
+        },
+        {
+          "category": "Meta",
+          "grade": "single",
+          "headline": "메타 AI 에이전트 '뮤즈', 애플워치·웨어OS로 확대",
+          "lead": "메타가 AI 에이전트 앱 뮤즈를 애플워치와 웨어OS 스마트워치로 넓혔다. 앱 출시 약 두 달 만이다. 손목에서 음성 통화와 문자로 뮤즈를 쓸 수 있다.",
+          "why": "스마트폰 밖 기기로 AI 비서 접점을 늘리는 경쟁이 시계로 번졌다.",
+          "sources": [
+            {
+              "name": "헬로티",
+              "url": "https://hellot.net/news/article.html?no=116248",
+              "date": "11/12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "빅테크·랩 동향",
+      "articles": [
+        {
+          "category": "Meta",
+          "grade": "single",
+          "headline": "메타 인프라 수장 자나르단, 2027년 초 퇴임… 데이브 브라운이 후임",
+          "lead": "메타가 인프라 부문 책임자 산토시 자나르단이 2027년 초 회사를 떠나고 데이브 브라운이 자리를 잇는다고 밝혔다.",
+          "why": "데이터센터 투자를 대폭 늘리는 시기에 인프라 지휘선이 바뀐다.",
+          "sources": [
+            {
+              "name": "AI Industry Today",
+              "url": "https://aiindustrytoday.com/news/meta-janardhan-dave-brown-infrastructure-transition/",
+              "date": "11/12"
+            }
+          ]
+        },
+        {
+          "category": "OpenAI",
+          "grade": "single",
+          "headline": "올트먼, 삼성에 'AI 수요 이중 집계' 경고 보도",
+          "lead": "샘 올트먼 OpenAI CEO가 삼성에 AI 메모리 수요가 중복으로 잡혔을 수 있다고 경고했다는 보도가 나왔다. 거론된 90만 장 웨이퍼는 OpenAI 예상 수요라는 설명이다.",
+          "why": "메모리 업계의 공격적 증설 계획이 실제 수요와 어긋날 수 있다는 신호다.",
+          "sources": [
+            {
+              "name": "AI Industry Today",
+              "url": "https://aiindustrytoday.com/news/altman-samsung-double-counted-ai-demand-warning/",
+              "date": "11/11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "산업·투자·인프라",
+      "articles": [
+        {
+          "category": "Alibaba",
+          "grade": "multi",
+          "headline": "알리바바, AI 칩 자회사 '티헤드' 홍콩 상장 추진",
+          "lead": "알리바바가 반도체 자회사 티헤드의 상장 신청 사실을 공시했다. 홍콩 공모로 20억~30억 달러를 조달할 것이란 전망이 나온다. 공모 조건과 승인은 정해지지 않았고 지배권은 유지할 계획이다.",
+          "why": "중국이 엔비디아 대체 칩 육성에 자본시장을 끌어들이고 있다.",
+          "sources": [
+            {
+              "name": "AI Industry Today",
+              "url": "https://aiindustrytoday.com/news/alibaba-t-head-confidential-ipo-filing-control/",
+              "date": "11/12"
+            },
+            {
+              "name": "헬로티",
+              "url": "https://hellot.net/news/article.html?no=116252",
+              "date": "11/12"
+            }
+          ]
+        },
+        {
+          "category": "Nebius",
+          "grade": "single",
+          "headline": "네비우스 3분기 매출 9억8,100만 달러… 약 3분의 1은 일회성",
+          "lead": "AI 클라우드 기업 네비우스의 3분기 매출이 9억8,100만 달러로 집계됐다. 공시된 일회성 기여분이 약 3분의 1을 차지했다. 일부 매출은 설비 지연으로 2027년으로 넘어갔다.",
+          "why": "네오클라우드의 고성장 숫자 뒤에 일회성 요인과 용량 지연이 섞여 있다.",
+          "sources": [
+            {
+              "name": "AI Industry Today",
+              "url": "https://aiindustrytoday.com/news/nebius-q3-2026-one-off-revenue-capacity-delays/",
+              "date": "11/12"
+            }
+          ]
+        },
+        {
+          "category": "Foxconn",
+          "grade": "single",
+          "headline": "폭스콘 3분기 영업이익 64% 증가… 2027년 AI 랙 출하 고성장 전망",
+          "lead": "폭스콘의 3분기 영업이익이 64% 늘었다. 회사는 2027년 AI 서버 랙 출하가 높은 두 자릿수 성장할 것으로 내다봤다. 다만 9개월 누적 잉여현금흐름은 적자다.",
+          "why": "AI 서버 조립 수요는 견조하지만 운전자본 부담도 커지고 있다.",
+          "sources": [
+            {
+              "name": "AI Industry Today",
+              "url": "https://aiindustrytoday.com/news/foxconn-q3-2026-operating-profit-ai-rack-outlook/",
+              "date": "11/12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "정책·규제·소송",
+      "articles": [
+        {
+          "category": "미국·중국",
+          "grade": "single",
+          "headline": "미·중, 고급 AI 모델 시험 교류·사고 대응 직통 채널 추진",
+          "lead": "미국과 중국의 AI 대화에서 고급 모델 시험 정보를 주고받고 모델 사고 때 연락할 직통 채널을 만드는 방안이 계획됐다. 공통 기준과 일정은 아직 없다.",
+          "why": "경쟁하는 두 나라가 AI 위험 관리에서는 최소한의 소통 통로를 찾고 있다.",
+          "sources": [
+            {
+              "name": "AI Industry Today",
+              "url": "https://aiindustrytoday.com/news/bessent-us-china-ai-testing-incident-dialogue/",
+              "date": "11/11"
+            }
+          ]
+        },
+        {
+          "category": "대만",
+          "grade": "single",
+          "headline": "대만, 고급 AI 칩 기판을 '핵심기술' 목록에 추가 검토",
+          "lead": "대만 정부가 고급 AI 칩용 기판을 핵심기술 목록에 넣는 방안을 검토 중이다. 의견 수렴은 11월 25일까지다.",
+          "why": "반도체 공급망 보호 범위가 칩에서 소재·부품으로 넓어진다.",
+          "sources": [
+            {
+              "name": "AI Industry Today",
+              "url": "https://aiindustrytoday.com/news/taiwan-ai-chip-substrates-critical-technology-proposal/",
+              "date": "11/11"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "korea": [
+    {
+      "category": "과학기술정보통신부",
+      "grade": "single",
+      "headline": "AI 오류 신고하는 국민 모니터링단 '인공지능 안전 지킴이' 출범",
+      "lead": "과학기술정보통신부와 인공지능안전연구소가 12일 서울 여의도에서 국민 모니터링단 '인공지능 안전 지킴이' 발대식을 열었다. 대학생과 직장인 80명이 참여한다.",
+      "why": "정부가 AI 오류 감시에 시민 제보를 상시 창구로 붙였다.",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://hellot.net/news/article.html?no=116245",
+          "date": "11/12"
+        }
+      ],
+      "body": [
+        "모니터링단은 사실 왜곡, 편향, 보안 취약점, 결함 네 분야의 AI 오류 사례를 상시로 제보한다. 한시 캠페인을 상설 체계로 바꾼 것이다.",
+        "앞서 지난해 12월부터 약 30일간 진행한 오류 찾기 캠페인에는 625건이 접수됐고 이 가운데 464건이 유효한 오류로 확인됐다. 활동 기간과 세부 운영 계획은 공개되지 않았다."
+      ]
+    },
+    {
+      "category": "원프레딕트",
+      "grade": "single",
+      "headline": "원프레딕트, CJ제일제당과 식품공장 AI 자율제조 국책과제 착수",
+      "lead": "원프레딕트가 CJ제일제당과 식품공장 자율제조 국책과제를 시작했다. 총사업비 52억4,000만 원 규모로 2028년 12월까지 진행된다. 원프레딕트는 공정 최적화와 설비 예지보전을 맡는다.",
+      "why": "제조 AI가 반도체·자동차를 넘어 식품 공정으로 넓어진다.",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://hellot.net/news/article.html?no=116241",
+          "date": "11/12"
+        }
+      ]
+    },
+    {
+      "category": "노타",
+      "grade": "single",
+      "headline": "노타, 하이퍼엑셀과 LLM 최적화 2년 연속 계약",
+      "lead": "노타가 AI 반도체 기업 하이퍼엑셀과 두 번째 LLM 최적화 계약을 맺었다. 지난해 9월 첫 계약에 이은 것으로, 하이퍼엑셀 LPU '베르다'에서 돌아가는 모델 지원을 넓힌다.",
+      "why": "국산 추론 칩과 경량화 기술의 협업이 이어지고 있다.",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://hellot.net/news/article.html?no=116233",
+          "date": "11/12"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "text": "OpenAI, 여행 스타트업 오데시아 인수 — 여행 서비스는 종료, 기존 예약 지원은 유지",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "AI Industry Today",
+          "url": "https://aiindustrytoday.com/news/odessia-openai-acquisition-travel-service-shutdown/",
+          "date": "11/11"
+        }
+      ]
+    },
+    {
+      "text": "AlphaGenome 2, 세포 유형별 DNA 예측 기능 추가 — 상업 연구용은 비공개 프리뷰",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "AI Industry Today",
+          "url": "https://aiindustrytoday.com/news/alphagenome-2-cell-specific-dna-commercial-preview/",
+          "date": "11/11"
+        }
+      ]
+    },
+    {
+      "text": "베이징시, 2026~2028 구현 계획에서 연간 로봇 20만 대 생산능력 목표 제시(출하 전망 아님)",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "AI Industry Today",
+          "url": "https://aiindustrytoday.com/news/beijing-embodied-ai-robot-capacity-2028-plan/",
+          "date": "11/11"
+        }
+      ]
+    },
+    {
+      "text": "Anthropic, 지원 지역 정책 개정 — 위치·설립지·본사·소유 기준을 직접·파트너 제공 서비스에 함께 적용",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "AI Industry Today",
+          "url": "https://aiindustrytoday.com/news/anthropic-supported-regions-november-12-location-ownership-tests/",
+          "date": "11/11"
+        }
+      ]
+    },
+    {
+      "text": "콴타 3분기 매출 전년 대비 125.2% 증가, 영업이익은 전 분기보다 6% 감소",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "AI Industry Today",
+          "url": "https://aiindustrytoday.com/news/quanta-q3-2026-sales-operating-expenses-profit/",
+          "date": "11/11"
+        }
+      ]
+    },
+    {
+      "text": "마이크로소프트, 중국산 광트랜시버 제한에 반대 입장 보도 — 업계는 FCC에 좁은 규정 요청",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "AI Industry Today",
+          "url": "https://aiindustrytoday.com/news/microsoft-china-optical-transceiver-restrictions-industry/",
+          "date": "11/11"
+        }
+      ]
+    },
+    {
+      "text": "[KR] 인핸스·PwC, AI가 세일즈포스를 직접 조작해 캠페인을 실행하는 마케팅 플랫폼 'MOPai' 공개",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://hellot.net/news/article.html?no=116235",
+          "date": "11/12"
+        }
+      ]
+    },
+    {
+      "text": "[KR] 뷰런테크놀로지, 자율주행 인지 플랫폼으로 CES 2027 혁신상 — 통산 세 번째",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://hellot.net/news/article.html?no=116232",
+          "date": "11/12"
+        }
+      ]
+    }
+  ],
+  "social": [],
+  "editorial": {
+    "title": "창업자 없는 엔비디아",
+    "body": "AI 붐의 상징이던 창업자가 하루아침에 물러났다. 회사는 이유를 말하지 않았고, 시장은 닷새 뒤 실적 발표에서 답을 찾으려 할 것이다. 칩 공급과 고객 관계가 한 사람에게 얼마나 기대 있었는지가 이제 시험대에 오른다. 이사회의 후계 절차가 투명할수록 불확실성은 줄어든다."
+  },
+  "calendar": [
+    {
+      "when": "11/17",
+      "what": "엔비디아 2027 회계연도 3분기 실적 발표",
+      "grade": "primary"
+    },
+    {
+      "when": "11/17",
+      "what": "Anthropic 호주 개인투자자 청약 마감(보도)",
+      "grade": "single"
+    },
+    {
+      "when": "11/20",
+      "what": "Anthropic 나스닥 거래 개시 목표(보도)",
+      "grade": "single"
+    },
+    {
+      "when": "11/25",
+      "what": "대만 AI 칩 기판 핵심기술 지정안 의견 수렴 마감",
+      "grade": "single"
+    },
+    {
+      "when": "12/1",
+      "what": "제미나이 4 카본 API 가격 인상(100만 토큰당 4·20달러)",
+      "grade": "single"
+    }
+  ],
+  "coverage": "기업 공식 공시(NVIDIA SEC 8-K), AI 업계 뉴스 정리(AI Industry Today), 국내 매체(헬로티), 주요소스 1곳(접근 실패)",
+  "key_sources_checked": 0,
+  "notes": [
+    "주요소스 목록 페이지를 이번 실행에서도 열지 못했습니다(접근 허가 응답 없음, 4일째). last_seen(217)은 그대로 두었습니다.",
+    "엔비디아 CEO 교체는 회사 공시로 확인했습니다. 신임 이사회 의장 이름은 요약 과정에서 확인이 불확실해 싣지 않았습니다. 사임 사유와 이사회 조사의 관련성은 공시에 없습니다.",
+    "날짜별 글로벌 정리 페이지 2곳이 접근 허가 문제로 열리지 않아, 업계 뉴스 채널 1곳과 국내 매체로 보완했습니다. 이 채널은 게시 날짜를 표시하지 않아 일부 항목(11/11 표기)은 하루 전 소식일 수 있습니다.",
+    "단일 출처(⚠️) 기사는 후속 보도로 교차 확인이 필요합니다."
+  ]
+}
