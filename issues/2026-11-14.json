@@ -1,0 +1,421 @@
+{
+  "date": "2026-11-14",
+  "weekday": "토",
+  "period": "11/13 ~ 11/14",
+  "tagline": "황 없는 엔비디아, 워싱턴과 돈줄이 흔들린다",
+  "key_points": [
+    "젠슨 황 퇴진 후폭풍 — 상원 증언 요구, 5,000억 달러 금융 협약 정체, 중국 사업 32억 달러 불확실",
+    "Thinking Machines·Edge0 대형 오픈 모델 공개, Anthropic 에이전트 자체 호스팅·제조업 패키지",
+    "삼성 냉각업체 모딘 인수 협상 보도, 인텔코리아는 국내 AI 협력 2건"
+  ],
+  "top_story": {
+    "category": "NVIDIA",
+    "grade": "multi",
+    "headline": "[업데이트] 젠슨 황 퇴진 후폭풍 — 상원 증언 요구, 5,000억 달러 금융 협약 정체",
+    "lead": "젠슨 황 전 엔비디아 CEO 사임 다음 날 워싱턴과 금융권에서 파장이 커졌다. 팀 스콧 상원 은행위원장이 황 전 CEO와 러트닉 상무장관에게 증언을 요청했고, 엔비디아가 주도한 AI 데이터센터 금융 협약은 거래 실적 없이 멈춰 섰다는 보도가 나왔다.",
+    "why": "창업자 공백이 회사 내부 문제를 넘어 대중국 수출 정책과 AI 인프라 자금 흐름으로 번지고 있다.",
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/china/huang-exit-us-scrutiny-imperil-3-billion-chinese-ai-projects-reliant-nvidia-2026-11-13/",
+        "date": "11/13"
+      },
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+        "date": "11/12"
+      },
+      {
+        "name": "Bloomberg Law",
+        "url": "https://news.bloomberglaw.com/banking-law/scott-asks-huang-lutnick-to-testify-before-senate-banking-panel",
+        "date": "11/12"
+      },
+      {
+        "name": "The New York Times",
+        "url": "https://www.nytimes.com/2026/11/12/us/politics/lutnick-nvidia-commerce-china-chips.html",
+        "date": "11/12"
+      },
+      {
+        "name": "토큰포스트",
+        "url": "https://www.tokenpost.kr/news/ai/438037",
+        "date": "11/14"
+      }
+    ],
+    "body": [
+      "스콧 위원장은 황 전 CEO에게 12월 3일, 러트닉 장관에게 12월 10일 출석을 요청했다. 응하지 않으면 소환장을 검토하겠다는 뜻도 내비쳤다. 하원은 황 전 CEO와 법무책임자 팀 테터의 비공개 면담을 요구해 왔다. 행정부와 황의 가까운 관계가 대중국 칩 규제를 늦췄을 수 있다는 미국 언론 보도도 나왔다.",
+      "돈줄도 흔들린다. 엔비디아가 8월 맺은 5,000억 달러 이상 규모 데이터센터 금융 협약은 아직 성사된 거래가 없다. 금융 파트너들은 GPU 담보 잔존가치 보증을 25%보다 높이라고 요구해 왔다. 오픈AI 오하이오 데이터센터 지원 구상은 2,500억 달러에서 1,200억 달러로 줄었다는 보도도 이어졌다.",
+      "중국 사업도 불확실하다. 로이터는 중국 조달 공고 약 150건을 분석해 약 32억 달러 규모 AI 구축 사업이 수출 통제 대상인 H100·H200·H800을 명시했다고 전했다. 실제 칩 반입은 확인되지 않았다. 차기 CEO는 정해지지 않았고, 3분기 실적은 17일 발표된다."
+    ],
+    "chart": {
+      "title": "오픈AI 오하이오 데이터센터 엔비디아 지원 구상",
+      "unit": "억 달러",
+      "source": "토큰포스트(로이터 보도 인용)",
+      "bars": [
+        {
+          "label": "당초 구상",
+          "value": 2500
+        },
+        {
+          "label": "축소 보도",
+          "value": 1200,
+          "highlight": true
+        },
+        {
+          "label": "공시상 보증 한도",
+          "value": 1050
+        }
+      ]
+    }
+  },
+  "key_sources": [],
+  "sections": [
+    {
+      "name": "모델·제품 출시",
+      "articles": [
+        {
+          "category": "Thinking Machines",
+          "grade": "single",
+          "headline": "Thinking Machines, 594B MoE 'Inkling 2 Small' 가중치 공개",
+          "lead": "미라 무라티의 Thinking Machines Lab이 총 594B, 활성 17B 파라미터 MoE 모델 Inkling 2 Small의 가중치를 Hugging Face에 Apache 2.0으로 풀었다.",
+          "why": "폐쇄형 프런티어 랩 출신 신생사가 대형 모델을 상업 이용 가능한 공개 라이선스로 내놨다.",
+          "sources": [
+            {
+              "name": "Thinking Machines Lab",
+              "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+              "date": "11/12"
+            }
+          ]
+        },
+        {
+          "category": "Edge0",
+          "grade": "single",
+          "headline": "Edge0, 노트북에서 도는 145B 오픈소스 모델 공개",
+          "lead": "Edge0가 Edge0-145B와 120B를 오픈소스로 냈다. 145B 모델은 노트북에서 약 29GB 메모리로 초당 80토큰 이상 생성한다고 회사는 밝혔다.",
+          "why": "클라우드 없이 개인 기기에서 대형 모델을 돌리는 흐름이 빨라진다.",
+          "sources": [
+            {
+              "name": "Edge0",
+              "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+              "date": "11/12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AI 에이전트",
+      "articles": [
+        {
+          "category": "Anthropic",
+          "grade": "single",
+          "headline": "Anthropic, 'Claude Managed Agents' 자체 호스팅판 비공개 베타",
+          "lead": "Anthropic이 Claude Managed Agents를 고객 클라우드에서 직접 운영하는 버전을 비공개 베타로 열었다. 자격 증명은 고객 클라우드 안에 남는다. 이용은 계정 팀을 통해서만 신청할 수 있다.",
+          "why": "보안 규정이 까다로운 기업도 에이전트를 도입할 길을 넓혔다.",
+          "sources": [
+            {
+              "name": "Help Net Security",
+              "url": "https://www.helpnetsecurity.com/2026/11/12/anthropic-self-hosted-claude-managed-agents/",
+              "date": "11/12"
+            }
+          ]
+        },
+        {
+          "category": "Anthropic",
+          "grade": "single",
+          "headline": "'Claude for Manufacturing' 출시 — 견적·불량 조사 등 17개 스킬",
+          "lead": "Anthropic이 제조업용 플러그인 Claude for Manufacturing을 내놨다. 견적 작성, 불량 원인 조사 등 17개 업무 스킬을 담았고 Team·Enterprise 요금제에서 쓸 수 있다.",
+          "why": "범용 비서에서 업종별 업무 패키지로 경쟁 축이 옮겨 가고 있다.",
+          "sources": [
+            {
+              "name": "Unite.AI",
+              "url": "https://www.unite.ai/anthropic-launches-claude-for-manufacturing-with-17-workflow-skills/",
+              "date": "11/12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "빅테크·랩 동향",
+      "articles": [
+        {
+          "category": "OpenAI",
+          "grade": "single",
+          "headline": "OpenAI, 독립 로봇팀 해체… 인력은 연구·응용 조직으로",
+          "lead": "OpenAI가 별도 로봇팀을 없애고 인력을 주력 연구조직과 응용 부문으로 나눠 옮겼다는 보도가 나왔다. 휴머노이드 첫 공개 시연 목표는 2027년으로 알려졌다.",
+          "why": "로봇을 곁가지 사업이 아닌 핵심 모델 개발과 묶으려는 재편으로 읽힌다.",
+          "sources": [
+            {
+              "name": "토큰포스트",
+              "url": "https://www.tokenpost.kr/news/ai/438040",
+              "date": "11/14"
+            }
+          ]
+        },
+        {
+          "category": "Anthropic",
+          "grade": "single",
+          "headline": "Claude 인증 장애 약 10시간… API는 정상",
+          "lead": "13일 claude.ai와 Claude Code 등에서 로그인 인증 오류가 약 10시간 이어졌다. 사용자 신고는 정점에서 약 2,900건이었다. API 트래픽은 영향이 없었다.",
+          "why": "업무 도구로 쓰임새가 커질수록 장애 한 번의 파급도 커진다.",
+          "sources": [
+            {
+              "name": "Claude Status",
+              "url": "https://status.claude.com/incidents/nn11wk485zfn",
+              "date": "11/13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "산업·투자·인프라",
+      "articles": [
+        {
+          "category": "Samsung",
+          "grade": "single",
+          "headline": "삼성전자, 데이터센터 냉각업체 모딘 인수 협상 보도",
+          "lead": "삼성전자가 미국 데이터센터 냉각 업체 모딘(Modine) 인수를 협상 중이라는 보도가 나왔다. 모딘 시가총액은 약 56억 달러이며, 보도 뒤 시간외 거래에서 주가가 29% 뛰었다.",
+          "why": "AI 데이터센터의 병목이 칩에서 전력·냉각으로 번지며 부품사 몸값이 오르고 있다.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-11-12/samsung-is-in-talks-to-acquire-data-center-cooling-firm-modine",
+              "date": "11/12"
+            }
+          ]
+        },
+        {
+          "category": "Nscale",
+          "grade": "single",
+          "headline": "Nscale 3분기 매출 1,344% 급증… 순손실 16억9,000만 달러",
+          "lead": "영국 AI 클라우드 기업 Nscale이 상장 설명서를 고쳤다. 3분기 매출은 3억750만 달러로 1년 새 1,344% 늘었지만 순손실은 16억9,000만 달러로 커졌다.",
+          "why": "네오클라우드의 외형 성장과 적자 확대가 동시에 진행되고 있다.",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/12/nscale-updates-ipo-prospectus-that-shows-widening-loss.html",
+              "date": "11/12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "연구·오픈소스·보안",
+      "articles": [
+        {
+          "category": "OpenAI",
+          "grade": "single",
+          "headline": "OpenAI 보안 제품 'Daybreak' 2종 공개",
+          "lead": "OpenAI가 공격 모의 도구 Daybreak Red Team(얼리 액세스)과 Codex 플러그인 Daybreak Defense Factory(리서치 프리뷰)를 공개했다.",
+          "why": "모델 회사가 보안 시장에 직접 제품을 들고 들어왔다.",
+          "sources": [
+            {
+              "name": "The Register",
+              "url": "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500",
+              "date": "11/12"
+            }
+          ]
+        },
+        {
+          "category": "FBI",
+          "grade": "single",
+          "headline": "FBI, 북한 딥페이크 화상회의 사기 'FaceStealer' 공개 — 4억 달러 이상 탈취",
+          "lead": "FBI가 북한 연계 조직의 딥페이크 화상회의 사기 작전을 공개했다. 18개월간 58개국 677명을 노려 4억 달러 이상의 암호화폐를 빼돌린 것으로 추산된다.",
+          "why": "생성형 AI가 국가 단위 사기 범죄의 도구로 쓰이고 있다.",
+          "sources": [
+            {
+              "name": "Nextgov",
+              "url": "https://www.nextgov.com/cybersecurity/2026/11/fbi-disrupts-intricate-north-korean-fake-call-scheme-tied-400m-crypto-theft/417200/",
+              "date": "11/12"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "korea": [
+    {
+      "category": "서울 AI 허브",
+      "grade": "single",
+      "headline": "서울 AI 허브·인텔코리아, AI 스타트업 육성·해외 진출 협력",
+      "lead": "서울 AI 허브가 인텔코리아와 AI 스타트업 육성과 해외 진출 지원 업무협약을 맺었다. 2027년 인텔 아시아태평양·일본(APJ) 스타트업 육성 프로그램을 국내에 들여오는 방안을 협의하고 있다.",
+      "why": "글로벌 칩 기업의 육성 프로그램이 국내 AI 스타트업의 해외 진출 통로가 될 수 있다.",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://www.hellot.net/news/article.html?no=116293",
+          "date": "11/13"
+        }
+      ],
+      "body": [
+        "협약은 국내 AI 스타트업 지원과 해외 진출을 축으로 한다. 핵심은 인텔 APJ 스타트업 프로그램의 2027년 국내 도입이며, 세부 내용은 협의 중이다.",
+        "인텔코리아는 같은 날 공장 자율운영 소프트웨어 기업 다임 테크놀로지와도 협약을 맺었다. 하루에 국내 AI 생태계와 두 건의 협력을 발표한 셈이다."
+      ]
+    },
+    {
+      "category": "다임 테크놀로지",
+      "grade": "single",
+      "headline": "다임 테크놀로지·인텔, 'AI 다크팩토리' 사업 확대",
+      "lead": "다임 테크놀로지가 인텔코리아와 공장 자율운영 소프트웨어에 인텔 컴퓨팅 기술을 결합하는 업무협약을 맺고 공동 개념검증(PoC)을 추진한다.",
+      "why": "사람 없이 돌아가는 무인 공장 수요가 제조 AI 협력을 키우고 있다.",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://www.hellot.net/news/article.html?no=116290",
+          "date": "11/13"
+        }
+      ]
+    },
+    {
+      "category": "더화이트커뮤니케이션",
+      "grade": "single",
+      "headline": "더화이트커뮤니케이션, AI 고객서비스 플랫폼 '이지아이' 공개",
+      "lead": "더화이트커뮤니케이션이 AI 자동응대, 고객 요구 분석, CRM 실행을 하나로 묶은 플랫폼 이지아이를 내놨다. 10년간 쌓은 상담 데이터를 바탕으로 기존 클라우드게이트를 전면 개편했다.",
+      "why": "콜센터 상담이 응대에서 후속 영업까지 한 흐름으로 자동화되고 있다.",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://www.hellot.net/news/article.html?no=116284",
+          "date": "11/13"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "text": "중국 서버 제조사 xFusion, 선전거래소 심사 통과 — 약 80억 위안(약 12억 달러) 규모 차이넥스트 상장 추진, 증감회 등록 대기",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/server-maker-xfusion-gets-shenzhen-nod-for-1-2-billion-listing",
+          "date": "11/13"
+        }
+      ]
+    },
+    {
+      "text": "IBM 'Granite 4.1 LLMON' 프리뷰(3B·8B) — 내부 시험서 간접 프롬프트 인젝션 성공률 53~100%→0.02~5.6%, 단독 방어책으로는 쓰지 말라고 권고",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/ibm-granite/granite-4.1-3b-llmon-preview",
+          "date": "11/12"
+        }
+      ]
+    },
+    {
+      "text": "Zyphra, 음성합성 모델 ZONOS3-Mini 공개 — 총 8억·활성 1억 파라미터, 첫 음성 출력 중앙값 80ms, Apache 2.0",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co/blog/Zyphra/zonos3-mini",
+          "date": "11/12"
+        }
+      ]
+    },
+    {
+      "text": "브레이브 검색 API, x402 기반 쿼리당 0.005달러 과금 도입 — AI 에이전트가 USDC로 바로 결제",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Brave",
+          "url": "https://brave.com/blog/search-api-agentic-payments/",
+          "date": "11/12"
+        }
+      ]
+    },
+    {
+      "text": "게인사이트, 약 270개 직무 감축하고 AI 에이전트 중심 운영으로 재편 — 가격도 좌석제에서 ARR·고객 수 기준으로",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "BERI",
+          "url": "https://www.beri.net/article/gainsight-layoffs-270-jobs-ai-agents-outcome-executive-value-based-pricing-arr-seats-atlas-renewal-terms",
+          "date": "11/12"
+        }
+      ]
+    },
+    {
+      "text": "TSMC, 협력사 클라우드 경유 유출로 직원 약 4만6,000명 개인정보 온라인 게시 확인 — 고객 데이터·운영은 영향 없다고 밝혀",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "MLQ",
+          "url": "https://mlq.ai/news/tsmc-says-employee-personal-data-was-posted-online-from-a-cloud-providers-systems/",
+          "date": "11/12"
+        }
+      ]
+    },
+    {
+      "text": "미 스타트업 Drogue, 267억 원 조달 — 해양온도차발전으로 바다 위 AI 데이터센터 추진, 2028년 초 시제품 목표",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "토큰포스트",
+          "url": "https://www.tokenpost.kr/news/ai/438080",
+          "date": "11/14"
+        }
+      ]
+    },
+    {
+      "text": "[KR] 셀타스퀘어, 식약처 AI 활용 자료집에 국내 약물감시 분야 유일 사례로 수록",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://www.hellot.net/news/article.html?no=116283",
+          "date": "11/13"
+        }
+      ]
+    }
+  ],
+  "social": [],
+  "editorial": {
+    "title": "한 사람의 무게",
+    "body": "엔비디아 창업자가 떠난 지 하루 만에 의회 증언 요구와 금융 협약 정체 소식이 겹쳤다. 회사의 가치에는 칩만이 아니라 한 사람이 쌓은 정치·금융 관계도 들어 있었다는 뜻이다. 17일 실적 발표에서는 숫자만큼 후계 계획이 중요해졌다. 불확실성을 줄일 책임은 이사회에 있다."
+  },
+  "calendar": [
+    {
+      "when": "11/17",
+      "what": "엔비디아 2027 회계연도 3분기 실적 발표",
+      "grade": "primary"
+    },
+    {
+      "when": "11/17",
+      "what": "샌프란시스코 연은 AI·고용 콘퍼런스",
+      "grade": "single"
+    },
+    {
+      "when": "11/20",
+      "what": "Anthropic 나스닥 거래 개시 목표(보도)",
+      "grade": "single"
+    },
+    {
+      "when": "11/25",
+      "what": "대만 AI 칩 기판 핵심기술 지정안 의견 수렴 마감",
+      "grade": "single"
+    },
+    {
+      "when": "12/3",
+      "what": "상원 은행위, 젠슨 황 증언 요청일",
+      "grade": "single"
+    },
+    {
+      "when": "12/10",
+      "what": "상원 은행위, 러트닉 상무장관 증언 요청일",
+      "grade": "single"
+    }
+  ],
+  "coverage": "글로벌 AI 데일리 정리(AI Weekly)와 원 출처(공식 블로그·Hugging Face·주요 매체), 국내 매체(헬로티·토큰포스트), 주요소스 1곳(접근 실패)",
+  "key_sources_checked": 0,
+  "notes": [
+    "주요소스 목록 페이지를 이번에도 열지 못했습니다(접근 허가 응답 없음, 5일째). last_seen(217)은 그대로 두었습니다. 사용자가 대화에 이 주소를 한 번 붙여 주면 다음 실행부터 열릴 수 있습니다.",
+    "대부분의 기사는 날짜별 정리 페이지의 요약과 원 출처 링크를 근거로 했습니다. 원문 페이지 직접 열람은 접근 허가 문제로 실패해, 단일 출처(⚠️) 기사는 교차 확인이 필요합니다.",
+    "1면의 상원 증언 요청은 정리 페이지가 날짜를 '추정'으로 표기했습니다. 오하이오 지원 축소 수치는 국내 매체의 로이터 인용 보도입니다.",
+    "엔비디아 신임 이사회 의장 이름은 출처 간 확인이 안 돼 싣지 않았습니다."
+  ]
+}
