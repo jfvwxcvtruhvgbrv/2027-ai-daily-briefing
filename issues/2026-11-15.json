@@ -1,0 +1,382 @@
+{
+  "date": "2026-11-15",
+  "weekday": "일",
+  "period": "11/14 ~ 11/15",
+  "tagline": "후계자 찾는 엔비디아, 지갑 여는 에이전트",
+  "key_points": [
+    "엔비디아 이사회, 후임 CEO로 Arm 렌 하스 타진 보도 — 두 회사 주가 동반 하락",
+    "ChatGPT Wallet·Sierra Poppy — 에이전트가 직접 결제·상점과 연결되는 단계로",
+    "연준 설문서 87%가 AI를 금융 최대 위험으로 지목, JP모건은 내년 회사채 2.1조 달러 전망"
+  ],
+  "top_story": {
+    "category": "NVIDIA",
+    "grade": "multi",
+    "headline": "[업데이트] 엔비디아 이사회, 후임 CEO로 Arm 렌 하스 타진 보도",
+    "lead": "엔비디아 이사회가 젠슨 황의 후임으로 Arm CEO 렌 하스에게 의사를 타진했다고 FT가 보도했다. 확정된 제안은 아니다. 보도 뒤 Arm 주가는 5% 넘게, 엔비디아는 3% 넘게 내렸다.",
+    "why": "후계 구도가 윤곽을 드러내기 시작했지만, 경쟁사 수장 영입설에 두 회사 주가가 함께 흔들렸다.",
+    "sources": [
+      {
+        "name": "RTÉ(FT 보도 인용)",
+        "url": "https://www.rte.ie/news/business/2026/1113/1599163-nvidia-approached-arm-ceo-haas-to-succeed-huang-ft/",
+        "date": "11/13"
+      },
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/china/ex-nvidia-ceo-misled-top-lawyer-affair-with-chinese-businesswoman-sources-say-2026-11-14/",
+        "date": "11/14"
+      },
+      {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+        "date": "11/13"
+      },
+      {
+        "name": "The Standard(The Information 인용)",
+        "url": "https://www.thestandard.com.hk/finance/article/348055/Headhunters-may-be-hunting-for-Nvidias-next-successor-The-Information-reports",
+        "date": "11/10"
+      },
+      {
+        "name": "토큰포스트",
+        "url": "https://tokenpost.kr/news/ai/438357",
+        "date": "11/14"
+      }
+    ],
+    "body": [
+      "하스는 엔비디아에서 7년간 일한 경력이 있다. 앞서 업계에서는 AMD 리사 수 CEO도 후보로 거론됐다. 콜레트 크레스 CFO는 임시 CEO로 회사를 이끌고 있지만 장기 후계자로는 평가되지 않는다는 분석이 나왔다. 황에게 직접 보고하던 고위 임원은 약 60명에 이른다.",
+      "사임 경위를 둘러싼 보도도 이어졌다. 로이터는 소식통을 인용해 황 전 CEO가 10월 사내 메시지에서 중국 사업가와의 관계를 일반적인 사업 거래로 설명해 법무책임자 등을 오도했다고 전했다. 미국 관리들은 트럼프 대통령이 18~19일 APEC 미·중 정상회담에서 이 문제를 꺼내지 않을 것이라고 밝혔다.",
+      "파장은 거래선으로 번진다. 일론 머스크는 황이 공급망 핵심 거래를 직접 성사시켜 왔다며 일부를 잃을 수 있다고 말했다. 이사회는 임시 체제에서도 운영과 고객 약속, 로드맵이 유지된다고 밝혔다. 3분기 실적은 17일 나온다."
+    ]
+  },
+  "key_sources": [],
+  "sections": [
+    {
+      "name": "AI 에이전트",
+      "articles": [
+        {
+          "category": "OpenAI",
+          "grade": "single",
+          "headline": "OpenAI 'ChatGPT Wallet' 출시 — 에이전트가 대신 결제",
+          "lead": "OpenAI가 ChatGPT Wallet을 내놨다. 카드를 한 번 등록하면 Dots 에이전트가 사용자를 대신해 물건을 산다. 결제마다 사용자 승인이 필요하다. 미국의 18세 이상 Pro 이용자부터 쓸 수 있다.",
+          "why": "에이전트가 검색·추천을 넘어 실제 지갑을 여는 단계로 들어섰다.",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+              "date": "11/13"
+            }
+          ]
+        },
+        {
+          "category": "Sierra",
+          "grade": "single",
+          "headline": "Sierra, 개인 에이전트 규약 'Poppy 1.0' 공개 — 쇼피파이 전 매장 자동 게시",
+          "lead": "Sierra가 개인 에이전트와 기업을 잇는 규약 Poppy 1.0을 출시했다. 175개국 이상의 쇼피파이 매장이 별도 설정 없이 Poppy 파일을 자동 게시한다. 출시 파트너는 100곳이 넘는다.",
+          "why": "에이전트가 상점과 직접 대화하는 공통 규격 경쟁이 본격화했다.",
+          "sources": [
+            {
+              "name": "Sierra",
+              "url": "https://sierra.ai/blog",
+              "date": "11/13"
+            }
+          ],
+          "image_page": "https://sierra.ai/blog",
+          "image_caption": "Sierra 공식 블로그"
+        }
+      ]
+    },
+    {
+      "name": "모델·제품 출시",
+      "articles": [
+        {
+          "category": "DeepSeek",
+          "grade": "single",
+          "headline": "딥시크, 웹 검색·OCR 등 앱 전용 기능 API로 개방",
+          "lead": "딥시크가 채팅 앱에서만 쓰던 웹 검색, 파일 입력, URL 읽기, OCR, 음성 변환을 API로 풀었다. 검색은 1,000건당 0.75달러, OCR은 1,000쪽당 0.225달러다.",
+          "why": "저가 모델에 도구까지 싸게 붙여 개발자 이탈을 노린다.",
+          "sources": [
+            {
+              "name": "TokenPost",
+              "url": "https://www.tokenpost.com/news/technology/56779",
+              "date": "11/13"
+            }
+          ]
+        },
+        {
+          "category": "Tencent",
+          "grade": "single",
+          "headline": "텐센트 훈위안, 실시간 음성 모델 'Hy Realtime' 공개",
+          "lead": "텐센트 훈위안이 실시간 음성 모델 Hy Realtime을 내놨다. 대화 도중 웹 도구 호출 여부를 스스로 판단하고 노래도 부른다. 클라우드 API는 가격·일정 미정으로 출시 예정이다.",
+          "why": "음성 비서가 말하면서 검색까지 하는 방향으로 진화하고 있다.",
+          "sources": [
+            {
+              "name": "Pandaily",
+              "url": "https://pandaily.com/tencent-hunyuan-hy-realtime-voice-model-tool-calling-singing-yuanbao/",
+              "date": "11/13"
+            }
+          ]
+        },
+        {
+          "category": "Apple",
+          "grade": "single",
+          "headline": "애플, 시리 AI 스마트 허브 'HomeView' 299달러에 판매",
+          "lead": "애플이 7인치 화면의 스마트 홈 허브 HomeView 주문을 받기 시작했다. 가격은 299달러이며 얼굴 인식으로 최대 6명을 구분한다. EU는 출시 국가에서 빠졌다.",
+          "why": "새 시리를 앞세운 애플의 첫 가정용 AI 기기다.",
+          "sources": [
+            {
+              "name": "Apple Newsroom",
+              "url": "https://www.apple.com/newsroom/2026/11/apple-homeview-available-today/",
+              "date": "11/13"
+            }
+          ],
+          "image_page": "https://www.apple.com/newsroom/2026/11/apple-homeview-available-today/",
+          "image_caption": "애플 HomeView(애플 뉴스룸)"
+        }
+      ]
+    },
+    {
+      "name": "산업·투자·인프라",
+      "articles": [
+        {
+          "category": "LangChain",
+          "grade": "single",
+          "headline": "LangChain, 3억 달러 시리즈 C — 기업가치 30억 달러",
+          "lead": "에이전트 개발 도구 기업 LangChain이 CapitalG 주도로 3억 달러를 유치했다. 기업가치는 30억 달러다. LangSmith 고객은 7,000곳을 넘었다.",
+          "why": "에이전트 붐의 수혜가 모델사에서 개발 도구층으로 넓어지고 있다.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+              "date": "11/13"
+            }
+          ]
+        },
+        {
+          "category": "JPMorgan",
+          "grade": "single",
+          "headline": "JP모건 \"2027년 미 우량 회사채 2.1조 달러 사상 최대\" — AI 투자가 견인",
+          "lead": "JP모건이 내년 미국 투자등급 회사채 발행액을 사상 최대인 2.1조 달러로 내다봤다. 가장 큰 동력으로 AI 인프라 투자를 꼽았다.",
+          "why": "데이터센터 투자 자금이 주식에서 채권 시장으로 본격 옮겨 가고 있다.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-11-13/jpmorgan-sees-ai-spree-driving-record-2027-us-high-grade-supply",
+              "date": "11/13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "정책·규제·소송",
+      "articles": [
+        {
+          "category": "Federal Reserve",
+          "grade": "single",
+          "headline": "연준 \"시장 87%가 AI를 금융 최대 위험으로 지목\"",
+          "lead": "연준 금융안정보고서 설문에서 시장 관계자의 87%가 AI를 금융 시스템의 최대 위험으로 꼽았다. 올봄 조사 때는 50%였다.",
+          "why": "AI 투자 과열을 보는 금융권의 경계심이 반년 새 크게 높아졌다.",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+              "date": "11/13"
+            }
+          ],
+          "chart": {
+            "title": "AI를 금융 시스템 최대 위험으로 꼽은 응답 비율",
+            "unit": "%",
+            "source": "연준 금융안정보고서(CNBC 보도)",
+            "bars": [
+              {
+                "label": "2026년 봄",
+                "value": 50
+              },
+              {
+                "label": "2026년 11월",
+                "value": 87,
+                "highlight": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "연구·오픈소스·보안",
+      "articles": [
+        {
+          "category": "FBI",
+          "grade": "single",
+          "headline": "FBI \"AI 자율 침투 도구 'ARTEX' 악용\" — 한국인 약 6만7,000명 정보 유출",
+          "lead": "FBI가 자율 침투 테스트 프레임워크 ARTEX가 공격에 쓰이고 있다고 경고했다. 침입 뒤 3시간 안에 관리자 권한까지 올라갔고, 한국에서 약 6만7,000명의 개인정보가 빠져나갔다.",
+          "why": "공격 자동화로 침입에서 장악까지 걸리는 시간이 크게 줄었다.",
+          "sources": [
+            {
+              "name": "GBHackers",
+              "url": "https://gbhackers.com/fbi-warns-artex-ai-framework/",
+              "date": "11/13"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "korea": [
+    {
+      "category": "셀타스퀘어",
+      "grade": "single",
+      "headline": "셀타스퀘어, 식약처 AI 활용 자료집에 약물감시 분야 유일 사례로 수록",
+      "lead": "셀타스퀘어의 약물감시 솔루션 iVigilance Square가 식품의약품안전평가원의 의약품 전주기 AI 활용 자료집에 실렸다. 약물감시 분야에서는 유일한 국내 사례다.",
+      "why": "규제기관이 제약 안전성 업무의 AI 도입을 공식 사례로 인정했다.",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://hellot.net/news/article.html?no=116283",
+          "date": "11/13"
+        }
+      ],
+      "body": [
+        "솔루션은 세 기능으로 짜였다. Safety는 안전성 데이터를 자동 입력하고 설명 가능한 AI로 사례 처리를 돕는다. LITUS는 문헌 검색·중복 제거·요약과 개별 이상사례 보고(ICSR) 탐지를, Tabulator는 KAERS 데이터 분석과 품목갱신 보고용 표 작성을 맡는다.",
+        "자료집은 식약처 NEXT-G 사업으로 마련됐다. 신민경 대표는 6일 추계학술대회에서 사례를 발표했다. 정량 성과 수치는 공개되지 않았다."
+      ]
+    },
+    {
+      "category": "정부",
+      "grade": "single",
+      "headline": "정부 \"황 퇴진 뒤에도 엔비디아 GPU 26만 장 공급 유지\"",
+      "lead": "정부가 젠슨 황 사임 이후에도 엔비디아 GPU 26만 장 공급과 기존 AI 협력 사업이 이어진다고 재확인했다는 보도가 나왔다.",
+      "why": "국가 AI 인프라 계획이 특정 경영자 교체에 흔들리지 않는다는 신호다.",
+      "sources": [
+        {
+          "name": "토큰포스트",
+          "url": "https://tokenpost.kr/news/ai/438401",
+          "date": "11/14"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "text": "Perplexity, 에이전트 기능 'Teammates'를 macOS 앱에 추가 — 월 200달러 Max 구독자 대상, 기존엔 웹·iOS만",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/11/13/perplexity-brings-ai-agents-feature-called-teammates-to-the-mac/",
+          "date": "11/13"
+        }
+      ]
+    },
+    {
+      "text": "알리바바, 한 줄 입력으로 가사·편곡·보컬을 만드는 AI 음악 앱 'HappyShrimp' 출시 — 해외 월 14.90달러부터",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "AIbase",
+          "url": "https://news.aibase.com/news/32309",
+          "date": "11/13"
+        }
+      ]
+    },
+    {
+      "text": "MetaX·UBTech 합작 로봇 칩 스타트업 Xilect, 5억 위안 엔젤 투자 유치 — 기업가치 약 40억 위안, 2028년 첫 칩 목표",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "TechNode",
+          "url": "https://technode.com/2026/11/13/metax-and-ubtech-backed-robotics-chip-startup-xilect-raises-rmb-500-million/",
+          "date": "11/13"
+        }
+      ]
+    },
+    {
+      "text": "테슬라, 일부 고객에 사이버캡 주문 개시 — 2만9,990달러에 월 299달러 자율주행 구독 필수, 다음 달 오스틴서 첫 인도",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "InsideEVs",
+          "url": "https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/",
+          "date": "11/13"
+        }
+      ]
+    },
+    {
+      "text": "美 연방항공청(FAA), 13일 전국 항공편 운항 중단 — 2023년 1월 이후 처음, AI 관제 보조 도구 SMART 전국 확대 직후(인과 관계는 미확인)",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Futurism",
+          "url": "https://futurism.com/artificial-intelligence/us-airspace-shuts-down-faa-rolled-out-ai",
+          "date": "11/13"
+        }
+      ]
+    },
+    {
+      "text": "ZDI, TrendAI Vision One 보안 에이전트의 로컬 권한 상승 취약점 10여 건 공개 — CVSS 7.8, SYSTEM 권한 탈취 가능",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Zero Day Initiative",
+          "url": "https://www.zerodayinitiative.com/advisories/ZDI-26-983/",
+          "date": "11/13"
+        }
+      ]
+    },
+    {
+      "text": "폭스콘·엔비디아, 생산 거점 약 200곳에 '스스로 학습하는 AI 공장' 구축 — 12일간 1조 토큰 처리, SMT 불량 90% 자동 보정",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://hellot.net/news/article.html?no=116308",
+          "date": "11/14"
+        }
+      ]
+    }
+  ],
+  "social": [],
+  "editorial": {
+    "title": "돈이 움직이는 에이전트",
+    "body": "OpenAI와 Sierra가 같은 날 에이전트의 결제와 상점 연결을 내놨다. 편리함만큼 책임 소재도 커진다. 잘못된 구매의 책임을 누가 지는지부터 분명히 해야 한다. 금융권이 AI를 최대 위험으로 꼽는 지금은 더욱 그렇다."
+  },
+  "calendar": [
+    {
+      "when": "11/17",
+      "what": "엔비디아 2027 회계연도 3분기 실적 발표",
+      "grade": "primary"
+    },
+    {
+      "when": "11/18~19",
+      "what": "APEC 미·중 정상회담",
+      "grade": "single"
+    },
+    {
+      "when": "11/20",
+      "what": "LangChain 제품 행사",
+      "grade": "single"
+    },
+    {
+      "when": "11/20",
+      "what": "Anthropic 나스닥 거래 개시 목표(보도)",
+      "grade": "single"
+    },
+    {
+      "when": "12/3",
+      "what": "상원 은행위, 젠슨 황 증언 요청일",
+      "grade": "single"
+    },
+    {
+      "when": "12월",
+      "what": "테슬라 사이버캡 오스틴 첫 인도",
+      "grade": "single"
+    }
+  ],
+  "coverage": "글로벌 AI 데일리 정리(AI Weekly)와 원 출처(공식 블로그·주요 매체), 국내 매체(헬로티·토큰포스트), 주요소스 1곳(접근 실패)",
+  "key_sources_checked": 0,
+  "notes": [
+    "주요소스 목록 페이지를 이번에도 열지 못했습니다(접근 허가 응답 없음, 6일째). last_seen(217)은 그대로 두었습니다. 사용자가 대화에 이 주소를 한 번 붙여 주면 다음 실행부터 열릴 수 있습니다.",
+    "1면의 하스 접촉설은 FT 보도를 인용한 기사로 확인했으며 원문 페이지는 접근 허가 문제로 직접 열지 못했습니다. 로이터·CNBC 내용은 날짜별 정리 페이지 요약을 근거로 했습니다.",
+    "정부의 GPU 26만 장 공급 재확인 기사는 목록 미리보기만 확인했습니다. 발표 주체(부처)는 확인하지 못했습니다.",
+    "FAA 운항 중단과 AI 도구 확대의 인과 관계는 보도에서 확인되지 않아 단신으로만 다뤘습니다."
+  ]
+}
