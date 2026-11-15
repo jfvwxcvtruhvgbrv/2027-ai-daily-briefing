@@ -1,0 +1,394 @@
+{
+  "date": "2026-11-16",
+  "weekday": "월",
+  "period": "11/13 ~ 11/16",
+  "tagline": "워싱턴이 흔드는 엔비디아, 구멍 드러난 코딩 생태계",
+  "key_points": [
+    "베선트, 엔비디아에 외부 CEO 영입·10일 내 답변 요구 — 동남아 우회 공급 의혹까지",
+    "Cursor 악성 확장·Lovable DB 노출 — AI 코딩 도구 보안 사고 잇따라",
+    "中 관영매체 'HBM 대중 수출' 압박, 美선 메모리 3사 담합 소송 계속"
+  ],
+  "top_story": {
+    "category": "NVIDIA",
+    "grade": "multi",
+    "headline": "[업데이트] 베선트 \"엔비디아, 극적 쇄신 필요\"… 외부 CEO 영입·10일 내 답변 요구",
+    "lead": "스콧 베선트 미 재무장관이 젠슨 황 퇴진 뒤 엔비디아에 외부 출신 CEO를 앉히라고 요구했다. 대중 칩 판매와 싱가포르 페이퍼컴퍼니 의혹에는 10일 안에 답하라고 했다. 같은 날 황이 동남아 데이터센터망으로 중국 고객의 우회 사용을 도왔다는 보도도 나왔다.",
+    "why": "후계 문제가 회사 안을 넘어 미 행정부의 압박과 대중 수출 통제 논란으로 번졌다. 17일 실적 발표를 앞두고 불확실성이 커졌다.",
+    "sources": [
+      {
+        "name": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-15/bessent-says-nvidia-needs-dramatic-shakeup-after-huang-ouster",
+        "date": "11/15"
+      },
+      {
+        "name": "WSJ",
+        "url": "https://www.wsj.com/tech/jensen-huang-backdoor-ai-data-centers-a5e4499d",
+        "date": "11/15"
+      },
+      {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+        "date": "11/14"
+      },
+      {
+        "name": "New York Times",
+        "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
+        "date": "11/15"
+      }
+    ],
+    "body": [
+      "WSJ는 황이 동남아 협력사들의 데이터센터망을 만들어 중국 고객이 해외에서 접속하는 방식으로 고급 칩을 쓰게 했다고 보도했다. 싱가포르는 Megaspeed의 칩 수출 신고를 조사한 뒤 관련 인물 앨리스 황의 재입국을 막았다.",
+      "행정부 내부 갈등도 드러났다. NYT는 러트닉 상무장관이 동남아 칩 수출 규칙의 대상을 7개국으로 좁혀 말레이시아 Bitdeer 데이터센터가 빠졌다고 전했다. 러트닉 가족이 연관된 Cantor가 Bitdeer 주식 발행을 맡고 있어 이해충돌 논란이 일었다. 러트닉은 이번 주 트럼프 대통령의 중국 방문에 동행할 예정이다.",
+      "시장 평가도 낮아졌다. HSBC는 엔비디아 투자의견을 한 단계 내리고 목표가를 370달러에서 170달러로 깎았다. 규제 위험과 CEO 공백을 이유로 들었다."
+    ]
+  },
+  "key_sources": [],
+  "sections": [
+    {
+      "name": "빅테크·랩 동향",
+      "articles": [
+        {
+          "category": "Anthropic",
+          "grade": "single",
+          "headline": "앤트로픽, 1~9월 매출 약 12배 증가… 인프라 약정 1,204조 원 규모",
+          "lead": "앤트로픽의 올해 1~9월 매출이 1년 전보다 약 12배(1,206%) 늘었다는 국내 보도가 나왔다. 같은 기간 순손실은 약 139조 원, 장기 인프라 약정은 약 1,204조 원으로 전해졌다.",
+          "why": "상장을 앞두고 고성장과 막대한 컴퓨팅 비용 부담이 함께 드러났다.",
+          "sources": [
+            {
+              "name": "토큰포스트",
+              "url": "https://www.tokenpost.kr/news/ai/438672",
+              "date": "11/15"
+            }
+          ]
+        },
+        {
+          "category": "Apple",
+          "grade": "single",
+          "headline": "애플, 첫 스마트 글라스 2027년 6월 WWDC서 공개 보도",
+          "lead": "블룸버그는 애플이 첫 스마트 글라스를 내년 6월 WWDC에서 공개하고 2027년 안에 출시할 계획이라고 보도했다. 시리 AI를 앞세운 아이폰 연동형 액세서리로 설계됐다고 한다.",
+          "why": "메타가 앞서간 AI 안경 시장에 애플이 들어오면 경쟁 구도가 바뀐다.",
+          "sources": [
+            {
+              "name": "9to5Mac(블룸버그 보도 인용)",
+              "url": "https://9to5mac.com/2026/11/15/apples-siri-ai-smart-glasses-are-reportedly-launching-next-year-heres-what-to-expect/",
+              "date": "11/15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AI 에이전트",
+      "articles": [
+        {
+          "category": "Google",
+          "grade": "primary",
+          "headline": "구글, Antigravity에 멀티 에이전트 기능 '/teamwork' 공개",
+          "lead": "구글 리서치가 개발 도구 Antigravity에서 여러 에이전트가 함께 일하는 /teamwork 기능을 소개했다. 수학 추측을 Lean으로 형식화하며 180만 줄을 만든 사례 등을 공개했다. 외부 연구자에게도 도구를 연다.",
+          "why": "에이전트 협업이 코딩을 넘어 수학·과학 연구 현장으로 넓어지고 있다.",
+          "sources": [
+            {
+              "name": "Google Research",
+              "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+              "date": "11/14"
+            }
+          ],
+          "image_page": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+          "image_caption": "구글 리서치 블로그의 Antigravity /teamwork 소개"
+        },
+        {
+          "category": "Tencent",
+          "grade": "single",
+          "headline": "텐센트 '워크버디', 제미나이 4 카본을 프로 구독자에 제공",
+          "lead": "텐센트의 업무용 에이전트 서비스 워크버디가 구글 제미나이 4 카본 모델을 프로 구독자에게 열었다.",
+          "why": "중국 빅테크 서비스가 미국 랩의 최신 모델을 직접 붙이는 드문 사례다.",
+          "sources": [
+            {
+              "name": "토큰포스트",
+              "url": "https://www.tokenpost.kr/news/ai/438646",
+              "date": "11/15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "연구·오픈소스·보안",
+      "articles": [
+        {
+          "category": "Cursor",
+          "grade": "single",
+          "headline": "Cursor 침해 사고로 악성 'Claude Code' 확장 2종 약 11시간 유통",
+          "lead": "Cursor가 보안 침해를 확인했다. Fireworks AI에서 탈취된 키로 악성 Claude Code 확장 프로그램 2종(v2.1.312·2.1.313)이 마켓플레이스에 약 11시간 올라와 있었다. 최대 5,000명이 내려받았을 가능성이 있다.",
+          "why": "코딩 에이전트 확장 생태계가 공급망 공격의 새 통로가 되고 있다.",
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension",
+              "date": "11/14"
+            }
+          ]
+        },
+        {
+          "category": "Lovable",
+          "grade": "single",
+          "headline": "Lovable로 만든 사이트 2만4,664곳 DB가 인증 없이 열려",
+          "lead": "독일 보안업체 조사에서 Lovable 프로젝트 15만9,041건 가운데 2만4,664개 사이트의 Supabase 데이터베이스가 인증 없이 열람 가능했다. 여권 정보도 1,000건 이상 노출됐다.",
+          "why": "바이브 코딩으로 빠르게 만든 서비스의 기본 보안 설정 문제가 대규모로 확인됐다.",
+          "sources": [
+            {
+              "name": "Crissy Field 연구 보고서",
+              "url": "https://www.crissyfield.de/research/lovable-en/",
+              "date": "11/15"
+            }
+          ],
+          "chart": {
+            "title": "조사 대상 Lovable 프로젝트와 DB 노출 사이트",
+            "unit": "건",
+            "source": "Crissy Field 조사",
+            "bars": [
+              {
+                "label": "조사 프로젝트",
+                "value": 159041
+              },
+              {
+                "label": "DB 노출 사이트",
+                "value": 24664,
+                "highlight": true
+              }
+            ]
+          }
+        },
+        {
+          "category": "Stanford",
+          "grade": "single",
+          "headline": "스탠퍼드, 문서를 16개 토큰으로 압축하는 메모리 모듈 'Memorilla' 공개",
+          "lead": "스탠퍼드가 1억9,400만 파라미터 메모리 모듈 Memorilla를 Apache 2.0으로 공개했다. 문서를 잠재 토큰 16개로 줄여 동결된 Qwen3-8B에 붙인다. FactKG 정확도 84.33%, 입력 토큰은 108분의 1로 줄었다고 밝혔다.",
+          "why": "긴 문맥 처리 비용을 줄이는 경량 대안으로 주목된다.",
+          "sources": [
+            {
+              "name": "Emergent",
+              "url": "https://emergent.sh/news/stanford-open-sources-memorilla-memory-module",
+              "date": "11/14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "산업·투자·인프라",
+      "articles": [
+        {
+          "category": "AI 인프라",
+          "grade": "single",
+          "headline": "AI 데이터센터 관련주 시총, 6월 이후 4조2,000억 달러 증발",
+          "lead": "AI 데이터센터 관련 기업들의 시가총액이 6월 이후 약 4조2,000억 달러 줄었다는 분석이 나왔다. 직전 1년 상승분의 45%에 해당한다.",
+          "why": "엔비디아 사태 이전부터 AI 인프라 투자 열기가 식고 있었다는 신호다.",
+          "sources": [
+            {
+              "name": "토큰포스트",
+              "url": "https://www.tokenpost.kr/news/ai/438663",
+              "date": "11/15"
+            }
+          ]
+        },
+        {
+          "category": "Foundation",
+          "grade": "single",
+          "headline": "휴머노이드 스타트업 파운데이션, 급여 미지급 보도… GM은 '3억 달러 주문' 부인",
+          "lead": "파운데이션 로보틱스가 10월 30일 급여를 주지 못했다는 보도가 나왔다. 투자 유치 자료에 적힌 3억 달러 주문에 대해 GM은 사실이 아니라고 밝혔다. 회사는 휴머노이드 Phantom MK-2를 전장용으로 방향을 틀고 있다.",
+          "why": "휴머노이드 투자 열풍 속에 부풀려진 수주 실적을 검증해야 한다는 경고다.",
+          "sources": [
+            {
+              "name": "SF Standard",
+              "url": "https://sfstandard.com/2026/11/14/humanoid-war-robots-soma-startup",
+              "date": "11/14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "정책·규제·소송",
+      "articles": [
+        {
+          "category": "데이터센터",
+          "grade": "single",
+          "headline": "미 캔자스 엘도라도, 대형 데이터센터 10년 금지안 주민투표 통과",
+          "lead": "캔자스주 엘도라도 주민투표에서 약 70%가 찬성해 대형 데이터센터를 10년간 막는 안이 통과됐다. 전력 10MW 또는 하루 용수 10만 갤런을 넘는 시설과 일정 규모 이상 배터리 시설이 대상이다.",
+          "why": "전력·용수 부담을 둘러싼 지역 반발이 실제 입지 규제로 이어지고 있다.",
+          "sources": [
+            {
+              "name": "토큰포스트",
+              "url": "https://www.tokenpost.kr/news/policy/438545",
+              "date": "11/15"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "korea": [
+    {
+      "category": "반도체",
+      "grade": "single",
+      "headline": "中 관영매체 \"한국, 미국 설득해 HBM 대중 수출 열어야\"",
+      "lead": "중국 글로벌타임스가 한국 반도체 기업이 중국에 HBM 등 최첨단 메모리를 팔아야 한다는 논평을 냈다. 한국 정부가 미국에 수출 허용을 설득해야 한다고 주장했다.",
+      "why": "미·중 정상회담을 앞두고 한국 메모리 업계가 양국 압박 사이에 놓였다.",
+      "sources": [
+        {
+          "name": "서울경제 영문판",
+          "url": "https://en.sedaily.com/world/2026/11/14/china-urges-korea-to-sell-advanced-memory-chips-to-beijing",
+          "date": "11/14"
+        }
+      ],
+      "body": [
+        "논평은 13일 나왔다. 같은 날 뉴욕 증시에서 SK하이닉스는 4.30% 내렸고, 필라델피아 반도체지수도 젠슨 황 사임 여파로 3.43% 떨어졌다.",
+        "미국에서는 중간선거 뒤 대중 칩 규제가 강해질 수 있다는 관측이 나오고, 중국 기업들은 엔비디아 칩을 미리 사들이는 것으로 전해졌다. 18~19일 APEC 미·중 정상회담이 분수령으로 꼽힌다. 한국 정부의 공식 입장은 보도되지 않았다."
+      ]
+    },
+    {
+      "category": "메모리",
+      "grade": "single",
+      "headline": "삼성·SK하이닉스·마이크론 DRAM 담합 소송, 美 법원서 기각 피해",
+      "lead": "미국 연방 판사가 삼성전자·SK하이닉스·마이크론을 상대로 한 DRAM 가격 담합 집단소송의 기각 신청을 받아들이지 않았다. HBM 전환 과정에서 세 회사가 보조를 맞췄다는 주장이 다퉈지게 됐다.",
+      "why": "AI 수요로 오른 메모리 가격이 법적 책임 문제로 번질 수 있다.",
+      "sources": [
+        {
+          "name": "LitNews",
+          "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+          "date": "11/15"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "text": "미 법무부, 북한 연계 딥페이크 화상회의 사기 'FaceStealer' 인프라 압수 — 18개월간 4억 달러 이상 탈취",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+          "date": "11/15"
+        }
+      ]
+    },
+    {
+      "text": "마이크로소프트 이그나이트 17일 개막 — 기조연설은 한국시간 18일 새벽 3시",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "토큰포스트",
+          "url": "https://www.tokenpost.kr/news/ai/438681",
+          "date": "11/15"
+        }
+      ]
+    },
+    {
+      "text": "하사비스 \"사람 검토 없는 재귀적 자기개선은 AGI로 가는 위험한 길\"",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "토큰포스트",
+          "url": "https://www.tokenpost.kr/news/ai/438648",
+          "date": "11/15"
+        }
+      ]
+    },
+    {
+      "text": "올해 8~9월 AI 활용 침입 작전 25건이 최소 19개 조직 겨냥, 10곳에서 실제 접근 확인 보고",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "토큰포스트",
+          "url": "https://www.tokenpost.kr/news/ai/438589",
+          "date": "11/15"
+        }
+      ]
+    },
+    {
+      "text": "엔비디아 이사회 11명→10명… 1990년대 합류 이사 4명이 약 7,414만 주 실질 보유",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "토큰포스트",
+          "url": "https://www.tokenpost.kr/news/ai/438595",
+          "date": "11/15"
+        }
+      ]
+    },
+    {
+      "text": "워싱턴포스트 \"엔비디아 사태, 칩 수출·특혜 논란과 얽혀 트럼프 행정부 약점 될 수도\"",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/11/14/nvidia-scandal-hits-trumps-political-vulnerabilities-after-democratic-sweep/",
+          "date": "11/14"
+        }
+      ]
+    },
+    {
+      "text": "Simscale 엔지니어 300명 설문 — 92% \"AI로 측정 가능한 성과\", 개발 주기 단축 46%",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://hellot.net/news/section.html?sec_no=144",
+          "date": "11/15"
+        }
+      ]
+    }
+  ],
+  "social": [],
+  "editorial": {
+    "title": "속도가 놓친 기본기",
+    "body": "코딩 에이전트와 바이브 코딩이 개발 속도를 끌어올렸다. 그러나 이번 주말 확장 프로그램 유통과 DB 노출 사고가 함께 터졌다. 키 관리와 접근 권한 같은 기본 설정이 빠지면 속도는 위험이 된다. 도구를 만드는 쪽이 안전한 기본값을 책임져야 한다."
+  },
+  "calendar": [
+    {
+      "when": "11/17",
+      "what": "엔비디아 2027 회계연도 3분기 실적 발표",
+      "grade": "primary"
+    },
+    {
+      "when": "11/17",
+      "what": "마이크로소프트 이그나이트 개막(기조연설 한국시간 18일 03시)",
+      "grade": "single"
+    },
+    {
+      "when": "11/18~19",
+      "what": "APEC 미·중 정상회담",
+      "grade": "single"
+    },
+    {
+      "when": "11/20",
+      "what": "LangChain 제품 행사",
+      "grade": "single"
+    },
+    {
+      "when": "11/20",
+      "what": "Anthropic 나스닥 거래 개시 목표(보도)",
+      "grade": "single"
+    },
+    {
+      "when": "11/25 무렵",
+      "what": "엔비디아, 베선트 장관 질의 답변 시한(10일, 보도)",
+      "grade": "single"
+    },
+    {
+      "when": "12/3",
+      "what": "상원 은행위, 젠슨 황 증언 요청일",
+      "grade": "single"
+    }
+  ],
+  "coverage": "글로벌 AI 데일리 정리(AI Weekly)와 원 출처(공식 블로그·주요 매체), 국내 매체(토큰포스트·헬로티·서울경제), 주요소스 1곳(접근 실패)",
+  "key_sources_checked": 0,
+  "notes": [
+    "주요소스 목록 페이지를 이번에도 열지 못했습니다(접근 허가 응답 없음, 7일째). last_seen(217)은 그대로 두었습니다. 사용자가 대화에 이 주소를 한 번 붙여 주면 다음 실행부터 열릴 수 있습니다.",
+    "1면의 베선트 요구·WSJ·NYT 보도는 날짜별 정리 페이지 요약으로 확인했습니다. 원문 페이지(TechCrunch·Semafor)는 접근 허가 문제로 직접 열지 못했습니다. 답변 시한 날짜는 보도 시점(11/15)에서 계산한 추정입니다.",
+    "앤트로픽 매출·손실·인프라 약정 수치와 토큰포스트 인용 기사들은 목록 미리보기만 확인했습니다. 원 공시 문서와 달러 기준 수치는 확인하지 못했습니다.",
+    "주말이라 국내 AI 기사가 적어 한국 섹션은 2건만 실었습니다."
+  ]
+}
