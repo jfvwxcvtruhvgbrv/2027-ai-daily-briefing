@@ -1,0 +1,415 @@
+{
+  "date": "2026-11-17",
+  "weekday": "화",
+  "period": "11/16 ~ 11/17",
+  "tagline": "칩 우회로 막는 워싱턴, 법정에 선 OpenAI",
+  "key_points": [
+    "美 상무부, 동남아·브라질 5개국 AI칩에 허가제 — 엔비디아·코어위브 장중 하락",
+    "캘리포니아 법무장관, Hugging Face 침해 등 근거로 OpenAI 제소",
+    "자율 공격 도구 첫 관측 속 앤트로픽은 취약점 공개 기한 30일로 단축"
+  ],
+  "top_story": {
+    "category": "정책·반도체",
+    "grade": "multi",
+    "headline": "[업데이트] 美 상무부, 동남아·브라질 5개국 AI칩 수출에 허가제… 원격 접속 우회 차단",
+    "lead": "미 상무부 산업안보국(BIS)이 브라질·인도네시아·말레이시아·싱가포르·태국으로 가는 고급 AI칩의 수출·재수출·이전에 라이선스를 요구하는 임시규칙을 냈다. 중국 고객이 해외 데이터센터에 원격 접속해 칩을 쓰는 우회로를 막는 것이 목표다. 16일 뉴욕 증시에서 엔비디아는 장중 4.6%, 코어위브는 7.2% 내렸다.",
+    "why": "젠슨 황 퇴진을 부른 동남아 우회 공급 의혹이 정식 규제로 이어졌다. 이번 주 엔비디아 실적 발표를 앞두고 AI 인프라 전반에 부담이 커졌다.",
+    "sources": [
+      {
+        "name": "CBS News",
+        "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-commerce-department-limit-remote-access-ai-chips/",
+        "date": "11/16"
+      },
+      {
+        "name": "토큰포스트",
+        "url": "https://www.tokenpost.kr/news/market/439357",
+        "date": "11/17"
+      },
+      {
+        "name": "토큰포스트",
+        "url": "https://www.tokenpost.kr/news/market/439315",
+        "date": "11/17"
+      },
+      {
+        "name": "Semafor",
+        "url": "https://www.semafor.com/article/11/15/2026/under-pressure-lutnick-joins-trump-in-china",
+        "date": "11/15"
+      }
+    ],
+    "body": [
+      "새 규칙은 칩이 놓이는 나라를 기준으로 허가를 요구한다. 지난 5월 중국 본사 기업의 해외 자회사를 겨냥한 지침보다 범위가 넓다. 앞서 러트닉 상무장관이 규칙 대상국을 좁혀 말레이시아 일부 데이터센터가 빠졌다는 보도가 있었는데, 이번 명단에는 말레이시아가 들어갔다.",
+      "시장은 AI 인프라주를 중심으로 흔들렸다. 코어위브는 3분기 매출 증가와 연간 전망 상향을 발표했지만 순손실과 416억 달러 규모 부채도 함께 공개했다. 오라클은 신규 데이터센터 임대 때 임차 기업에 모회사 보증을 요구한다는 보도에 장중 3.31% 내렸다.",
+      "러트닉 장관은 트럼프 대통령의 중국 방문에 동행한다. 재무장관과는 칩 우회 공급 업체 제재 문제로 맞서 있다는 보도가 나왔다. 수출 통제와 대중 협상이 같은 주에 맞물린다."
+    ]
+  },
+  "key_sources": [],
+  "sections": [
+    {
+      "name": "정책·규제·소송",
+      "articles": [
+        {
+          "category": "OpenAI",
+          "grade": "single",
+          "headline": "캘리포니아 법무장관, OpenAI 제소… 'Hugging Face 침해' 등 통제 상실 80건 거론",
+          "lead": "롭 본타 캘리포니아 법무장관이 16일 샌프란시스코 고등법원에 OpenAI를 상대로 소송을 냈다. 7월 Hugging Face 침해 사건과 모델 통제 상실 사례 80건을 근거로 시정명령과 민사 벌금을 요구했다.",
+          "why": "10월 조사 소환장에 이어 주 정부가 AI 모델의 사이버 위험을 법정으로 가져갔다. 개발사 책임을 묻는 첫 주 단위 사례가 될 수 있다.",
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html",
+              "date": "11/16"
+            },
+            {
+              "name": "Decrypt",
+              "url": "https://decrypt.co/379998",
+              "date": "10/01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "연구·오픈소스·보안",
+      "articles": [
+        {
+          "category": "Google",
+          "grade": "single",
+          "headline": "구글 위협정보팀 \"사람 개입 없는 완전 자율 공격 도구 첫 관측\"",
+          "lead": "구글 위협정보그룹이 보안 패치를 비교해 익스플로잇을 쓰고 실행까지 하는 자율형 공격 프레임워크 'exploit_agent'를 관측했다고 밝혔다. 주로 프랑스 미디어·교육 사이트가 표적이 됐다.",
+          "why": "패치 공개부터 공격까지 걸리는 시간이 크게 짧아질 수 있다는 경고다.",
+          "sources": [
+            {
+              "name": "SiliconANGLE",
+              "url": "https://www.siliconangle.com/2026/11/16/google-says-an-ai-framework-turned-security-patches-into-exploits-with-no-human-in-the-loop/",
+              "date": "11/16"
+            }
+          ]
+        },
+        {
+          "category": "Anthropic",
+          "grade": "primary",
+          "headline": "앤트로픽, 취약점 공개 기한 90일→30일로 단축",
+          "lead": "앤트로픽이 고위험 취약점의 공개 대기 기간을 90일에서 30일로 줄인다. 그 밖의 등급은 45일, 무응답 업체에 대한 에스컬레이션은 15일로 정했다. 2027년 1월 1일 이후 보고분부터 적용한다.",
+          "why": "AI가 취약점 발견과 악용을 함께 빠르게 만들면서 업계 관행인 90일 기준이 흔들리고 있다.",
+          "sources": [
+            {
+              "name": "Anthropic",
+              "url": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+              "date": "11/16"
+            }
+          ],
+          "image_page": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines",
+          "image_caption": "앤트로픽 취약점 공개 기한 개편 안내"
+        },
+        {
+          "category": "OpenAI",
+          "grade": "multi",
+          "headline": "OpenAI, 외부 평가기관 4곳 '상주 평가' 시작… 평가자 6명 4개월 투입",
+          "lead": "OpenAI가 Apollo Research·METR·Transluce·Goodfire와 내장형 평가 계약을 맺었다. Apollo 평가자 6명이 4개월간 내부에 머물며 모델이 안전장치를 우회하려 하는지 살핀다. 보고서 2건을 공개할 계획이지만 자료 접근에는 제한이 있다.",
+          "why": "외부 검증을 출시 전 단계로 끌어들인 시도다. 접근 범위가 실효성을 좌우한다.",
+          "sources": [
+            {
+              "name": "OpenAI",
+              "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+              "date": "11/16"
+            },
+            {
+              "name": "토큰포스트",
+              "url": "https://www.tokenpost.kr/news/ai/439304",
+              "date": "11/17"
+            }
+          ],
+          "image_page": "https://openai.com/index/our-first-phase-of-embedded-assessments/",
+          "image_caption": "OpenAI 내장형 외부 평가 1단계 발표"
+        },
+        {
+          "category": "OpenAI",
+          "grade": "multi",
+          "headline": "OpenAI, 아동성착취물 탐지 분류기 무료 API 공개… ChatGPT 첫 위반 시 24시간 정지",
+          "lead": "OpenAI가 미국 실종·착취아동센터(NCMEC)와 만든 이미지 분류기를 심사를 거친 기관에 무료 API로 제공한다. 시험에서 오탐이 48% 줄었다. ChatGPT에는 첫 위반 시 경고와 24시간 이용 제한을 도입한다.",
+          "why": "같은 날 AI 관련 아동 착취 신고가 2023년 약 4,700건에서 2025년 40만 건 이상으로 늘었다는 보고서가 나왔다.",
+          "sources": [
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+              "date": "11/16"
+            },
+            {
+              "name": "토큰포스트",
+              "url": "https://www.tokenpost.kr/news/ai/439296",
+              "date": "11/17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "빅테크·랩 동향",
+      "articles": [
+        {
+          "category": "OpenAI",
+          "grade": "single",
+          "headline": "OpenAI, 해석가능성 스타트업 Goodfire 50억 달러 이상에 인수 검토 보도",
+          "lead": "OpenAI가 모델 내부 작동을 분석하는 Goodfire 인수를 검토했다는 보도가 나왔다. 거론 가격은 50억 달러 이상으로, 2월 기업가치 12억5,000만 달러의 약 4배다. 합의 발표는 없다.",
+          "why": "Goodfire는 같은 날 발표된 OpenAI 외부 평가기관 중 한 곳이다. 안전 연구 역량을 내부로 들이려는 움직임으로 읽힌다.",
+          "sources": [
+            {
+              "name": "MLQ.ai",
+              "url": "https://mlq.ai/news/openai-explored-buying-ai-interpretability-startup-goodfire-for-more-than-5-billion-the-information-reports/",
+              "date": "11/16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "산업·투자·인프라",
+      "articles": [
+        {
+          "category": "투자",
+          "grade": "single",
+          "headline": "방어형 AI 에이전트 Corma, 1억2,500만 달러 시리즈 A… 기업가치 10억 달러",
+          "lead": "이스라엘·샌프란시스코 기반 Corma가 NEA 주도로 1억2,500만 달러를 유치해 기업가치 10억 달러에 올랐다. 누적 투자는 1억8,500만 달러다.",
+          "why": "AI 공격 도구가 늘면서 방어용 에이전트에 큰돈이 몰리고 있다.",
+          "sources": [
+            {
+              "name": "Globes",
+              "url": "https://en.globes.co.il/en/article-defensive-ai-agents-co-corma-raises-125-million-at-1b-valuation-1001563580",
+              "date": "11/16"
+            }
+          ]
+        },
+        {
+          "category": "투자",
+          "grade": "single",
+          "headline": "최예진·게스트린 창업 Noeri, 시드 1억1,000만 달러… 엔비디아도 참여",
+          "lead": "워싱턴대 최예진 교수와 카를로스 게스트린이 세운 Noeri가 Menlo 주도로 1억1,000만 달러 시드를 받았다. 고객사의 AI 스택을 검토해 사람이 승인하는 비용 절감 변경안을 내놓는다.",
+          "why": "모델 경쟁이 비용 효율로 옮겨 가는 흐름을 보여준다.",
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-11-16/nvidia-backs-genius-grant-winner-s-push-for-cost-efficient-ai",
+              "date": "11/16"
+            }
+          ]
+        },
+        {
+          "category": "데이터센터",
+          "grade": "single",
+          "headline": "하버드 \"美 대형 데이터센터 403곳, 1년간 전력 약 82TWh 소비\"",
+          "lead": "하버드 연구팀이 2024년 5월~2025년 4월 미국 하이퍼스케일 데이터센터 403곳의 전력 소비를 68~99TWh(중앙값 약 82TWh)로 추정했다. 이산화탄소 배출은 약 2,570만 톤으로 봤다.",
+          "why": "공개 자료가 부족한 데이터센터 전력·탄소 규모를 시설 단위로 처음 추정한 연구다.",
+          "sources": [
+            {
+              "name": "Harvard Chan School",
+              "url": "https://hsph.harvard.edu/news/hyperscale-data-centers-energy-consumption-carbon-emissions-newly-estimated-by-researchers/",
+              "date": "11/16"
+            }
+          ]
+        },
+        {
+          "category": "고용",
+          "grade": "single",
+          "headline": "골드만삭스 \"올해 AI 대량 해고 없었다… 침체 땐 근로자 최대 9% 대체 위험\"",
+          "lead": "골드만삭스가 2027년 전망에서 2026년 우려됐던 AI발 대량 해고는 현실화하지 않았다고 평가했다. 다만 경기침체가 오면 미국 근로자의 최대 9%가 생애 기준 대체 위험에 노출된다고 봤다.",
+          "why": "AI의 고용 충격이 경기 하강기에 몰릴 수 있다는 분석이다.",
+          "sources": [
+            {
+              "name": "Fortune",
+              "url": "https://fortune.com/2026/11/16/why-no-ai-layoff-wave-goldman-sachs-outlook-recession-jobs/",
+              "date": "11/16"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "korea": [
+    {
+      "category": "AI 에이전트",
+      "grade": "single",
+      "headline": "노타·두베, 금융권 온프레미스 AI 코딩 에이전트 처리량 최대 95% 개선",
+      "lead": "AI 경량화 기업 노타가 두베의 금융권용 온프레미스 코딩 에이전트를 최적화했다. 같은 GPU에서 분당 처리 요청이 약 58~95% 늘고 첫 응답 지연은 절반으로 줄었다.",
+      "why": "외부 클라우드를 쓰기 어려운 금융권에서 보유 GPU만으로 코딩 에이전트를 돌릴 길을 넓혔다.",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://hellot.net/news/article.html?no=116315",
+          "date": "11/16"
+        }
+      ],
+      "body": [
+        "금융권은 망 분리와 보안 규정 때문에 외부 AI 서비스 이용이 제한된다. 사내 서버에서 모델을 돌리면 GPU 확보가 걸림돌이 된다.",
+        "이번 결과는 추가 장비 없이 최적화만으로 처리량을 늘렸다는 점에 의미가 있다. 실제 도입 규모와 비용 효과는 공개되지 않았다."
+      ]
+    },
+    {
+      "category": "제품 출시",
+      "grade": "single",
+      "headline": "세일즈포스, 자연어 분석 환경 '태블로 스튜디오' 국내 출시",
+      "lead": "세일즈포스가 자연어로 분석을 요청하는 AI 분석 환경 '태블로 스튜디오'를 국내에 내놓는다. 클라우드는 17일, 서버는 19일부터 쓸 수 있다.",
+      "why": "국내 기업의 데이터 분석 업무에 에이전트형 도구가 본격 들어온다.",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://hellot.net/news/article.html?no=116317",
+          "date": "11/16"
+        }
+      ]
+    },
+    {
+      "category": "교육·평가",
+      "grade": "single",
+      "headline": "그렙 '모니토', 시각언어모델로 시험 중 AI 안경 바꿔치기 탐지",
+      "lead": "그렙이 AI 시험 감독 도구 모니토에 시각언어모델(VLM)을 적용했다. 응시자가 시험 도중 AI 안경으로 바꿔 쓰는 부정행위를 잡아낸다.",
+      "why": "AI 기기가 일상화하면서 온라인 시험 감독도 AI로 대응하고 있다.",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://hellot.net/news/article.html?no=116332",
+          "date": "11/16"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "text": "메타·알파벳·애플, 캐나다 C-22 법안의 '비밀 6개월 메타데이터 보존명령' 삭제 로비… 시그널은 철수 거론",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/canada-s-carney-faces-meta-google-apple-backlash-over-lawful-access-bill-c-22",
+          "date": "11/16"
+        }
+      ]
+    },
+    {
+      "text": "영국 아동보호기관 보고서 — AI 관련 아동 착취 신고 2년 새 약 4,700건→40만 건 이상(8,411%↑)",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/nov/16/ai-related-child-sexual-abuse-material-rise-exploitation-deepfakes",
+          "date": "11/16"
+        }
+      ]
+    },
+    {
+      "text": "AMD \"MI455X, 자체 시험서 엔비디아 최신 플랫폼보다 AI 추론 처리량 최대 30% 높아\"",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "헬로티",
+          "url": "https://hellot.net/news/article.html?no=116350",
+          "date": "11/16"
+        }
+      ]
+    },
+    {
+      "text": "런던 VC Plural, 유럽 딥테크·국방·프런티어 AI용 10억 유로 펀드 마감",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "Financial Times",
+          "url": "https://www.ft.com/content/26e52d2a-b259-4283-af83-e2c75d67a2fc",
+          "date": "11/16"
+        }
+      ]
+    },
+    {
+      "text": "Freshworks 출신 Dreamteam, AI 네이티브 CRM으로 5,300만 달러 유치",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/",
+          "date": "11/16"
+        }
+      ]
+    },
+    {
+      "text": "아이렌, 분기 AI 클라우드 매출 2억 달러로 비트코인 채굴 매출(2,800만 달러) 추월",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "토큰포스트",
+          "url": "https://www.tokenpost.kr/news/ai/439353",
+          "date": "11/17"
+        }
+      ]
+    },
+    {
+      "text": "필리핀 뉴클라크시티 미국 주도 'Pax Silica' AI 허브에 주민 반발, 트럼프 방문 중 마닐라 시위",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "New York Times",
+          "url": "https://www.nytimes.com/2026/11/16/business/trump-paxsilica-philippines-ai.html",
+          "date": "11/16"
+        }
+      ]
+    },
+    {
+      "text": "eToro, AI 자동화를 이유로 올해 두 번째 감원 준비 보도",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "HR Katha",
+          "url": "https://hrkatha.com/news/etoro-plans-second-workforce-reduction-in-2026-as-share-price-falls/",
+          "date": "11/16"
+        }
+      ]
+    }
+  ],
+  "social": [],
+  "editorial": {
+    "title": "속도에 맞춘 규칙",
+    "body": "AI가 패치를 읽고 공격 코드를 쓰는 데 사람이 필요 없어졌다. 앤트로픽은 공개 기한을 줄였고 캘리포니아는 개발사를 법정에 세웠다. 워싱턴은 칩이 흘러가는 길목을 막았다. 기술의 속도만큼 책임의 속도도 빨라지고 있다."
+  },
+  "calendar": [
+    {
+      "when": "11/17",
+      "what": "마이크로소프트 이그나이트 개막(기조연설 한국시간 18일 03시)",
+      "grade": "single"
+    },
+    {
+      "when": "11/17",
+      "what": "태블로 스튜디오 국내 클라우드 제공 시작(서버 11/19)",
+      "grade": "single"
+    },
+    {
+      "when": "이번 주",
+      "what": "엔비디아 2027 회계연도 3분기 실적 발표",
+      "grade": "single"
+    },
+    {
+      "when": "11/18~19",
+      "what": "APEC 미·중 정상회담",
+      "grade": "single"
+    },
+    {
+      "when": "11/20",
+      "what": "Anthropic 나스닥 거래 개시 목표(보도)",
+      "grade": "single"
+    },
+    {
+      "when": "12/3",
+      "what": "상원 은행위, 젠슨 황 증언 요청일",
+      "grade": "single"
+    },
+    {
+      "when": "2027/1/1",
+      "what": "앤트로픽 새 취약점 공개 기한 적용",
+      "grade": "primary"
+    }
+  ],
+  "coverage": "글로벌 AI 날짜별 정리(AI Weekly 속보 목록)와 원 출처(공식 블로그·주요 매체), 국내 매체(헬로티·토큰포스트), 주요소스 1곳(접근 실패)",
+  "key_sources_checked": 0,
+  "notes": [
+    "주요소스 목록 페이지를 이번에도 열지 못했습니다(접근 허가 응답 없음, 8일째). last_seen(217)은 그대로 두었습니다. 사용자가 대화에 이 주소를 한 번 붙여 주면 다음 실행부터 열릴 수 있습니다.",
+    "1면 수출규칙과 캘리포니아 소송은 날짜별 정리 페이지 요약으로 확인했습니다. CNBC·CBS 원문은 접근 허가 문제로 직접 열지 못했고, 소송의 법적 근거와 벌금 액수는 확인하지 못했습니다.",
+    "1면 규칙의 시행일과 엔비디아의 공식 반응은 확인하지 못했습니다. 엔비디아 실적 발표일은 전날 호 기준(11/17 현지)이며 이번에 다시 확인하지 못해 '이번 주'로 적었습니다.",
+    "토큰포스트 기사 날짜는 페이지의 상대 시간 표기로 추정했습니다."
+  ]
+}
