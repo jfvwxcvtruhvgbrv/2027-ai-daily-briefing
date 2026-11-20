@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-21",
+  "weekday": "토요일",
+  "period": "11/19 ~ 11/20(현지) · 축약판",
+  "tagline": "앤트로픽 공모가 83달러로 희망 범위 웃돌아… 읽기 도구 없이 제목 확인분만 실은 축약판",
+  "key_points": [
+    "앤트로픽 공모가가 주당 83달러로 희망 범위(70~78달러) 위에서 정해졌다. 기업가치는 약 1조5,000억 달러 수준으로 보도됐다.",
+    "엔비디아가 확산형 언어모델 스타트업 Inception을 5억 달러 이상에 사들이는 거래에 근접했다는 보도가 나왔다.",
+    "OpenAI가 실시간 음성 모델 GPT-Live-1.1을 API로 열고 대기 시간 요금을 분당 0.02달러로 책정했다."
+  ],
+  "top_story": {
+    "category": "산업·투자·인프라",
+    "grade": "multi",
+    "headline": "[업데이트] 앤트로픽 공모가 83달러… 희망 범위 상단 넘겨 기업가치 약 1조5,000억 달러",
+    "lead": "앤트로픽이 상장 공모가를 주당 83달러로 확정했다. 앞서 제시한 희망 범위 70~78달러를 웃돈 값이다. 거래는 목요일(현지) 나스닥에서 'ANT'로 시작됐다.",
+    "why": "희망 범위를 넘긴 가격은 AI 연구소 주식에 대한 수요가 강하다는 신호다. 다른 대형 연구소들의 상장 일정과 AI 인프라 투자 심리에 기준점이 된다.",
+    "sources": [
+      {"name": "The Next Web", "url": "https://thenextweb.com/news/anthropic-ipo-prices-83-share-1-5-trillion-record-raise", "date": "11/19"},
+      {"name": "AI Weekly", "url": "https://aiweekly.co/alerts/anthropic-prices-ipo-at-83-above-range-trades-thursday-as-ant", "date": "11/19"}
+    ],
+    "body": [
+      "보도 제목 기준으로 공모가는 주당 83달러, 기업가치는 약 1조5,000억 달러다. 지난 호에 실은 희망 범위 상단(78달러)보다 약 6% 높다.",
+      "첫날 종가와 최종 조달 규모는 이번 호 발행 시점까지 원문을 열어 확인하지 못했다. 다음 호에서 보완한다."
+    ]
+  },
+  "key_sources": [],
+  "sections": [
+    {
+      "name": "모델·제품 출시",
+      "articles": [
+        {
+          "category": "모델·제품 출시",
+          "grade": "single",
+          "headline": "OpenAI, 실시간 음성 GPT-Live-1.1 API 개방… 대기 요금 분당 0.02달러",
+          "lead": "OpenAI가 실시간 음성 모델 GPT-Live-1.1을 API로 내놨다. 연결만 유지하는 대기 시간에는 분당 0.02달러를 받는다.",
+          "why": "대기 시간 과금을 따로 둔 것은 상시 연결형 음성 에이전트를 겨냥한 가격 설계다. 콜센터·음성 비서 개발사의 비용 계산이 달라진다.",
+          "sources": [{"name": "AI Weekly", "url": "https://aiweekly.co/alerts/openai-opens-gpt-live-11-to-api-with-002min-standby", "date": "날짜 미확인"}]
+        }
+      ]
+    },
+    {
+      "name": "산업·투자·인프라",
+      "articles": [
+        {
+          "category": "산업·투자·인프라",
+          "grade": "single",
+          "headline": "엔비디아, 확산형 LLM 스타트업 Inception 5억 달러 이상 인수 근접 보도",
+          "lead": "엔비디아가 확산(diffusion) 방식 언어모델을 만드는 스타트업 Inception과 5억 달러가 넘는 거래를 앞두고 있다는 보도가 나왔다.",
+          "why": "확산형 언어모델은 한 번에 여러 토큰을 생성해 추론 속도를 높이는 방식이다. 엔비디아가 칩을 넘어 모델 기술까지 직접 확보하려는 흐름으로 읽힌다.",
+          "sources": [{"name": "AI Weekly", "url": "https://aiweekly.co/alerts/nvidia-nears-500m-deal-for-diffusion-llm-startup-inception", "date": "날짜 미확인"}]
+        },
+        {
+          "category": "산업·투자·인프라",
+          "grade": "single",
+          "headline": "유비소프트, 166명 감원하고 AI 조직 'Motherbrain' 분사",
+          "lead": "유비소프트가 인력 166명을 줄이고 AI 연구 조직 Motherbrain을 별도 스튜디오로 떼어 낸다.",
+          "why": "게임업계 구조조정과 AI 조직 재편이 함께 진행되는 사례다.",
+          "sources": [{"name": "AI Weekly", "url": "https://aiweekly.co/alerts/ubisoft-cuts-166-jobs-and-spins-out-motherbrain-ai-studio", "date": "날짜 미확인"}]
+        }
+      ]
+    },
+    {
+      "name": "정책·규제·소송",
+      "articles": [
+        {
+          "category": "정책·규제·소송",
+          "grade": "single",
+          "headline": "美 워너 상원의원, AI 법안 6건 묶음 발표… 시장부터 NSA까지",
+          "lead": "마크 워너 미 상원의원이 금융시장부터 국가안보국(NSA)까지 걸친 AI 법안 6건을 한꺼번에 내놨다.",
+          "why": "상원 정보위 중진이 분야별 법안을 패키지로 낸 것이어서 연방 차원 AI 입법 논의의 출발점이 될 수 있다.",
+          "sources": [{"name": "AI Weekly", "url": "https://aiweekly.co/alerts/warner-unveils-six-bill-ai-agenda-spanning-markets-to-nsa", "date": "날짜 미확인"}]
+        }
+      ]
+    },
+    {
+      "name": "연구·오픈소스·보안",
+      "articles": [
+        {
+          "category": "연구·오픈소스·보안",
+          "grade": "single",
+          "headline": "METR \"AI 코딩 능력은 빠르게 두 배씩… 판단형 업무는 뒤처져\"",
+          "lead": "AI 평가기관 METR이 갱신 분석에서 코딩 과제 수행 능력은 빠른 주기로 두 배씩 늘지만 판단이 필요한 업무는 진전이 느리다고 밝혔다.",
+          "why": "능력 향상이 분야별로 고르지 않다는 근거다. 자동화 효과를 업무 유형별로 따로 봐야 한다는 뜻이다.",
+          "sources": [{"name": "AI Weekly", "url": "https://aiweekly.co/alerts/metr-update-ai-coding-doubles-fast-judgment-work-lags", "date": "날짜 미확인"}]
+        }
+      ]
+    }
+  ],
+  "korea": [],
+  "briefs": [
+    {"text": "구글 딥마인드 연구자 Genewein, AGI에서 초지능(ASI)으로 가는 경로 4가지를 정리.", "grade": "single", "sources": [{"name": "AI Weekly", "url": "https://aiweekly.co/alerts/google-deepminds-genewein-maps-four-pathways-from-agi-to-asi", "date": "날짜 미확인"}]},
+    {"text": "'회로 이식' 기법으로 Qwen 3.5 4B 모델이 6자리 수 연산에서 100% 정답을 냈다는 연구.", "grade": "single", "sources": [{"name": "AI Weekly", "url": "https://aiweekly.co/alerts/circuit-grafting-pushes-qwen-35-4b-to-100-on-6-digit-math", "date": "날짜 미확인"}]},
+    {"text": "고정 조향 벡터만으로 SD3.5·FLUX 이미지 모델에서 강화학습 개선 효과의 90% 이상을 재현했다는 논문.", "grade": "single", "sources": [{"name": "AI Weekly", "url": "https://aiweekly.co/alerts/paper-fixed-steering-vectors-match-90-of-rl-gains-on-sd35-flux", "date": "날짜 미확인"}]},
+    {"text": "Fireworks AI 공동창업자 \"오픈 모델은 최전선 연구소보다 3~6개월 뒤처진 수준\".", "grade": "single", "sources": [{"name": "AI Weekly", "url": "https://aiweekly.co/alerts/fireworks-ai-co-founder-chenyu-zhao-says-open-models-are-only-3-6-months-behind", "date": "날짜 미확인"}]}
+  ],
+  "social": [],
+  "editorial": {
+    "title": "희망가를 넘긴 첫 연구소 상장",
+    "body": "앤트로픽 공모가가 희망 범위 위에서 정해졌다. 시장이 AI 연구소의 매출 성장에 높은 값을 매겼다는 뜻이다. 다만 가격이 높을수록 다음 분기 실적에 대한 기대도 커진다. 상장 이후 첫 실적 발표가 진짜 시험대다."
+  },
+  "calendar": [
+    {"when": "수일 내(보도)", "what": "젠슨 황, 미 하원 3개 위원회 증언", "grade": "single"},
+    {"when": "12/3", "what": "상원 은행위, 젠슨 황 증언 요청일", "grade": "single"}
+  ],
+  "coverage": "11/19 ~ 11/20 검색 결과 제목만 확인(AI Weekly 알림, 주요 매체). 페이지 읽기 0회. 주요소스 확인 못 함.",
+  "key_sources_checked": 0,
+  "notes": [
+    "이번 실행에서는 웹 페이지를 읽는 도구를 쓸 수 없었습니다(보조 에이전트 금지 지침과 충돌해 읽기 요청이 거부됨). 모든 기사는 검색 결과 제목에 담긴 사실만으로 썼고 세부 수치·맥락은 확인하지 못했습니다.",
+    "AI Weekly 알림 기사들은 게시 날짜를 확인하지 못했습니다. 11/20 전후 검색 결과에 나온 항목이지만 기간 밖일 수 있습니다.",
+    "주요소스 목록 페이지를 열지 못했습니다(11일째). last_seen(217)은 그대로 두었습니다.",
+    "11/20 호가 발행되지 않아 이번 호는 11/19~11/20을 함께 다뤘습니다. 국내 기사는 날짜가 확인된 것이 없어 한국 면을 비웠습니다.",
+    "앤트로픽 첫 거래일 종가와 최종 조달 규모는 확인하지 못했습니다."
+  ]
+}
