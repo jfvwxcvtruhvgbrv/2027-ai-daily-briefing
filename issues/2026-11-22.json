@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-22",
+  "weekday": "일요일",
+  "period": "11/21(현지) · 축약판",
+  "tagline": "TSMC, 美 새 수출 규정에 일부 출하 보류 보도… 주말 축약판",
+  "key_points": [
+    "미국 새 반도체 수출 규정 시행에 맞춰 TSMC가 일부 출하를 멈췄다는 보도가 나왔다. 삼성전자도 중국 고객사 일부 납품을 멈췄다는 보도가 있다.",
+    "수학자 알푀게가 Claude 도움을 받아 쓴 리만 관련 증명이 Lean 형식 검증을 통과했다고 전해졌다.",
+    "OpenAI는 GPT-6.2의 추론 추출 공격 성공률을 0.2%로 낮췄다고 밝혔다."
+  ],
+  "top_story": {
+    "category": "정책·규제·소송",
+    "grade": "multi",
+    "headline": "TSMC, 美 새 반도체 수출 규정에 일부 출하 보류… 'AI칩 밖까지 영향' 보도",
+    "lead": "미국의 새 반도체 수출 규정이 시행 단계에 들어서자 TSMC가 일부 출하를 멈췄다는 보도가 나왔다. 규정의 적용 범위가 AI 가속기를 넘어선다는 해석이 붙었다.",
+    "why": "세계 최대 파운드리의 출하 보류는 AI칩 공급망 전체의 일정에 영향을 준다. 이번 주 중국 상무부의 대응 경고와 맞물려 미중 기술 갈등이 공급 현장으로 번지는 모습이다.",
+    "sources": [
+      {
+        "name": "AI Weekly",
+        "url": "https://aiweekly.co/alerts/tsmc-pauses-shipments-as-new-us-chip-rules-hit-beyond-ai",
+        "date": "11/21(목록 기준)"
+      },
+      {
+        "name": "Stocktwits",
+        "url": "https://stocktwits.com/news-articles/markets/equity/tsmc-samsung-reportedly-suspend-some-chip-deliveries-to-chinese-customers-amid-new-us-export-rules/cNbi7d3R9i6",
+        "date": "날짜 미확인"
+      }
+    ],
+    "body": [
+      "보도 제목 기준으로는 TSMC와 삼성전자가 중국 고객사 일부에 대한 칩 납품을 멈춘 것으로 전해졌다. 보류 대상 제품군, 기간, 고객사 수는 확인하지 못했다. 이번 주 미국의 5개국 대상 AI칩 허가제를 둘러싸고 중국 상무부가 대응 조치를 경고한 바 있다."
+    ]
+  },
+  "key_sources": [],
+  "sections": [
+    {
+      "name": "모델·제품 출시",
+      "articles": [
+        {
+          "category": "모델·제품 출시",
+          "grade": "single",
+          "headline": "Thinking Machines, 연산 반복 횟수 바꾸는 연구용 모델 'Inkling' 공개",
+          "lead": "Thinking Machines가 문제에 따라 내부 반복 횟수를 달리하는 연구용 모델 Inkling을 내놨다.",
+          "why": "쉬운 질문엔 적게, 어려운 질문엔 많이 계산하는 구조는 추론 비용을 줄이는 방향의 실험이다.",
+          "sources": [
+            {
+              "name": "AI Weekly",
+              "url": "https://aiweekly.co/alerts/thinking-machines-ships-variable-loop-inkling-research-model",
+              "date": "11/21(목록 기준)"
+            }
+          ]
+        },
+        {
+          "category": "모델·제품 출시",
+          "grade": "single",
+          "headline": "AMD, VAE 없이 픽셀을 직접 그리는 6억7,900만 파라미터 이미지 모델 'Nitro-P' 공개",
+          "lead": "AMD가 잠재공간 변환기(VAE)를 쓰지 않고 픽셀 공간에서 바로 이미지를 생성하는 6억7,900만 파라미터 모델 Nitro-P를 공개했다.",
+          "why": "칩 회사가 자사 GPU에서 돌리기 좋은 소형 모델을 직접 내며 개발자 생태계를 넓히려는 행보다.",
+          "sources": [
+            {
+              "name": "AI Weekly",
+              "url": "https://aiweekly.co/alerts/amd-publishes-nitro-p-a-vae-free-679m-pixel-space-t2i-model",
+              "date": "11/21(목록 기준)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "연구·오픈소스·보안",
+      "articles": [
+        {
+          "category": "연구·오픈소스·보안",
+          "grade": "single",
+          "headline": "Claude 도움 받은 알푀게의 '리만' 관련 증명, Lean 형식 검증 통과",
+          "lead": "수학자 알푀게(Alpöge)가 Claude의 도움을 받아 쓴 리만 관련 증명이 정리 증명기 Lean의 검증을 통과했다고 전해졌다.",
+          "why": "AI가 거든 수학 증명이 기계 검증까지 거쳤다는 점에서 'AI 보조 수학'의 신뢰도를 높이는 사례다. 증명 대상의 정확한 범위는 확인이 필요하다.",
+          "sources": [
+            {
+              "name": "AI Weekly",
+              "url": "https://aiweekly.co/alerts/alpges-claude-assisted-riemann-proof-clears-lean-checks",
+              "date": "11/21(목록 기준)"
+            }
+          ]
+        },
+        {
+          "category": "연구·오픈소스·보안",
+          "grade": "single",
+          "headline": "OpenAI \"GPT-6.2, 추론 과정 빼내기 공격 성공률 0.2%로 낮춰\"",
+          "lead": "OpenAI가 GPT-6.2에서 모델 내부 추론을 끄집어내려는 공격의 성공률을 0.2%까지 줄였다고 밝혔다.",
+          "why": "추론 내용 유출은 모델 증류와 안전장치 우회에 쓰일 수 있다. 이번 주 불거진 '미국 모델 출력으로 학습' 논란과도 맞닿아 있다.",
+          "sources": [
+            {
+              "name": "AI Weekly",
+              "url": "https://aiweekly.co/alerts/openai-says-gpt-62-cuts-reasoning-extraction-attacks-to-02",
+              "date": "11/21(목록 기준)"
+            }
+          ]
+        },
+        {
+          "category": "연구·오픈소스·보안",
+          "grade": "single",
+          "headline": "스스로 가중치 고치는 공개 27B 모델, 성능 6.6점 올려",
+          "lead": "공개 270억 파라미터 모델이 자기 가중치를 스스로 수정하는 방식으로 평가 점수를 6.6점 끌어올렸다는 연구가 나왔다.",
+          "why": "학습이 끝난 뒤에도 모델이 스스로 개선하는 '자기 수정' 연구가 공개 모델에서도 성과를 내기 시작했다. 어떤 평가 기준인지는 확인하지 못했다.",
+          "sources": [
+            {
+              "name": "AI Weekly",
+              "url": "https://aiweekly.co/alerts/open-27b-model-rewrites-its-own-weights-for-66-point-gain",
+              "date": "11/21(목록 기준)"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "korea": [],
+  "briefs": [
+    {
+      "text": "ANEMLL, 애플 M6의 뉴럴엔진과 GPU를 함께 써 Qwen 모델의 입력 처리(prefill) 속도를 높였다.",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/anemll-pairs-m6-neural-engine-and-gpu-for-faster-qwen-prefill",
+          "date": "11/21(목록 기준)"
+        }
+      ]
+    },
+    {
+      "text": "AI 비평가 에드 지트론, CNBC에서 앤트로픽 상장이 개인투자자에게 물량을 넘기는 자리라고 비판했다.",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/ed-zitron-on-cnbc-anthropic-ipo-is-retail-exit-liquidity",
+          "date": "11/21(목록 기준)"
+        }
+      ]
+    }
+  ],
+  "social": [],
+  "editorial": {
+    "title": "규정은 문서에서 공장으로",
+    "body": "수출 규정은 발표보다 시행이 무겁다. 파운드리가 출하를 멈추는 순간 규정은 실제 공급 일정이 된다. 보류 범위가 AI칩 밖으로 넓다면 영향도 그만큼 넓다. 다음 주에는 보류 기간과 대상이 얼마나 구체화되는지 지켜봐야 한다."
+  },
+  "calendar": [],
+  "coverage": "11/21 글로벌 AI 실시간 목록(AI Weekly) 검색 결과 제목과 국내외 매체 검색 결과 제목만 확인. 페이지 읽기 0회. 주요소스 확인 못 함.",
+  "key_sources_checked": 0,
+  "notes": [
+    "이번 실행에서도 웹 페이지 읽기 도구가 없었습니다(보조 에이전트 금지 지침 준수). 모든 기사는 검색 결과 제목에 담긴 사실만으로 썼고 세부 수치·맥락은 확인하지 못했습니다.",
+    "주요소스 목록 페이지를 열지 못했습니다(12일째). last_seen(217)은 그대로 두었습니다.",
+    "TSMC·삼성 출하 보류 보도 중 Stocktwits 기사는 게시 날짜를 확인하지 못했습니다. 보류 대상·기간은 미확인입니다.",
+    "알푀게 증명의 정확한 대상(리만 가설 자체인지 관련 명제인지)은 확인하지 못했습니다.",
+    "주말이라 날짜가 확인된 국내 AI 기사를 찾지 못해 한국 면을 비웠습니다. 국내 매체 검색 1회는 검색 도구 오류로 실패했습니다."
+  ]
+}
