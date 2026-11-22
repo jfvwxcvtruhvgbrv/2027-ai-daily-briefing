@@ -1,0 +1,188 @@
+{
+ "date": "2026-11-23",
+ "weekday": "월요일",
+ "period": "11/21~11/23 · 축약판",
+ "tagline": "엔비디아 칩 中 반입 경로 보도… 서버 4사 계약가 재조정, 주말 축약판",
+ "key_points": [
+  "엔비디아 AI칩을 중국으로 옮긴 'Megaspeed' 경로를 한 인물이 운영했다는 WSJ 보도가 나왔다.",
+  "델·HPE·레노버·슈퍼마이크로가 이미 계약한 AI 서버의 가격을 다시 매기는 중이라는 소식이 전해졌다.",
+  "앤트로픽은 상장 주관 은행들에 팀 규모 제한과 경쟁사 업무 금지를 걸었다고 전해졌다."
+ ],
+ "top_story": {
+  "category": "정책·규제·소송",
+  "grade": "single",
+  "headline": "WSJ \"리밍, 엔비디아 칩 中 반입 'Megaspeed' 경로 운영\" 보도",
+  "lead": "엔비디아 AI칩을 중국으로 옮기는 'Megaspeed' 경로를 리밍(Li Ming)이라는 인물이 운영했다고 월스트리트저널이 보도했다.",
+  "why": "미국이 5개국 대상 AI칩 허가제와 새 수출 규정을 밀어붙이는 가운데 우회 반입 실태가 드러났다. 단속 강화의 명분이 될 수 있다.",
+  "sources": [
+   {
+    "name": "AI Weekly(원 보도 WSJ)",
+    "url": "https://aiweekly.co/alerts/wsj-li-ming-ran-megaspeed-pipeline-moving-nvidia-chips-to-china",
+    "date": "날짜 미확인(11/23 검색 기준)"
+   }
+  ],
+  "body": [
+   "보도 제목 기준으로는 특정 인물이 운영한 경로를 통해 엔비디아 칩이 중국으로 흘러갔다는 내용이다. 반입 물량, 시기, 연루 기업은 이번 취재에서 확인하지 못했다.",
+   "지난주에는 TSMC가 새 미국 수출 규정에 맞춰 일부 출하를 멈췄다는 보도가 나왔고, 중국 상무부는 허가제 시행 시 대응 조치를 경고했다. 공급과 단속 양쪽에서 압박이 커지는 흐름이다."
+  ]
+ },
+ "key_sources": [],
+ "sections": [
+  {
+   "name": "산업·투자·인프라",
+   "articles": [
+    {
+     "category": "산업·투자·인프라",
+     "grade": "single",
+     "headline": "델·HPE·레노버·슈퍼마이크로, 이미 계약한 AI 서버 가격 재조정 나서",
+     "lead": "델, HPE, 레노버, 슈퍼마이크로가 이미 서명한 AI 서버 계약의 가격을 다시 매기고 있다는 소식이 전해졌다.",
+     "why": "계약 후 가격을 손본다는 것은 부품 원가 압박이 그만큼 크다는 신호다. 구매 기업의 AI 인프라 예산에 부담이 될 수 있다. 인상 폭과 원인은 확인하지 못했다.",
+     "sources": [
+      {
+       "name": "AI Weekly",
+       "url": "https://aiweekly.co/alerts/dell-hpe-lenovo-supermicro-repricing-signed-ai-server-deals",
+       "date": "날짜 미확인(11/23 검색 기준)"
+      }
+     ]
+    },
+    {
+     "category": "산업·투자·인프라",
+     "grade": "single",
+     "headline": "하우든 \"AI 데이터센터 연 19% 성장, 미국 전력망은 2%\"",
+     "lead": "보험 중개사 하우든(Howden)이 AI 데이터센터는 해마다 19% 늘어나는데 미국 전력망 증설은 2%에 그친다고 분석했다.",
+     "why": "수요와 공급 속도 차이가 10배 가까이 난다. 전력이 AI 인프라 확장의 가장 큰 병목이라는 지적을 수치로 뒷받침한다.",
+     "sources": [
+      {
+       "name": "AI Weekly",
+       "url": "https://aiweekly.co/alerts/howden-ai-data-centers-grow-19-yearly-us-grid-just-2",
+       "date": "날짜 미확인(11/23 검색 기준)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "빅테크·랩 동향",
+   "articles": [
+    {
+     "category": "빅테크·랩 동향",
+     "grade": "single",
+     "headline": "[업데이트] 앤트로픽, 상장 주관 은행팀 규모 제한하고 경쟁사 업무 금지",
+     "lead": "앤트로픽이 상장을 맡긴 투자은행들에 담당 팀 규모를 제한하고, 경쟁 AI 기업 업무를 맡지 못하게 했다는 소식이 나왔다.",
+     "why": "정보 유출을 막으려는 조치로 보인다. 지난주 나스닥 상장을 마친 앤트로픽이 경쟁사와의 거리두기를 계약 조건으로까지 걸었다는 점이 눈에 띈다.",
+     "sources": [
+      {
+       "name": "AI Weekly",
+       "url": "https://aiweekly.co/alerts/anthropic-capped-ipo-banker-teams-barred-work-with-rivals",
+       "date": "날짜 미확인(11/23 검색 기준)"
+      }
+     ]
+    },
+    {
+     "category": "빅테크·랩 동향",
+     "grade": "single",
+     "headline": "헨드릭스, 딜북 AGI 토론서 \"앤트로픽은 무모하다\" 비판",
+     "lead": "AI 안전 연구자 댄 헨드릭스가 뉴욕타임스 딜북 행사 AGI 토론에서 앤트로픽을 무모하다고 비판했다.",
+     "why": "안전을 앞세워 온 앤트로픽이 상장 직후 안전 진영 인사에게 공개 비판을 받았다. 비판의 구체적 근거는 확인하지 못했다.",
+     "sources": [
+      {
+       "name": "AI Weekly",
+       "url": "https://aiweekly.co/alerts/hendrycks-calls-anthropic-reckless-on-dealbook-agi-panel",
+       "date": "날짜 미확인(11/23 검색 기준)"
+      }
+     ]
+    },
+    {
+     "category": "빅테크·랩 동향",
+     "grade": "single",
+     "headline": "OpenAI 파초키 \"퍼플렉서티 0.68~0.7 도달 시 최전선 개발 멈춰야\"",
+     "lead": "OpenAI의 수석 과학자 야쿠프 파초키가 모델 퍼플렉서티가 0.68~0.7 수준에 이르면 최전선 모델 개발을 멈춰야 한다는 취지로 말했다고 전해졌다.",
+     "why": "개발 중단 기준을 구체적 지표로 제시한 드문 발언이다. 지표의 정확한 정의와 발언 맥락은 원문 확인이 필요하다.",
+     "sources": [
+      {
+       "name": "AI Weekly",
+       "url": "https://aiweekly.co/alerts/openais-pachocki-urges-frontier-pause-at-068-07-perplexity",
+       "date": "날짜 미확인(11/23 검색 기준)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "연구·오픈소스·보안",
+   "articles": [
+    {
+     "category": "연구·오픈소스·보안",
+     "grade": "single",
+     "headline": "HD 무어, AI '카나리아' 200만 개 심어 중국 쪽 프롬프트 유출 포착",
+     "lead": "보안 연구자 HD 무어가 추적용 미끼 데이터(카나리아) 200만 개를 퍼뜨려 AI 프롬프트가 중국 쪽으로 새는 정황을 찾아냈다.",
+     "why": "사용자가 AI 서비스에 넣은 내용이 어디로 흘러가는지 실험으로 보여줬다. 어떤 서비스가 관련됐는지는 확인하지 못했다.",
+     "sources": [
+      {
+       "name": "AI Weekly",
+       "url": "https://aiweekly.co/alerts/hd-moore-seeds-2m-ai-canaries-exposes-prompt-leaks-to-china",
+       "date": "날짜 미확인(11/23 검색 기준)"
+      }
+     ]
+    },
+    {
+     "category": "연구·오픈소스·보안",
+     "grade": "single",
+     "headline": "FT \"AI가 산업제어(OT) 공격 계획 속도 높여\"… 포어스카우트·부즈앨런 시험",
+     "lead": "포어스카우트와 부즈앨런해밀턴의 시험에서 AI가 공장·전력 설비 같은 운영기술(OT) 시스템 공격 계획을 빠르게 만든다는 결과가 나왔다고 파이낸셜타임스가 전했다.",
+     "why": "AI가 사이버 공격의 문턱을 낮추는 영역이 IT를 넘어 물리 설비로 번지고 있다는 경고다.",
+     "sources": [
+      {
+       "name": "AI Weekly",
+       "url": "https://aiweekly.co/alerts/ft-ai-speeds-ot-attack-planning-in-forescout-booz-allen-tests",
+       "date": "날짜 미확인(11/23 검색 기준)"
+      }
+     ]
+    },
+    {
+     "category": "연구·오픈소스·보안",
+     "grade": "single",
+     "headline": "SimAudit, 로봇 조작 벤치마크 채점기에서 결함 61건 발견",
+     "lead": "로봇 조작 벤치마크의 성공 판정 코드를 점검한 SimAudit가 결함 61건을 찾아냈다.",
+     "why": "채점기가 틀리면 로봇 AI 성능 비교 자체가 흔들린다. 벤치마크 신뢰성 문제가 언어모델에서 로봇 분야로 번졌다.",
+     "sources": [
+      {
+       "name": "AI Weekly",
+       "url": "https://aiweekly.co/alerts/simaudit-finds-61-defects-in-robot-manipulation-benchmark-checkers",
+       "date": "날짜 미확인(11/23 검색 기준)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "korea": [],
+ "briefs": [
+  {
+   "text": "호주 정보기관 ASIO의 버제스 국장이 AI 데이터센터가 외국 간섭의 새 통로가 될 수 있다고 경고했다.",
+   "grade": "single",
+   "sources": [
+    {
+     "name": "AI Weekly",
+     "url": "https://aiweekly.co/alerts/asios-burgess-ai-data-centres-open-foreign-interference-vector",
+     "date": "날짜 미확인(11/23 검색 기준)"
+    }
+   ]
+  }
+ ],
+ "social": [],
+ "editorial": {
+  "title": "칩은 막히고, 서버값은 오른다",
+  "body": "수출 통제가 강해질수록 우회 경로는 더 정교해진다. 동시에 서버 제조사들은 이미 맺은 계약가까지 손보고 있다. 칩 공급의 정치와 원가 압박이 같은 방향으로 AI 인프라 비용을 끌어올리는 한 주가 될 수 있다."
+ },
+ "calendar": [],
+ "coverage": "검색 결과 제목만 확인(검색 7회). 페이지 읽기 0회. 주요소스 확인 못 함. 기사 날짜는 모두 미확인.",
+ "key_sources_checked": 0,
+ "notes": [
+  "이번 실행에서도 웹 페이지 읽기 도구가 없었습니다(보조 에이전트 금지 지침 준수). 모든 기사는 검색 결과 제목에 담긴 사실만으로 썼고 수치·맥락·게시 날짜는 확인하지 못했습니다.",
+  "주요소스 목록 페이지를 열지 못했습니다(13일째). last_seen(217)은 그대로 두었습니다.",
+  "검색 7회를 썼습니다. 저장소 지침 상한(5회)을 넘었고, 예약 작업 상한(8회) 안입니다. 첫 5회에서 기간 내 기사를 거의 찾지 못해 2회를 더 썼습니다.",
+  "실린 항목 일부는 지난 주 후반 기사일 수 있습니다. 헨드릭스 발언이 나온 딜북 행사의 날짜도 확인하지 못했습니다.",
+  "날짜가 확인된 국내 AI 기사를 찾지 못해 한국 면을 비웠습니다."
+ ]
+}
