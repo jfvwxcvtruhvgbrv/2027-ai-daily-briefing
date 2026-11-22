@@ -1,5 +1,5 @@
 {
-  "_설명": "주요소스 목록. 사용자가 수시로 알려주는 소스를 여기에 추가한다. 보고서 화면에는 '주요소스'로만 표시한다.",
+  "_설명": "sources=주요소스(심층 취재 대상, 화면 표기는 '주요소스'). feeds=조사 출발점(출처 표기에는 실제 매체명을 쓴다). 사용자가 알려주는 소스를 여기에 추가한다.",
   "sources": [
     {
       "id": "ks1",
@@ -8,5 +8,55 @@
       "how": "목록 페이지만 WebFetch로 읽고, 번호가 last_seen보다 큰 항목의 번호·날짜코드·헤드라인·태그만 질문한다. 항목 링크(/go/...)는 좋아요 집계 링크이므로 절대 열지 않는다.",
       "added": "2026-11-07"
     }
-  ]
+  ],
+  "feeds": [
+    {
+      "id": "f1",
+      "name": "Techmeme",
+      "url": "https://www.techmeme.com/",
+      "tier": "daily",
+      "how": "첫 화면에서 AI 관련 헤드라인과 원 출처 링크만 질문한다(최대 15개). 1면 톱 후보의 교차 확인에 쓴다. 별도 톱스토리 검색을 대신한다."
+    },
+    {
+      "id": "f2",
+      "name": "TLDR AI",
+      "url": "https://tldr.tech/ai/{YYYY-MM-DD}",
+      "tier": "daily",
+      "how": "날짜 주소를 직접 연다(검색 불필요). 항목별 한 줄 요약과 원 출처 URL만 최대 15개. 없으면(주말·미발행) 전날 날짜로 1회만 재시도."
+    },
+    {
+      "id": "f3",
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com/",
+      "tier": "daily",
+      "how": "첫 화면에서 AI·LLM·에이전트·오픈소스 관련 항목의 제목과 점수만 최대 10개. 개발자 반응·오픈소스 단신용. 댓글 페이지는 열지 않는다."
+    },
+    {
+      "id": "f4",
+      "name": "AI타임스",
+      "url": "https://www.aitimes.com/",
+      "tier": "daily",
+      "how": "한국 섹션용. 최신 기사 목록에서 '헤드라인 | 시간 | URL'만 최대 15개. 별도 한국 뉴스 검색을 대신한다."
+    },
+    {
+      "id": "f5",
+      "name": "Hugging Face Daily Papers",
+      "url": "https://huggingface.co/papers",
+      "tier": "conditional",
+      "how": "연구·오픈소스 섹션이 비는 날만 읽는다. 당일 상위 논문 5개의 제목·한 줄 요약만."
+    },
+    {
+      "id": "f6",
+      "name": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai/leaderboards/models",
+      "tier": "conditional",
+      "how": "신규 모델 출시가 있는 날만 읽는다. 해당 모델의 지능 지수·가격·속도를 차트 데이터로 쓴다."
+    }
+  ],
+  "feed_rules": {
+    "daily_reads": "tier=daily 4곳은 매일 각 1회만 읽는다. 하루 전체 WebFetch 10회 이내(주요소스 1 + daily 4 + 정리 페이지 1~2 + 공식 페이지 최대 3).",
+    "conditional_reads": "tier=conditional은 하루 합계 1~2회, 해당 조건일 때만.",
+    "official_primary": "모델·제품 발표는 해당 사(Anthropic·Google·Meta·NVIDIA 등) 공식 뉴스룸 URL을 찾아 출처 1순위(✅)로 쓴다. OpenAI 페이지는 검색 결과에 나온 주소만 연다.",
+    "failure": "WebFetch가 거부되거나 실패하면 같은 주소를 재시도하지 않고 건너뛰며 notes[]에 한 줄 남긴다."
+  }
 }
