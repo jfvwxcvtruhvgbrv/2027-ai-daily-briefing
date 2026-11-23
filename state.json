@@ -6,30 +6,6 @@
   },
   "recent_topics": [
     {
-      "date": "2026-11-21",
-      "headline": "[업데이트] 앤트로픽 공모가 83달러… 희망 범위 상단 넘겨 기업가치 약 1조5,000억 달러"
-    },
-    {
-      "date": "2026-11-21",
-      "headline": "OpenAI, 실시간 음성 GPT-Live-1.1 API 개방… 대기 요금 분당 0.02달러"
-    },
-    {
-      "date": "2026-11-21",
-      "headline": "엔비디아, 확산형 LLM 스타트업 Inception 5억 달러 이상 인수 근접 보도"
-    },
-    {
-      "date": "2026-11-21",
-      "headline": "유비소프트, 166명 감원하고 AI 조직 'Motherbrain' 분사"
-    },
-    {
-      "date": "2026-11-21",
-      "headline": "美 워너 상원의원, AI 법안 6건 묶음 발표… 시장부터 NSA까지"
-    },
-    {
-      "date": "2026-11-21",
-      "headline": "METR \"AI 코딩 능력은 빠르게 두 배씩… 판단형 업무는 뒤처져\""
-    },
-    {
       "date": "2026-11-22",
       "headline": "TSMC, 美 새 반도체 수출 규정에 일부 출하 보류… 'AI칩 밖까지 영향' 보도"
     },
@@ -88,6 +64,38 @@
     {
       "date": "2026-11-23",
       "headline": "SimAudit, 로봇 조작 벤치마크 채점기에서 결함 61건 발견"
+    },
+    {
+      "date": "2026-11-24",
+      "headline": "버지니아·오리건주, Grok 'Spicy Mode' 딥페이크로 SpaceX 제소"
+    },
+    {
+      "date": "2026-11-24",
+      "headline": "Marlowe, 시드 2억7,700만 달러 유치… 기업가치 11억5,000만 달러"
+    },
+    {
+      "date": "2026-11-24",
+      "headline": "WP \"젠슨 황, 500억 달러 중국 시장 위해 직접 로비\" 보도"
+    },
+    {
+      "date": "2026-11-24",
+      "headline": "엔비디아, 로봇 플랫폼 Isaac 확장… Agile ONE SN·Isaac OS·Lab 3.0"
+    },
+    {
+      "date": "2026-11-24",
+      "headline": "보스턴다이내믹스, 바퀴 단 Atlas를 강화학습 시험대로"
+    },
+    {
+      "date": "2026-11-24",
+      "headline": "앤트그룹, 5,600억 파라미터 의료 MoE 'LingSante-3.1-flash' 공개"
+    },
+    {
+      "date": "2026-11-24",
+      "headline": "QueryLM \"사전학습에 웹 검색 넣으니 더 큰 모델 앞서\""
+    },
+    {
+      "date": "2026-11-24",
+      "headline": "[업데이트] Unsloth, Thinking Machines 'Inkling-2-Mini' GGUF 양자화판 배포"
     }
   ]
 }
