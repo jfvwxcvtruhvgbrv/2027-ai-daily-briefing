@@ -6,30 +6,6 @@
   },
   "recent_topics": [
     {
-      "date": "2026-11-22",
-      "headline": "TSMC, 美 새 반도체 수출 규정에 일부 출하 보류… 'AI칩 밖까지 영향' 보도"
-    },
-    {
-      "date": "2026-11-22",
-      "headline": "Thinking Machines, 연산 반복 횟수 바꾸는 연구용 모델 'Inkling' 공개"
-    },
-    {
-      "date": "2026-11-22",
-      "headline": "AMD, VAE 없이 픽셀을 직접 그리는 6억7,900만 파라미터 이미지 모델 'Nitro-P' 공개"
-    },
-    {
-      "date": "2026-11-22",
-      "headline": "Claude 도움 받은 알푀게의 '리만' 관련 증명, Lean 형식 검증 통과"
-    },
-    {
-      "date": "2026-11-22",
-      "headline": "OpenAI \"GPT-6.2, 추론 과정 빼내기 공격 성공률 0.2%로 낮춰\""
-    },
-    {
-      "date": "2026-11-22",
-      "headline": "스스로 가중치 고치는 공개 27B 모델, 성능 6.6점 올려"
-    },
-    {
       "date": "2026-11-23",
       "headline": "WSJ \"리밍, 엔비디아 칩 中 반입 'Megaspeed' 경로 운영\" 보도"
     },
@@ -96,6 +72,22 @@
     {
       "date": "2026-11-24",
       "headline": "[업데이트] Unsloth, Thinking Machines 'Inkling-2-Mini' GGUF 양자화판 배포"
+    },
+    {
+      "date": "2026-11-26",
+      "headline": "Deep Cogito, 4,300만 달러 유치… \"기업이 자기 AI 모델을 소유하게\""
+    },
+    {
+      "date": "2026-11-26",
+      "headline": "Keenable, 시드 2,600만 달러로 스텔스 해제"
+    },
+    {
+      "date": "2026-11-26",
+      "headline": "\"주니어 은행원 잡무 대신\"… 금융 AI 스타트업 7,500만 달러 유치"
+    },
+    {
+      "date": "2026-11-26",
+      "headline": "인텔·엔비디아, 국내 기업과 협력 넓혀… 국산 AI 생태계 확장"
     }
   ]
 }
