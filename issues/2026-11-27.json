@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-27",
+  "weekday": "금요일",
+  "period": "11/26~11/27 · 축약판",
+  "tagline": "OpenAI '프라이빗 인텔리전스'로 기업 데이터 통제 경쟁 가세… 앤트로픽 차기 모델 시험설",
+  "key_points": [
+    "OpenAI가 기업 데이터를 남기지 않는 '프라이빗 인텔리전스'를 내놨다는 보도가 여러 곳에서 나왔다.",
+    "앤트로픽이 'Opus 5.6'으로 보이는 새 모델을 시험 중이라는 관측이 나왔다.",
+    "정체불명 모델 'Jev'가 알리바바 Qwen 계열일 가능성이 거론됐다."
+  ],
+  "top_story": {
+    "category": "모델·제품 출시",
+    "grade": "multi",
+    "headline": "OpenAI, 기업용 '프라이빗 인텔리전스' 공개… 데이터 무보존·비공개 추론 내세워",
+    "lead": "OpenAI가 민감한 기업 데이터를 다루는 고객을 겨냥해 '프라이빗 인텔리전스'라는 이름의 서비스를 내놨다는 보도가 이어졌다. 데이터를 보관하지 않는 방식과 외부에서 들여다볼 수 없는 추론 환경을 내세운 것으로 전해졌다.",
+    "why": "기업이 최전선 모델 도입을 망설이는 가장 큰 이유는 '내 데이터를 누가 볼 수 있느냐'다. OpenAI가 이 우려를 정면으로 다루는 상품을 내놓으면서 보안·규제가 엄격한 업종을 둘러싼 경쟁이 더 치열해질 전망이다.",
+    "sources": [
+      {
+        "name": "VentureBeat",
+        "url": "https://venturebeat.com/ai/openais-new-private-intelligence-targets-a-growing-enterprise-concern-who-can-see-your-ai-data/",
+        "date": "날짜 미확인(11/27 검색 기준)"
+      },
+      {
+        "name": "TLDR AI",
+        "url": "https://tldr.tech/ai/2026-11-26",
+        "date": "2026-11-26"
+      },
+      {
+        "name": "OpenAI(관심 등록 페이지)",
+        "url": "https://openai.com/fi-FI/form/private-intelligence-interest/",
+        "date": "날짜 미확인(11/27 검색 기준)"
+      }
+    ],
+    "body": [
+      "이번 취재에서는 검색 결과 제목만 확인했다. 여러 매체 제목이 공통으로 '데이터 무보존'과 '비공개 추론', '새 데이터 통제 기능'을 짚었다.",
+      "OpenAI 사이트에는 이 서비스의 관심 등록 양식이 올라와 있다. 정식 출시보다는 대상 기업을 모으는 단계일 가능성이 있다.",
+      "가격, 지원 모델, 구동 위치(자체 데이터센터·클라우드 여부)는 확인하지 못했다."
+    ]
+  },
+  "key_sources": [],
+  "sections": [
+    {
+      "name": "빅테크·랩 동향",
+      "articles": [
+        {
+          "category": "빅테크·랩 동향",
+          "grade": "multi",
+          "headline": "앤트로픽, 'Opus 5.6' 시험 중이라는 관측",
+          "lead": "앤트로픽이 새 모델을 시험하고 있으며 그 이름이 'Opus 5.6'일 수 있다는 관측이 나왔다. 'Opus 5.5 라우팅'과 'Fable 5.5'라는 이름도 함께 거론됐다.",
+          "why": "공식 발표가 아닌 관측 단계다. 사실이라면 앤트로픽이 상위 모델 갱신 주기를 짧게 가져가고 있다는 신호다.",
+          "sources": [
+            {
+              "name": "TestingCatalog",
+              "url": "https://testingcatalog.com/anthropic-tests-new-model-opus-5-5-routing-opus-5-6-fable-5-5",
+              "date": "날짜 미확인(11/27 검색 기준)"
+            },
+            {
+              "name": "TLDR AI",
+              "url": "https://tldr.tech/ai/2026-11-26",
+              "date": "2026-11-26"
+            }
+          ]
+        },
+        {
+          "category": "빅테크·랩 동향",
+          "grade": "single",
+          "headline": "정체불명 모델 'Jev', Qwen 계열 가능성",
+          "lead": "이름만 알려진 모델 'Jev'가 알리바바 Qwen 계열일 가능성이 크다는 분석이 소개됐다.",
+          "why": "새 모델을 익명으로 먼저 공개해 반응을 보는 방식이 늘고 있다. 근거와 성능은 확인하지 못했다.",
+          "sources": [
+            {
+              "name": "TLDR AI",
+              "url": "https://tldr.tech/ai/2026-11-26",
+              "date": "2026-11-26"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "korea": [],
+  "briefs": [
+    {
+      "text": "OpenAI 사이트에 브로드컴과 함께 만든 추론 칩 'Jalapeno' 관련 페이지가 검색됐다(게시 날짜·내용 미확인).",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "OpenAI",
+          "url": "https://openai.com/ru-RU/index/openai-broadcom-jalapeno-inference-chip/",
+          "date": "날짜 미확인(11/27 검색 기준)"
+        }
+      ]
+    },
+    {
+      "text": "TLDR AI 최신호 제목에 메타 'Muse Spark' 공개, 마이크로소프트 3조 파라미터 모델, 'd1-ultra'가 올랐다(발행일·내용 미확인).",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "TLDR AI",
+          "url": "https://tldr.tech/api/latest/ai",
+          "date": "날짜 미확인(11/27 검색 기준)"
+        }
+      ]
+    },
+    {
+      "text": "11월 AI 투자 동향 월간 정리가 갱신됐다(내용 미확인).",
+      "grade": "single",
+      "sources": [
+        {
+          "name": "AI Funding",
+          "url": "https://aifunding.me/insights/november-2026",
+          "date": "날짜 미확인(11/27 검색 기준)"
+        }
+      ]
+    }
+  ],
+  "social": [],
+  "editorial": {
+    "title": "데이터를 누가 보느냐는 질문",
+    "body": "OpenAI가 기업 데이터를 남기지 않는 서비스를 따로 내놨다. 모델 성능 경쟁만큼 신뢰 경쟁이 중요해졌다는 뜻이다. 앤트로픽도 차기 모델을 시험 중이라는 관측이 나온다. 연말까지 기업 시장을 둘러싼 공방은 계속될 것이다."
+  },
+  "calendar": [],
+  "coverage": "검색 결과 제목만 확인(검색 8회). 페이지 읽기 0회. 주요소스 확인 못 함. 기사 날짜 대부분 미확인.",
+  "key_sources_checked": 0,
+  "notes": [
+    "이번 실행에도 웹 페이지 읽기 도구가 없었습니다(보조 에이전트 금지 지침 준수). 모든 기사는 검색 결과 제목에 담긴 사실만으로 썼고 수치·맥락은 확인하지 못했습니다.",
+    "주요소스 목록 페이지를 열지 못했습니다. last_seen(217)은 그대로 두었습니다.",
+    "검색 8회를 썼습니다(예약 작업 상한 8회 안, 저장소 지침 5회 초과).",
+    "한국 검색 결과에서 기간 내 기사를 찾지 못해 한국 섹션을 비웠습니다.",
+    "11/12 비영리단체의 AI 개발 중단 소송은 기간 밖이라 제외했습니다."
+  ]
+}
