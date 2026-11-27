@@ -1,0 +1,213 @@
+{
+ "date": "2026-11-28",
+ "weekday": "토요일",
+ "period": "11/22~11/27 주간 돌아보기 · 축약판",
+ "tagline": "새 소식이 잡히지 않은 토요일, 이번 주 흐름을 다시 본다… 칩 수출 통제·기업 데이터 신뢰·투자 열기",
+ "key_points": [
+  "이번 호는 지난 24시간 새 기사를 확인하지 못해, 이번 주에 실었던 기사 가운데 중요한 것을 다시 묶은 주간판이다.",
+  "미국 반도체 수출 규정과 엔비디아의 중국 시장 로비가 한 주 내내 이어진 축이었다.",
+  "OpenAI의 기업용 '프라이빗 인텔리전스'와 스타트업 대형 투자가 기업 시장 경쟁을 보여줬다."
+ ],
+ "top_story": {
+  "category": "정책·규제·소송",
+  "grade": "multi",
+  "headline": "[주간] AI칩 수출 통제, 한 주 내내 산업을 흔들어",
+  "lead": "이번 주 가장 많이 이어진 흐름은 미국의 반도체 수출 통제였다. TSMC가 새 규정 이후 일부 출하를 멈췄다는 보도가 나왔고, 엔비디아 칩의 중국 반입 경로와 젠슨 황의 직접 로비를 다룬 보도가 뒤따랐다.",
+  "why": "수출 규정은 칩 공급, 서버 가격, 데이터센터 계획을 한꺼번에 건드린다. 규정의 범위가 AI 가속기 밖까지 넓다는 해석이 맞다면 다음 주에도 업계 대응이 이어질 수 있다.",
+  "sources": [
+   {
+    "name": "AI Weekly",
+    "url": "https://aiweekly.co/alerts/tsmc-pauses-shipments-as-new-us-chip-rules-hit-beyond-ai",
+    "date": "11/21(목록 기준)"
+   },
+   {
+    "name": "AI Weekly(원 보도 WSJ)",
+    "url": "https://aiweekly.co/alerts/wsj-li-ming-ran-megaspeed-pipeline-moving-nvidia-chips-to-china",
+    "date": "날짜 미확인(11/23 검색 기준)"
+   },
+   {
+    "name": "AI Weekly(원 보도 워싱턴포스트)",
+    "url": "https://aiweekly.co/alerts/wapo-huang-personally-lobbied-for-nvidias-50b-china-market",
+    "date": "날짜 미확인(11/24 검색 기준)"
+   }
+  ],
+  "body": [
+   "11/22호: TSMC가 미국의 새 수출 규정 시행 뒤 일부 출하를 보류했다는 보도가 나왔다. 규정이 AI칩 밖까지 영향을 준다는 해석이 붙었다.",
+   "11/23~24호: 엔비디아 칩을 중국으로 옮기는 경로를 다룬 월스트리트저널 보도, 젠슨 황이 약 500억 달러로 추산되는 중국 시장을 위해 직접 로비했다는 워싱턴포스트 보도가 소개됐다.",
+   "같은 주에 델·HPE·레노버·슈퍼마이크로가 이미 계약한 AI 서버 가격을 다시 매기고 있다는 소식도 나왔다. 두 흐름의 인과관계는 확인하지 못했다."
+  ]
+ },
+ "key_sources": [],
+ "sections": [
+  {
+   "name": "빅테크·랩 동향",
+   "articles": [
+    {
+     "category": "빅테크·랩 동향",
+     "grade": "multi",
+     "headline": "[주간] OpenAI '프라이빗 인텔리전스'… 기업 데이터 통제 경쟁",
+     "lead": "OpenAI가 데이터를 남기지 않는 기업용 '프라이빗 인텔리전스'를 내놨다는 보도가 11/27호에 실렸다. 가격과 지원 모델은 아직 확인되지 않았다.",
+     "why": "기업 고객이 가장 따지는 것은 데이터를 누가 볼 수 있느냐다. 같은 주 앤트로픽 차기 모델 시험설까지 겹쳐 연말 기업 시장 경쟁이 뜨겁다.",
+     "sources": [
+      {
+       "name": "VentureBeat",
+       "url": "https://venturebeat.com/ai/openais-new-private-intelligence-targets-a-growing-enterprise-concern-who-can-see-your-ai-data/",
+       "date": "날짜 미확인(11/27 검색 기준)"
+      },
+      {
+       "name": "TLDR AI",
+       "url": "https://tldr.tech/ai/2026-11-26",
+       "date": "2026-11-26"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "산업·투자·인프라",
+   "articles": [
+    {
+     "category": "산업·투자·인프라",
+     "grade": "single",
+     "headline": "[주간] 추론·자체 모델 스타트업에 큰돈 몰려",
+     "lead": "이번 주에는 추론 스타트업 Marlowe의 2억7,700만 달러 시드, Deep Cogito의 4,300만 달러, Keenable의 2,600만 달러 시드 소식이 이어졌다.",
+     "why": "엔비디아 외 칩으로 추론을 돌리거나 기업이 모델을 직접 갖게 돕는 쪽에 자금이 몰렸다. 각 투자의 세부 조건은 확인하지 못했다.",
+     "sources": [
+      {
+       "name": "AI Weekly",
+       "url": "https://aiweekly.co/alerts/marlowe-raises-277m-seed-at-115b-to-run-ai-inference-on-amd-and-etched-chips",
+       "date": "날짜 미확인(11/24 검색 기준)"
+      },
+      {
+       "name": "Dealroom",
+       "url": "https://dealroom.co/news/147130-deep-cogito-raises-43m-to-help-companies-own-their-ai-models/",
+       "date": "날짜 미확인(11/26 검색 기준)"
+      },
+      {
+       "name": "Dealroom",
+       "url": "https://dealroom.co/news/146879-keenable-emerges-from-stealth-with-26-million-seed-round/",
+       "date": "날짜 미확인(11/26 검색 기준)"
+      }
+     ]
+    },
+    {
+     "category": "산업·투자·인프라",
+     "grade": "single",
+     "headline": "[주간] \"데이터센터 연 19% 성장, 전력망은 2%\"",
+     "lead": "보험 중개사 하우든이 AI 데이터센터 증가 속도와 미국 전력망 증설 속도의 격차를 짚은 분석이 11/23호에 실렸다.",
+     "why": "칩 공급 다음 병목은 전력이라는 지적이 반복되고 있다.",
+     "sources": [
+      {
+       "name": "AI Weekly",
+       "url": "https://aiweekly.co/alerts/howden-ai-data-centers-grow-19-yearly-us-grid-just-2",
+       "date": "날짜 미확인(11/23 검색 기준)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "정책·규제·소송",
+   "articles": [
+    {
+     "category": "정책·규제·소송",
+     "grade": "single",
+     "headline": "[주간] 버지니아·오리건주, Grok 딥페이크로 SpaceX 제소",
+     "lead": "미국 두 주가 챗봇 Grok의 'Spicy Mode'가 만든 딥페이크를 문제 삼아 소송을 냈다는 소식이 11/24호에 실렸다.",
+     "why": "생성 AI의 이미지 기능을 두고 주 정부가 직접 법적 대응에 나선 사례다. 이후 진행은 확인하지 못했다.",
+     "sources": [
+      {
+       "name": "AI Weekly",
+       "url": "https://aiweekly.co/alerts/virginia-oregon-sue-spacex-over-grok-spicy-mode-deepfakes",
+       "date": "날짜 미확인(11/24 검색 기준)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "연구·오픈소스·보안",
+   "articles": [
+    {
+     "category": "연구·오픈소스·보안",
+     "grade": "single",
+     "headline": "[주간] Thinking Machines 'Inkling' 공개와 양자화판 배포",
+     "lead": "Thinking Machines가 연산 반복 횟수를 바꾸는 연구용 모델 Inkling을 내놨고, 이어 Unsloth가 Inkling-2-Mini의 GGUF 양자화판을 배포했다는 소식이 나왔다.",
+     "why": "새 구조 모델이 나오자마자 로컬 실행판이 따라 나오는 속도가 빨라졌다.",
+     "sources": [
+      {
+       "name": "AI Weekly",
+       "url": "https://aiweekly.co/alerts/thinking-machines-ships-variable-loop-inkling-research-model",
+       "date": "11/21(목록 기준)"
+      },
+      {
+       "name": "AI Weekly",
+       "url": "https://aiweekly.co/alerts/unsloth-ships-gguf-quants-of-thinking-machines-inkling-2-mini",
+       "date": "날짜 미확인(11/24 검색 기준)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "korea": [
+  {
+   "category": "한국",
+   "grade": "single",
+   "headline": "[주간] 인텔·엔비디아, 국내 기업과 협력 넓혀",
+   "lead": "인텔과 엔비디아가 국내 기업과 협력을 늘리며 국산 AI 생태계 확장에 나섰다는 보도가 11/26호에 실렸다.",
+   "why": "이번 주 국내 AI 기사는 이 한 건만 확인했다. 협력 기업과 규모는 확인하지 못했다.",
+   "sources": [
+    {
+     "name": "코리안센터",
+     "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1439521",
+     "date": "날짜 미확인(11/26 검색 기준)"
+    }
+   ]
+  }
+ ],
+ "briefs": [
+  {
+   "text": "11월 AI 투자 월간 정리 페이지가 여러 곳에서 갱신됐다(내용 미확인).",
+   "grade": "single",
+   "sources": [
+    {
+     "name": "AI Funding",
+     "url": "https://aifunding.me/insights/november-2026",
+     "date": "날짜 미확인(11/28 검색 기준)"
+    }
+   ]
+  },
+  {
+   "text": "스탠퍼드 교수진의 Noeri가 1억1,000만 달러로 출범했다는 소식(11/16 보도)이 이번 주 검색에 다시 잡혔다. 기간 밖이라 단신으로만 남긴다.",
+   "grade": "multi",
+   "sources": [
+    {
+     "name": "SiliconANGLE",
+     "url": "https://siliconangle.com/2026/11/16/noeri-raises-110m-to-help-companies-build-living-ai-systems-that-self-improve-over-time/",
+     "date": "2026-11-16"
+    },
+    {
+     "name": "The Next Web",
+     "url": "https://thenextweb.com/news/noeri-110m-stanford-yejin-choi-carlos-guestrin-menlo-nvidia",
+     "date": "날짜 미확인"
+    }
+   ]
+  }
+ ],
+ "social": [],
+ "editorial": {
+  "title": "조용한 토요일, 한 주의 축",
+  "body": "이번 주 AI 소식은 칩 수출 통제와 기업 시장 경쟁 두 축으로 모였다. 규제는 공급망을, 데이터 신뢰는 고객을 흔든다. 새 소식이 잡히지 않은 오늘은 그 흐름을 다시 정리했다. 다음 주에는 규정 이후 업계 대응을 지켜볼 만하다."
+ },
+ "calendar": [],
+ "coverage": "검색 결과 제목만 확인(검색 8회). 페이지 읽기 0회. 지난 24시간 새 기사 확인 못 함 → 이번 주 게재 기사로 주간판 구성. 주요소스 확인 못 함.",
+ "key_sources_checked": 0,
+ "notes": [
+  "이번 실행에도 웹 페이지 읽기 도구가 없었습니다(보조 에이전트 금지 지침 준수). 검색 결과 제목만 볼 수 있었습니다.",
+  "검색 8회에서 11/27~11/28 날짜가 확인된 새 AI 기사를 찾지 못했습니다. 그래서 이번 호는 11/22~11/27호에 실었던 기사를 다시 묶은 주간판입니다. 모든 헤드라인에 [주간]을 붙였습니다.",
+  "검색에 잡힌 Noeri(11/16), Trajectory(11/2) 투자 소식은 기간 밖이라 본 기사에서 뺐습니다.",
+  "주요소스 목록 페이지를 열지 못했습니다. last_seen(217)은 그대로 두었습니다.",
+  "검색 8회를 썼습니다(예약 작업 상한 8회 안, 저장소 지침 5회 초과)."
+ ]
+}
